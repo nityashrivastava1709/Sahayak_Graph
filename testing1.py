@@ -1,19 +1,21 @@
 
-
 import os
 from dotenv import load_dotenv
-from google import genai
+from neo4j import GraphDatabase
 
 load_dotenv()
 
-api_key = os.getenv("GEMINI_API_KEY")
+uri = os.getenv("NEO4J_URI")
+username = os.getenv("NEO4J_USERNAME")
+password = os.getenv("NEO4J_PASSWORD")
 
-client = genai.Client(api_key=api_key)
+if not all([uri, username, password]):
+    raise ValueError("Neo4j configuration is missing from .env")
 
-response = client.models.generate_content(
-    model="gemini-3.8-flash",
-    contents="Reply with exactly: Gemini connection successful!"
-)
-
-print(response.text)
-
+with GraphDatabase.driver(uri, auth=(username, password)) as driver:
+    driver.verify_connectivity()
+    with driver.session() as session:
+        result = session.run(
+            'RETURN "Neo4j connection successful" AS status'
+        )
+        print(result.single()["status"])

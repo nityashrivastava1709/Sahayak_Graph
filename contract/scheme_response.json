@@ -1,0 +1,40 @@
+
+{
+  "profile": {
+    "age": 34,
+    "income": 180000,
+    "state": "MP",
+    "occupation": "farmer",
+    "gender": "female"
+  },
+  "matched_schemes": [
+    {
+      "scheme_id": "S012",
+      "name": "Example Scheme",
+      "match_score": 0.87,
+      "kg_path": [
+        "Person",
+        "QUALIFIES_FOR",
+        "S012"
+      ],
+      "supporting_text": [
+        "Example supporting text from an official source"
+      ],
+      "source_chunk_ids": [
+        "c101",
+        "c102"
+      ],
+      "required_documents": [
+        "Aadhaar",
+        "Income certificate"
+      ],
+      "department": "Example Department",
+      "conflicts_with": [
+        "S030"
+      ]
+    }
+  ],
+  "missing_attributes": [
+  "land_holding"
+]
+}
