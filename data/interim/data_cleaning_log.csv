@@ -1,0 +1,8 @@
+
+issue,observed_count,decision,reason,status
+Exact duplicate rows,3,Remove exact duplicates,Keep one copy of identical records,Completed
+Unnamed: 9 column,3397,Remove column,Entire column is empty,Completed
+Missing application,2,Preserve rows and investigate,Application details may be unavailable,Completed
+Missing documents,11,Preserve rows and investigate,Document requirements may be unavailable,Completed
+Missing tags,29,Preserve rows and investigate,Tags may be optional metadata,Completed
+Matching categories are Normalized, Completed

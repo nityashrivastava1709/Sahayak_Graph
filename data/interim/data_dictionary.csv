@@ -1,0 +1,13 @@
+
+column_name,meaning,data_type,example
+scheme_name,Name of the government scheme,string,Garuda Scheme for Funeral Expense
+slug,URL-friendly scheme identifier,string,gsfe
+details,Description and background of the scheme,string,Financial assistance for funeral expenses
+benefits,Benefits provided by the scheme,string,Financial assistance of ₹10000
+eligibility,Eligibility conditions for applicants,string,Annual family income should not exceed ₹75000
+application,Application procedure,string,Apply through the official website
+documents,Documents required for application,string,Aadhaar Card
+level,Scheme level: Central or State,string,State
+schemeCategory,Category assigned to the scheme,string,Social welfare & Empowerment
+Unnamed: 9,Completely empty column; candidate for removal during cleaning,empty/null,NaN
+tags,Keywords associated with the scheme,string,Social Welfare Financial Assistance
