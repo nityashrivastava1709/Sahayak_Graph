@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Land Holding Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Caste Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Photograph",
+   "conditional": false
+  },
+  {
+   "name": "Declaration Form",
+   "conditional": false
+  },
+  {
+   "name": "GST Voucher of the motor pump",
+   "conditional": false
+  },
+  {
+   "name": "GST Voucher of Pipe",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Land Holding Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Caste Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Declaration Form\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"GST Voucher of the motor pump\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"GST Voucher of Pipe\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:27"
+}

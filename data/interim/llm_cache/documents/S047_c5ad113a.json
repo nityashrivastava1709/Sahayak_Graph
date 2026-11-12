@@ -1,0 +1,51 @@
+{
+ "parsed": [
+  {
+   "name": "Employment Certificate",
+   "conditional": false
+  },
+  {
+   "name": "90 Days Work Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Aadhar Card",
+   "conditional": false
+  },
+  {
+   "name": "Ration Card",
+   "conditional": true
+  },
+  {
+   "name": "Age Proof",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Identity",
+   "conditional": false
+  },
+  {
+   "name": "Affidavit for second child",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Bank Account",
+   "conditional": false
+  },
+  {
+   "name": "Photo of Child",
+   "conditional": false
+  },
+  {
+   "name": "Discharge Summary",
+   "conditional": false
+  },
+  {
+   "name": "Birth Certificate of Child",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Employment Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"90 Days Work Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration Card\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Age Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Identity\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Affidavit for second child\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Bank Account\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Photo of Child\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Discharge Summary\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Birth Certificate of Child\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:46:12"
+}

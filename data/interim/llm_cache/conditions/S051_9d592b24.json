@@ -1,0 +1,84 @@
+{
+ "parsed": [
+  {
+   "or_group": 1,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "35000",
+   "source_sentence": "Girl whose father is not alive and whose guardian’s total income does not exceed ₹35,000/- per annum (excluding MNREGA income)."
+  },
+  {
+   "or_group": 1,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "father is not alive",
+   "source_sentence": "Girl whose father is not alive and whose guardian’s total income does not exceed ₹35,000/- per annum (excluding MNREGA income)."
+  },
+  {
+   "or_group": 2,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "35000",
+   "source_sentence": "Girl whose father is incapacitated or bedridden due to physical or mental disability, including prolonged illness, and whose family income does not exceed ₹35,000 /- per annum (excluding MNREGA income)."
+  },
+  {
+   "or_group": 2,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "father is incapacitated or bedridden due to physical or mental disability, including prolonged illness",
+   "source_sentence": "Girl whose father is incapacitated or bedridden due to physical or mental disability, including prolonged illness, and whose family income does not exceed ₹35,000 /- per annum (excluding MNREGA income)."
+  },
+  {
+   "or_group": 3,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Orphan girls/neglected girls and women, including inmates of Nari Niketan and former inmates of Balika Ashrams, with no regular source of income",
+   "source_sentence": "Orphan girls/neglected girls and women, including inmates of Nari Niketan and former inmates of Balika Ashrams, with no regular source of income."
+  },
+  {
+   "or_group": 4,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "35000",
+   "source_sentence": "Deserted/divorced women whose income does not exceed ₹35,000/- per annum (excluding MNREGA income)."
+  },
+  {
+   "or_group": 4,
+   "attribute": "marital_status",
+   "operator": "in",
+   "value": "divorced|abandoned_or_deserted",
+   "source_sentence": "Deserted/divorced women whose income does not exceed ₹35,000/- per annum (excluding MNREGA income)."
+  },
+  {
+   "or_group": 5,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Girls/women in moral danger or rescued from immoral trafficking",
+   "source_sentence": "Girls/women in moral danger or rescued from immoral trafficking."
+  },
+  {
+   "or_group": 6,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Destitute women/girls released after imprisonment under any law",
+   "source_sentence": "Destitute women/girls released after imprisonment under any law."
+  },
+  {
+   "or_group": 7,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "35000",
+   "source_sentence": "Daughters of divorced/deserted women whose annual income does not exceed ₹35,000/- per annum (excluding MNREGA income)."
+  },
+  {
+   "or_group": 7,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Daughters of divorced/deserted women",
+   "source_sentence": "Daughters of divorced/deserted women whose annual income does not exceed ₹35,000/- per annum (excluding MNREGA income)."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 1,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"35000\",\n    \"source_sentence\": \"Girl whose father is not alive and whose guardian’s total income does not exceed ₹35,000/- per annum (excluding MNREGA income).\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"father is not alive\",\n    \"source_sentence\": \"Girl whose father is not alive and whose guardian’s total income does not exceed ₹35,000/- per annum (excluding MNREGA income).\"\n  },\n  {\n    \"or_group\": 2,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"35000\",\n    \"source_sentence\": \"Girl whose father is incapacitated or bedridden due to physical or mental disability, including prolonged illness, and whose family income does not exceed ₹35,000 /- per annum (excluding MNREGA income).\"\n  },\n  {\n    \"or_group\": 2,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"father is incapacitated or bedridden due to physical or mental disability, including prolonged illness\",\n    \"source_sentence\": \"Girl whose father is incapacitated or bedridden due to physical or mental disability, including prolonged illness, and whose family income does not exceed ₹35,000 /- per annum (excluding MNREGA income).\"\n  },\n  {\n    \"or_group\": 3,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Orphan girls/neglected girls and women, including inmates of Nari Niketan and former inmates of Balika Ashrams, with no regular source of income\",\n    \"source_sentence\": \"Orphan girls/neglected girls and women, including inmates of Nari Niketan and former inmates of Balika Ashrams, with no regular source of income.\"\n  },\n  {\n    \"or_group\": 4,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"35000\",\n    \"source_sentence\": \"Deserted/divorced women whose income does not exceed ₹35,000/- per annum (excluding MNREGA income).\"\n  },\n  {\n    \"or_group\": 4,\n    \"attribute\": \"marital_status\",\n    \"operator\": \"in\",\n    \"value\": \"divorced|abandoned_or_deserted\",\n    \"source_sentence\": \"Deserted/divorced women whose income does not exceed ₹35,000/- per annum (excluding MNREGA income).\"\n  },\n  {\n    \"or_group\": 5,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Girls/women in moral danger or rescued from immoral trafficking\",\n    \"source_sentence\": \"Girls/women in moral danger or rescued from immoral trafficking.\"\n  },\n  {\n    \"or_group\": 6,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Destitute women/girls released after imprisonment under any law\",\n    \"source_sentence\": \"Destitute women/girls released after imprisonment under any law.\"\n  },\n  {\n    \"or_group\": 7,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"35000\",\n    \"source_sentence\": \"Daughters of divorced/deserted women whose annual income does not exceed ₹35,000/- per annum (excluding MNREGA income).\"\n  },\n  {\n    \"or_group\": 7,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Daughters of divorced/deserted women\",\n    \"source_sentence\": \"Daughters of divorced/deserted women whose annual income does not exceed ₹35,000/- per annum (excluding MNREGA income).\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:55:41"
+}

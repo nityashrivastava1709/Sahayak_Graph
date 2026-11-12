@@ -1,0 +1,27 @@
+{
+ "parsed": [
+  {
+   "name": "Passport size photo",
+   "conditional": false
+  },
+  {
+   "name": "Identity proof",
+   "conditional": false
+  },
+  {
+   "name": "Caste Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Educational certificate",
+   "conditional": false
+  },
+  {
+   "name": "Identity Card",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Passport size photo\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Identity proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Caste Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Educational certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Identity Card\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:13"
+}

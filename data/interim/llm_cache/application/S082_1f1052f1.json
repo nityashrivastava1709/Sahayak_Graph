@@ -1,0 +1,14 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Collect the application form from the nearest Agricultural Office.",
+   "Fill out the application form with the required details and attach mandatory documents.",
+   "Submit the form to the concerned office based on your administrative level."
+  ],
+  "department": "Agriculture-Farmers Welfare Department, Tamil Nadu"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Collect the application form from the nearest Agricultural Office.\",\n  \"Fill out the application form with the required details and attach mandatory documents.\",\n  \"Submit the form to the concerned office based on your administrative level.\"\n ],\n \"department\": \"Agriculture-Farmers Welfare Department, Tamil Nadu\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:46:28"
+}

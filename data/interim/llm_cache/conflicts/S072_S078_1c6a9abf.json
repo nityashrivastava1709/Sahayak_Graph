@@ -1,0 +1,9 @@
+{
+ "parsed": {
+  "conflict": false,
+  "reason": "The schemes provide different kinds of benefits, namely seed testing services and training versus a 50% subsidy sale on agriculture machineries."
+ },
+ "raw": "{\n  \"conflict\": false,\n  \"reason\": \"The schemes provide different kinds of benefits, namely seed testing services and training versus a 50% subsidy sale on agriculture machineries.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:59:41"
+}

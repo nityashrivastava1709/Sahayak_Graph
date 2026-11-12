@@ -1,0 +1,70 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "unemployed",
+   "source_sentence": "Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "phd",
+   "source_sentence": "Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "not availing of a fellowship from any sources",
+   "source_sentence": "The programme is open for both candidates; those who have not yet registered as well as those who have already registered for a Ph.D., but not availing of a fellowship from any sources."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "candidates who have completed two years duration in Ph.D. are not eligible",
+   "source_sentence": "However, candidates who have completed two (2) years duration in Ph.D. as of the date of application are NOT eligible."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "M.Sc./ M.Tech. or equivalent degree like B.Tech., M.Phil., M.Pharm. etc. in basic and applied sciences",
+   "source_sentence": "Qualification: The applicant should have an M. Sc./ M. Tech. or equivalent degree like B. Tech., M.Phil., M. Pharm. etc. in basic and applied sciences from a recognized University/Institute."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "between",
+   "value": "27|45",
+   "source_sentence": "Age: The minimum age to apply for the programme is 27 years and the maximum is 45 years (A relaxation of 3 years in the upper age limit is allowed for SC/ ST/ PH candidates)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "3 years relaxation in upper age limit for SC/ ST/ PH candidates",
+   "source_sentence": "Age: The minimum age to apply for the programme is 27 years and the maximum is 45 years (A relaxation of 3 years in the upper age limit is allowed for SC/ ST/ PH candidates)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "women in regular employment are not eligible",
+   "source_sentence": "Employment: Women in regular employment are not eligible for WISE-PhD."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"unemployed\",\n    \"source_sentence\": \"Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"phd\",\n    \"source_sentence\": \"Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"not availing of a fellowship from any sources\",\n    \"source_sentence\": \"The programme is open for both candidates; those who have not yet registered as well as those who have already registered for a Ph.D., but not availing of a fellowship from any sources.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"candidates who have completed two years duration in Ph.D. are not eligible\",\n    \"source_sentence\": \"However, candidates who have completed two (2) years duration in Ph.D. as of the date of application are NOT eligible.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"M.Sc./ M.Tech. or equivalent degree like B.Tech., M.Phil., M.Pharm. etc. in basic and applied sciences\",\n    \"source_sentence\": \"Qualification: The applicant should have an M. Sc./ M. Tech. or equivalent degree like B. Tech., M.Phil., M. Pharm. etc. in basic and applied sciences from a recognized University/Institute.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"between\",\n    \"value\": \"27|45\",\n    \"source_sentence\": \"Age: The minimum age to apply for the programme is 27 years and the maximum is 45 years (A relaxation of 3 years in the upper age limit is allowed for SC/ ST/ PH candidates).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"3 years relaxation in upper age limit for SC/ ST/ PH candidates\",\n    \"source_sentence\": \"Age: The minimum age to apply for the programme is 27 years and the maximum is 45 years (A relaxation of 3 years in the upper age limit is allowed for SC/ ST/ PH candidates).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"women in regular employment are not eligible\",\n    \"source_sentence\": \"Employment: Women in regular employment are not eligible for WISE-PhD.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-12T10:47:08"
+}

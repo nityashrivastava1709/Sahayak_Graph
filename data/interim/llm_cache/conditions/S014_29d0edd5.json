@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "Other_Community",
+   "source_sentence": "The student and his/her parents should belong to the Brahmin community."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Andhra Pradesh",
+   "source_sentence": "The student's parents should be staying in Andhra Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "300000",
+   "source_sentence": "The annual family income of parents/guardians should not exceed ₹3,00,000/-"
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "cleared CPT/Graduation before 2018, registered, and paid CA-Inter (IPCC) exam fees",
+   "source_sentence": "The student should have cleared CPT/Graduation before 2018, registered, and paid CA-Inter (IPCC) exam fees."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "not have benefitted from APBWC for the same exam (CA Inter / IPCC) earlier",
+   "source_sentence": "The student should not have benefitted from APBWC for the same exam (CA Inter / IPCC) earlier."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "enrolled in the Praja Sadhikara Survey (PSS)",
+   "source_sentence": "The student should be enrolled in the Praja Sadhikara Survey (PSS)."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"=\", \"value\": \"Other_Community\", \"source_sentence\": \"The student and his/her parents should belong to the Brahmin community.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Andhra Pradesh\", \"source_sentence\": \"The student's parents should be staying in Andhra Pradesh.\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"300000\", \"source_sentence\": \"The annual family income of parents/guardians should not exceed ₹3,00,000/-\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"cleared CPT/Graduation before 2018, registered, and paid CA-Inter (IPCC) exam fees\", \"source_sentence\": \"The student should have cleared CPT/Graduation before 2018, registered, and paid CA-Inter (IPCC) exam fees.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"not have benefitted from APBWC for the same exam (CA Inter / IPCC) earlier\", \"source_sentence\": \"The student should not have benefitted from APBWC for the same exam (CA Inter / IPCC) earlier.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"enrolled in the Praja Sadhikara Survey (PSS)\", \"source_sentence\": \"The student should be enrolled in the Praja Sadhikara Survey (PSS).\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:51:28"
+}

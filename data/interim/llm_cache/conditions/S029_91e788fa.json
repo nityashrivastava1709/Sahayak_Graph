@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The applicant should be a girl student."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "SC",
+   "source_sentence": "The girl student should belong to the Scheduled Caste Category of Gujarat."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Gujarat",
+   "source_sentence": "The girl student should belong to the Scheduled Caste Category of Gujarat."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_9_10",
+   "source_sentence": "The student should be studying in the 9th Standard."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "600000",
+   "source_sentence": "The annual family income of the student should not be more than ₹6,00,000/- (for both Rural Areas & Urban Areas)."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"The applicant should be a girl student.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"SC\",\n    \"source_sentence\": \"The girl student should belong to the Scheduled Caste Category of Gujarat.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Gujarat\",\n    \"source_sentence\": \"The girl student should belong to the Scheduled Caste Category of Gujarat.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"class_9_10\",\n    \"source_sentence\": \"The student should be studying in the 9th Standard.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"600000\",\n    \"source_sentence\": \"The annual family income of the student should not be more than ₹6,00,000/- (for both Rural Areas & Urban Areas).\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:53:40"
+}

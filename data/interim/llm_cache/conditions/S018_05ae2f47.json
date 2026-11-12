@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "The applicant should be a student."
+  },
+  {
+   "or_group": 1,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "250000",
+   "source_sentence": "The applicant's family annual income should not exceed ₹2,50,000/- for studies within India and ₹5,00,000/- for studies abroad."
+  },
+  {
+   "or_group": 1,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "500000",
+   "source_sentence": "The applicant's family annual income should not exceed ₹2,50,000/- for studies within India and ₹5,00,000/- for studies abroad."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "institution must be recognized by the relevant authority in India",
+   "source_sentence": "The institution where the applicant wants to study, whether in India or abroad, must be recognized by the relevant authority in India."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "only one member per family shall be considered for the benefit, except in the case of Below Poverty Line (BPL) families",
+   "source_sentence": "Only one member per family shall be considered for the benefit, except in the case of Below Poverty Line (BPL) families."
+  },
+  {
+   "or_group": 0,
+   "attribute": "bpl_status",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "Only members of Below Poverty Line (BPL) families will be considered for the study in Sikkim."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"student\", \"source_sentence\": \"The applicant should be a student.\"},\n  {\"or_group\": 1, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"250000\", \"source_sentence\": \"The applicant's family annual income should not exceed ₹2,50,000/- for studies within India and ₹5,00,000/- for studies abroad.\"},\n  {\"or_group\": 1, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"500000\", \"source_sentence\": \"The applicant's family annual income should not exceed ₹2,50,000/- for studies within India and ₹5,00,000/- for studies abroad.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"institution must be recognized by the relevant authority in India\", \"source_sentence\": \"The institution where the applicant wants to study, whether in India or abroad, must be recognized by the relevant authority in India.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"only one member per family shall be considered for the benefit, except in the case of Below Poverty Line (BPL) families\", \"source_sentence\": \"Only one member per family shall be considered for the benefit, except in the case of Below Poverty Line (BPL) families.\"},\n  {\"or_group\": 0, \"attribute\": \"bpl_status\", \"operator\": \"=\", \"value\": \"yes\", \"source_sentence\": \"Only members of Below Poverty Line (BPL) families will be considered for the study in Sikkim.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:52:01"
+}

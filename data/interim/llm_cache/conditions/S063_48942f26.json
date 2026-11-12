@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Tamil Nadu",
+   "source_sentence": "The beneficiary should be a resident of Tamil Nadu."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "The beneficiary should be a farmer."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "engaged in inland fishing",
+   "source_sentence": "The beneficiary should be engaged in inland fishing."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "interested in availing the loan for Inland Fishing",
+   "source_sentence": "The beneficiary should be interested in availing the loan for Inland Fishing."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "intention to use the loan specifically for Inland Fishing activities",
+   "source_sentence": "The beneficiary should have the intention to use the loan specifically for Inland Fishing activities."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Tamil Nadu\",\n    \"source_sentence\": \"The beneficiary should be a resident of Tamil Nadu.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"The beneficiary should be a farmer.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"engaged in inland fishing\",\n    \"source_sentence\": \"The beneficiary should be engaged in inland fishing.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"interested in availing the loan for Inland Fishing\",\n    \"source_sentence\": \"The beneficiary should be interested in availing the loan for Inland Fishing.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"intention to use the loan specifically for Inland Fishing activities\",\n    \"source_sentence\": \"The beneficiary should have the intention to use the loan specifically for Inland Fishing activities.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:42"
+}

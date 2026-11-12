@@ -1,0 +1,19 @@
+{
+ "parsed": [
+  {
+   "name": "Admission Proof",
+   "conditional": false
+  },
+  {
+   "name": "Class-wise Enrollment Details",
+   "conditional": false
+  },
+  {
+   "name": "Bank Account Details",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Admission Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Class-wise Enrollment Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Account Details\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:15"
+}

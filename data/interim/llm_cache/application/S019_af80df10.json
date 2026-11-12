@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "both",
+  "steps": [
+   "Visit and apply online at I-Khedut Portal",
+   "Click on Schemes and then click on Animal Husbandry Schemes",
+   "Select the scheme and click on the Apply button",
+   "Click on Apply New button and submit a new application",
+   "Confirm the application and take a print out",
+   "Submit required documents in hard copies to the office within 7 days"
+  ],
+  "department": "Agriculture, Farmers Welfare and Cooperation Department, Gujarat"
+ },
+ "raw": "{\n \"mode\": \"both\",\n \"steps\": [\n  \"Visit and apply online at I-Khedut Portal\",\n  \"Click on Schemes and then click on Animal Husbandry Schemes\",\n  \"Select the scheme and click on the Apply button\",\n  \"Click on Apply New button and submit a new application\",\n  \"Confirm the application and take a print out\",\n  \"Submit required documents in hard copies to the office within 7 days\"\n ],\n \"department\": \"Agriculture, Farmers Welfare and Cooperation Department, Gujarat\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:02"
+}

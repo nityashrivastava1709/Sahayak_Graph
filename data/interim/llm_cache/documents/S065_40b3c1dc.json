@@ -1,0 +1,39 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Registration Card/Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Ration Card",
+   "conditional": false
+  },
+  {
+   "name": "Economic Weaker Section Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Proof of Educational Qualification",
+   "conditional": false
+  },
+  {
+   "name": "Bank Details",
+   "conditional": false
+  },
+  {
+   "name": "Domicile Certificate",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Registration Card/Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Economic Weaker Section Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Proof of Educational Qualification\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Domicile Certificate\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:41"
+}

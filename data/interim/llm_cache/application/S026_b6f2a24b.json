@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit the ServicesPlus website",
+   "Click on Register and fill out the registration form",
+   "Review details and submit registration",
+   "Log in to the ServicesPlus website",
+   "Select the scheme and provide required details in the application form",
+   "Submit the application"
+  ],
+  "department": "Department of Social Welfare, Women & Child Development, Chandigarh"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit the ServicesPlus website\",\n  \"Click on Register and fill out the registration form\",\n  \"Review details and submit registration\",\n  \"Log in to the ServicesPlus website\",\n  \"Select the scheme and provide required details in the application form\",\n  \"Submit the application\"\n ],\n \"department\": \"Department of Social Welfare, Women & Child Development, Chandigarh\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:15"
+}

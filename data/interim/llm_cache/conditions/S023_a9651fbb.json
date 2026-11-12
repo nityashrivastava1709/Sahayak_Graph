@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Kerala",
+   "source_sentence": "The applicant should be a resident of Kerala State."
+  },
+  {
+   "or_group": 1,
+   "attribute": "bpl_status",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The applicant should belong to the Below Poverty Line Family."
+  },
+  {
+   "or_group": 1,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status.",
+   "source_sentence": "HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury",
+   "source_sentence": "A family in which the husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury is eligible to apply under the scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Only two children per family are eligible",
+   "source_sentence": "Only two children’s per family are eligible for this scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in Government or Government aided School or College",
+   "source_sentence": "The child should study in Government or Government aided School or College."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Kerala\",\n    \"source_sentence\": \"The applicant should be a resident of Kerala State.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"bpl_status\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The applicant should belong to the Below Poverty Line Family.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status.\",\n    \"source_sentence\": \"HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury\",\n    \"source_sentence\": \"A family in which the husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury is eligible to apply under the scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Only two children per family are eligible\",\n    \"source_sentence\": \"Only two children’s per family are eligible for this scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"studying in Government or Government aided School or College\",\n    \"source_sentence\": \"The child should study in Government or Government aided School or College.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:52:43"
+}

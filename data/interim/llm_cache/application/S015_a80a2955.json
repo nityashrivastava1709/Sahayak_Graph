@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit the official portal and click on Register.",
+   "Choose either Jan Aadhaar or Google to process registration and complete it.",
+   "Log in to the dashboard and click on RAJ-KISAN.",
+   "Click on Application Entry Request under Citizen.",
+   "Enter the Bhamashah Family ID, select the person and scheme name, complete Aadhaar authentication, and provide details.",
+   "Upload documents and submit."
+  ],
+  "department": "Agriculture Department of the Rajasthan government"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit the official portal and click on Register.\",\n  \"Choose either Jan Aadhaar or Google to process registration and complete it.\",\n  \"Log in to the dashboard and click on RAJ-KISAN.\",\n  \"Click on Application Entry Request under Citizen.\",\n  \"Enter the Bhamashah Family ID, select the person and scheme name, complete Aadhaar authentication, and provide details.\",\n  \"Upload documents and submit.\"\n ],\n \"department\": \"Agriculture Department of the Rajasthan government\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:44"
+}

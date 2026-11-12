@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Jammu and Kashmir",
+   "source_sentence": "The applicant should be a resident of Jammu and Kashmir."
+  },
+  {
+   "or_group": 0,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "widowed",
+   "source_sentence": "The applicant should be a widow."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">=",
+   "value": "40",
+   "source_sentence": "The widow's age should be 40 years or older."
+  },
+  {
+   "or_group": 0,
+   "attribute": "bpl_status",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The widow should belong to a Below Poverty Line (BPL) family."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "should not be receiving pension benefits under any other social security scheme",
+   "source_sentence": "The applicant should not be receiving pension benefits under any other social security scheme."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Jammu and Kashmir\",\n    \"source_sentence\": \"The applicant should be a resident of Jammu and Kashmir.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"marital_status\",\n    \"operator\": \"=\",\n    \"value\": \"widowed\",\n    \"source_sentence\": \"The applicant should be a widow.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \">=\",\n    \"value\": \"40\",\n    \"source_sentence\": \"The widow's age should be 40 years or older.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"bpl_status\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The widow should belong to a Below Poverty Line (BPL) family.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"should not be receiving pension benefits under any other social security scheme\",\n    \"source_sentence\": \"The applicant should not be receiving pension benefits under any other social security scheme.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:27"
+}

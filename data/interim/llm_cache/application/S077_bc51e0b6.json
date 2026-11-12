@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Register for RAWE-SPW program at the concerned College on the notified date",
+   "Report to the Coordinator of the RAWE-SPW program",
+   "Report to the concerned host farmer allotted after orientation",
+   "Report to the concerned placement center within seven days after registration"
+  ],
+  "department": ""
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Register for RAWE-SPW program at the concerned College on the notified date\",\n  \"Report to the Coordinator of the RAWE-SPW program\",\n  \"Report to the concerned host farmer allotted after orientation\",\n  \"Report to the concerned placement center within seven days after registration\"\n ],\n \"department\": \"\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:46:18"
+}

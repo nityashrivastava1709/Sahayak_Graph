@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Complete registration",
+   "Submit the application",
+   "Wait for pre-sanction by Agriculture officer",
+   "Complete the work as a farmer",
+   "Submit payment request",
+   "Receive payment disbursement in Aadhaar linked bank account"
+  ],
+  "department": "Department of Agriculture, Government of Maharashtra"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Complete registration\",\n  \"Submit the application\",\n  \"Wait for pre-sanction by Agriculture officer\",\n  \"Complete the work as a farmer\",\n  \"Submit payment request\",\n  \"Receive payment disbursement in Aadhaar linked bank account\"\n ],\n \"department\": \"Department of Agriculture, Government of Maharashtra\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:10"
+}

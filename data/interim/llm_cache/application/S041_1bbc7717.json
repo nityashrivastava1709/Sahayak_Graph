@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Visit the Office or Sub-Office of the Department of Women and Child Development to obtain the application form or print it.",
+   "Fill in all mandatory fields, attach a passport-sized photograph, and attach copies of mandatory documents.",
+   "Submit the filled application form and documents to the Deputy Director or Child Development Project Officer.",
+   "Request a receipt or acknowledgment containing submission details and a unique identification number."
+  ],
+  "department": "Department of Women and Child Development, Government of Puducherry"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Visit the Office or Sub-Office of the Department of Women and Child Development to obtain the application form or print it.\",\n  \"Fill in all mandatory fields, attach a passport-sized photograph, and attach copies of mandatory documents.\",\n  \"Submit the filled application form and documents to the Deputy Director or Child Development Project Officer.\",\n  \"Request a receipt or acknowledgment containing submission details and a unique identification number.\"\n ],\n \"department\": \"Department of Women and Child Development, Government of Puducherry\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:44:14"
+}

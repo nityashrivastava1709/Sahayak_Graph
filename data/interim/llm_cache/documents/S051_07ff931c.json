@@ -1,0 +1,27 @@
+{
+ "parsed": [
+  {
+   "name": "Proof of Age",
+   "conditional": false
+  },
+  {
+   "name": "Bonafide Himachali Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Annual Family Income",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Date of Marriage",
+   "conditional": false
+  },
+  {
+   "name": "BPL Certificate",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Proof of Age\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bonafide Himachali Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Annual Family Income\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Date of Marriage\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"BPL Certificate\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:24"
+}

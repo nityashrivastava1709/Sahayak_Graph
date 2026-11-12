@@ -1,0 +1,95 @@
+scheme_id,scheme_name,eligibility_text,extracted_conditions,correct,wrong_value,wrong_attribute,missing,hallucinated,notes
+S001,"""Immediate Relief Assistance"" under ""Welfare and Relief for Fishermen During Lean Seasons and Natural Calamities Scheme""",The applicant should be the family (legal heir) of the missing fisherman. The missing fisherman should have been a resident of the Union territory of Puducherry. The missing fisherman must have lost his/her life while fishing. The missing fisherman must have been in the age group of 18-60 years. The missing fisherman must not have been a beneficiary of the old age pension scheme. The missing fisherman should have enrolled as a member of the Fishermen/Fisherwomen Co-operative Society.,"[G1] state = Puducherry
+[G2] unmapped text lost his/her life while fishing
+[G3] age between 18-60
+[G4] unmapped text must not have been a beneficiary of the old age pension scheme
+[G5] unmapped text enrolled as a member of the Fishermen/Fisherwomen Co-operative Society",5,0,0,1,0,Family/legal-heir applicant requirement is missing.
+S005,Adi Dravidar and Tribal Welfare Department: Stationary-Text Books,The beneficiary should be a Student. The beneficiary should be a resident of Tamil Nadu. The beneficiary should be enrolled in Adi Dravidar and Tribal welfare schools. The beneficiary must be studying in any class between 1st to 12th standard.,"[G1] occupation = student
+[G2] state = Tamil Nadu
+[G3] unmapped text enrolled in Adi Dravidar and Tribal welfare schools
+[G4] education_level in class_1_5|class_6_8|class_9_10|class_11_12",4,0,0,0,0,All four extracted conditions are supported by the source.
+S011,Backward Classes Foreign Study Scholarship Scheme,The applicant should be a student with first class or 60% marks (or equivalent grade) in the previous examination. The applicant should be applying for a research degree (Ph.D.) or have at least 2 years of experience in the relevant field for research programs after completing a research degree. The applicant should be under 35 years of age on 1st January of the year of application. The applicant should be eligible for special relaxation of up to 10 years in certain cases as decided by the committee. The applicant should be from a family whose annual income does not exceed the income limit prescribed for the creamy layer.,"[G1] unmapped text first class or 60% marks (or equivalent grade) in the previous examination
+[G2] occupation = student
+[G3] age < 35
+[G4] unmapped text family annual income does not exceed the income limit prescribed for the creamy layer",4,0,0,3,0,"Research-degree/experience requirement, special age relaxation, and creamy-layer income criterion are not fully extracted."
+S013,Bhagwan Budhdh Scholarship,"Eligibility Only Scheduled Caste Girls Students are eligible. For Diploma level courses, In Std: 10 or 12 should have 50% or more percentile in the examination. For Graduate level courses, In Std: 12 should have 50% or more percentile in the examination. Must full fill all conditions of the Government of India's Post Matric Scholarship Scheme Guidelines. Income Limit: More than 2.50 Lakh.","[G1] social_category = SC
+[G2] gender = female
+[G3] unmapped text For Diploma level courses, In Std: 10 or 12 should have 50% or more percentile in the examination.
+[G4] unmapped text For Graduate level courses, In Std: 12 should have 50% or more percentile in the examination.
+[G5] unmapped text Must full fill all conditions of the Government of India's Post Matric Scholarship Scheme Guidelines.
+[G6] annual_income > 250000",6,0,0,0,0,All six extracted conditions are supported by the source.
+S019,Construction of Dudhghar/ Godown (Scheduled Tribe Area),The applicant must be a registered Village Milk ProduceCo-operativer Co-operative Society. The Society should be located in the Scheduled Tribe areas of Gujarat. The Society must not already own a Dudhghar or Godown. The Society must have its own land available for the construction of the Dudhghar or Godown. The Society must not have availed of the benefit earlier under this or any other scheme for a similar purpose.,"[G1] state = Gujarat
+[G2] unmapped text must be a registered Village Milk ProduceCo-operativer Co-operative Society
+[G3] unmapped text must not already own a Dudhghar or Godown
+[G4] unmapped text must have its own land available for the construction of the Dudhghar or Godown
+[G5] unmapped text must not have availed of the benefit earlier under this or any other scheme for a similar purpose",5,0,0,0,0,All five extracted conditions are supported by the source.
+S023,Educational Assistance to Children of Women Headed Families,"The applicant should be a resident of Kerala State. The applicant should belong to the Below Poverty Line Family. HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status. A family in which the husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury is eligible to apply under the scheme. Only two children’s per family are eligible for this scheme. The child should study in Government or Government aided School or College.","[G1] state = Kerala
+[G2] bpl_status = yes
+[G2] unmapped text HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status.
+[G3] unmapped text husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury
+[G4] unmapped text Only two children per family are eligible
+[G5] unmapped text studying in Government or Government aided School or College",5,0,0,0,0,"All five extracted conditions are supported; the exception, bedridden-husband, family-size and school-enrolment details are included in unmapped text."
+S027,Food Bill Assistance,"The applicant must belong to a non-reserved category. The applicant must be pursuing a graduate-level course in Medical, Dental, Technical, or Para-Technical fields. The applicant must be staying in a government/non-aided hostel outside their home taluka. If the applicant is a girl studying in Std. 9 to 12, she must be staying in a hostel run by a society, trust, or institution. The applicant’s annual family income must be ₹4,50,000/- or less.","[G1] social_category = General
+[G2] education_level = undergraduate
+[G3] unmapped text pursuing a graduate-level course in Medical, Dental, Technical, or Para-Technical fields
+[G4] unmapped text staying in a government/non-aided hostel outside their home taluka
+[G5] gender = female
+[G6] education_level in class_9_10|class_11_12
+[G7] unmapped text staying in a hostel run by a society, trust, or institution
+[G8] annual_income <= 450000",7,0,0,0,1,"Female and class 9–12 conditions are conditional on the hostel case; extracted as separate general conditions, so female is overgeneralized."
+S029,Free Cycles to SC Girl Students Studying in Standard IX (Sarasvati Sadhna Yojana),"The applicant should be a girl student. The girl student should belong to the Scheduled Caste Category of Gujarat. The student should be studying in the 9th Standard. The annual family income of the student should not be more than ₹6,00,000/- (for both Rural Areas & Urban Areas).","[G1] gender = female
+[G2] social_category = SC
+[G3] state = Gujarat
+[G4] education_level = class_9_10
+[G5] annual_income <= 600000",5,0,0,0,0,All five extracted conditions are supported.
+S036,Indira Mahila Shakti Udyam Protsahan Yojana,"The applicant's age should be 18 years or more. The applicant should be a permanent resident of Rajasthan. The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules.","[G1] age >= 18
+[G2] state = Rajasthan
+[G3] gender = female
+[G4] unmapped text The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules",3,0,0,1,0,"Gender=female is supported by the women's SHG criterion, but group registration under a department/Cooperative Act is captured in unmapped text; no additional missing condition counted."
+S040,Jharkhand State Scheduled Tribe Post-Matric Scholarship Scheme,"Eligibility Criteria for the Student: The student should be a native of Jharkhand. The student belongs to the Scheduled Tribe category. The student's family annual income should not exceed ₹2,50,000/-. The student must be enrolled in a recognized educational institution that complies with the rules of the scheme and is registered on the departmental scholarship portal. The student should be pursuing a post-matric course (Degree, Diploma, Certificate, or equivalent). The student should not be receiving any other scholarship or financial assistance from the central or state government. Classification of Courses: Page No. 11 Group 1: Professional degree/postgraduate courses in institutions with A++ to B++ NAAC accreditation. Group 2: Vocational and diploma courses requiring Class 12 or higher qualifications. Group 3: Polytechnic and other courses not covered in Groups 1 or 2. Group 4: Graduate and Post Graduate course.Group 5: All post-matriculation (Post Class X level non-degree courses).","[G1] state = Jharkhand
+[G2] social_category = ST
+[G3] annual_income <= 250000
+[G4] unmapped text enrolled in a recognized educational institution that complies with the rules of the scheme and is registered on the departmental scholarship portal
+[G5] unmapped text pursuing a post-matric course (Degree, Diploma, Certificate, or equivalent)
+[G6] unmapped text should not be receiving any other scholarship or financial assistance from the central or state government",6,0,0,0,0,"All six extracted conditions are supported; unmapped text preserves institution, course, and no-other-scholarship criteria."
+S041,KULAVILAKKU,"The applicant should be a citizen of India. The applicant should be a native of the Union Territory of Pondicherry by birth or by continuous residence of not less than 5 years. The applicant should be a woman. The applicant should be pregnant. The applicant should have attained the age of 18 years. The applicant should have crossed seven months of pregnancy. The annual income of the applicant should not exceed ₹24,000/- per annum. The benefit will be provided for upto two pregnancies only.","[G1] state = Puducherry
+[G2] gender = female
+[G3] pregnancy_status = yes
+[G4] age >= 18
+[G5] unmapped text has crossed seven months of pregnancy
+[G6] annual_income <= 24000
+[G7] unmapped text The benefit will be provided for upto two pregnancies only.",7,0,0,0,0,All seven extracted conditions are supported.
+S045,Ladli Laxmi Yojana,"For Normal Cases The girl child should be born on or after January 1, 2006. The girl child should be registered in the local Anganwadi center. Parents should be natives of Madhya Pradesh. Parents should not be income taxpayers. Family planning has been adopted after the birth of the second child. Parents who have two or less than two children, family planning has been adopted after the birth of the second child. The girl child born from the first delivery will be given benefits without family planning but It is necessary for the mother/father to adopt family planning in order to get the benefit for the second girl child. For Special Cases In a family where there are maximum 02 children and the mother or father has died, registration can be done till the girl child is 05 years old. But in this type of case, if the woman/man gets married for the second time and already has 02 children, then the daughter born from the second marriage will not get the benefit of the scheme. If there are 03 girls together born at the time of first delivery, all three girls will get the benefit. Girls born to women prisoners in jail will also be benefited under the scheme. The benefit of the scheme will be given to a girl child born to a rape victim or a girl child. The collector has been given the authority to approve the cases till 02 instead of 01 year in the cases where family planning has not been adopted due to health related reasons. District collector will provide approval/rejection under special cases, after minutely examining the applications received late. The application has to be made by the Superintendent of the Orphanage/Protection Home within 1 year of admission in the Orphanage and before the girl child attains the age of 5 years or within 1 year of adoption by the adoptive parents.","[G1] gender = female
+[G2] state = Madhya Pradesh
+[G3] unmapped text Parents should not be income taxpayers
+[G4] unmapped text registered in the local Anganwadi center",4,0,0,8,0,"Birth-date cutoff, non-taxpayer status, Anganwadi registration, and state are represented. Several normal/special-case conditions are missing, including family-planning rules and special-case exceptions."
+S056,National Water Awards,Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.,,0,0,0,11,0,No conditions extracted. The source lists 11 eligible applicant types; these are not represented by the current 14-attribute vocabulary.
+S057,Nationwide Artificial Insemination Programme,The livestock owner should be a resident of Madhya Pradesh. The applicant should have valid livestock registration documents. The applicant should have the required infrastructure to undertake AI operations. The applicant should not belong to any of the scheduled castes and tribes. The applicant should have the required knowledge and skill to undertake AI operations. The applicant should not have any prior criminal record.,"[G1] state = Madhya Pradesh
+[G2] unmapped text have valid livestock registration documents
+[G3] unmapped text have the required infrastructure to undertake AI operations
+[G4] social_category in General|OBC|EWS|Minority|Backward_Class|Other_Community
+[G5] unmapped text have the required knowledge and skill to undertake AI operations
+[G6] unmapped text not have any prior criminal record",6,0,0,0,0,All six extracted conditions are supported by the source.
+S066,SERB - POWER Fellowship,"The nominee should be an active woman scientist with an excellent record of research performance as an independent investigator. The nominee should be an outstanding woman researcher and innovator working in Indian academic institutions and R&D laboratories, holding Ph.D. degrees in any branch of science and engineering. The nominee should be in regular service throughout the duration of the Fellowship. The nominee should be an Indian citizen between 35-55 years of age working in institutions in India. The nominee should not be receiving any other fellowships from Government sources during the tenure.","[G1] gender = female
+[G2] unmapped text active scientist with an excellent record of research performance as an independent investigator
+[G3] education_level = phd
+[G4] unmapped text working in Indian academic institutions and R&D laboratories
+[G5] unmapped text in regular service throughout the duration of the Fellowship
+[G6] age between 35-55
+[G7] unmapped text working in institutions in India
+[G8] unmapped text must not be receiving any other fellowships from Government sources during the tenure",8,0,0,0,0,"All eight extracted conditions are supported; PhD, service, research record, location and fellowship restriction are represented."
+S071,Scholarship for Children of Deceased/Disabled/Retired Government Employees,"The applicant should be a permanent resident of Madhya Pradesh. The student should be studying in Class 1 to Class 12. The student should be studying at a government school in Madhya Pradesh. The student should be the child of a deceased, disabled, or retired government employee. The student should not be a beneficiary of any other scholarship. The student must have passed the previous class.","[G1] state = Madhya Pradesh
+[G2] education_level in class_1_5|class_6_8|class_9_10|class_11_12
+[G3] unmapped text studying at a government school in Madhya Pradesh
+[G4] unmapped text child of a deceased, disabled, or retired government employee
+[G5] unmapped text not a beneficiary of any other scholarship
+[G6] unmapped text must have passed the previous class",6,0,0,0,0,All six extracted conditions are supported.
+S082,Training to Farmers,"The beneficiary should be a Farmer. The beneficiary should be a resident of any of the following districts of Tamil Nadu: Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli, and Thoothukudi. The beneficiary should grow maize.","[G1] occupation = farmer
+[G2] state = Tamil Nadu
+[G3] unmapped text grow maize",3,0,0,0,0,All three extracted conditions are supported; district restriction is preserved in unmapped text.
+S087,WISE Fellowship for Ph.D.,"Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD. The programme is open for both candidates; those who have not yet registered as well as those who have already registered for a Ph.D., but not availing of a fellowship from any sources. However, candidates who have completed two (2) years duration in Ph.D. as of the date of application are NOT eligible. The following are the primary eligibility criteria: Qualification: The applicant should have an M. Sc./ M. Tech. or equivalent degree like B. Tech., M.Phil., M. Pharm. etc. in basic and applied sciences from a recognized University/Institute. Age: The minimum age to apply for the programme is 27 years and the maximum is 45 years (A relaxation of 3 years in the upper age limit is allowed for SC/ ST/ PH candidates). The cut-off date for age calculation would be the date of submission of the WISE-PhD application. Employment: Women in regular employment are not eligible for WISE-PhD.","[G1] gender = female
+[G2] occupation = unemployed
+[G3] education_level = postgraduate
+[G4] age >= 27
+[G5] age <= 45
+[G6] occupation = unemployed",5,0,0,5,1,"Duplicate occupation=unemployed counted as hallucinated duplicate. Missing: no-existing-fellowship rule, PhD duration limit, qualification details, SC/ST/PH age relaxation, and regular-employment exclusion."

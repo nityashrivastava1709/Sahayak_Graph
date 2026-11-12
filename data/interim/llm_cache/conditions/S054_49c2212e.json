@@ -1,0 +1,56 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "Farmers identified under the Saat Nischay-2 \"Irrigation Water to Every Field\" after a joint technical survey are eligible."
+  },
+  {
+   "or_group": 0,
+   "attribute": "owns_land",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "Farmers must own at least 0.40 acre (40 decimal) of land."
+  },
+  {
+   "or_group": 0,
+   "attribute": "land_holding_acres",
+   "operator": ">=",
+   "value": "0.40",
+   "source_sentence": "Farmers must own at least 0.40 acre (40 decimal) of land."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "there should not be an existing borewell at the site",
+   "source_sentence": "There should not be an existing borewell at the site."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "no previous grants or financial assistance have been taken for borewell construction at the same site by the farmer",
+   "source_sentence": "No previous grants or financial assistance have been taken for borewell construction at the same site by the Farmer."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "the grant is valid for one borewell and one motor pump set per farmer",
+   "source_sentence": "The grant is valid for one borewell and one motor pump set per farmer."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "borewell must be dug to a depth of 15-70 meters and with 4-6 inch diameter to qualify for the grant",
+   "source_sentence": "Borewell must be dug to a depth of 15-70 meters and with 4-6 inch diameter to qualify for the grant."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"Farmers identified under the Saat Nischay-2 \\\"Irrigation Water to Every Field\\\" after a joint technical survey are eligible.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"owns_land\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"Farmers must own at least 0.40 acre (40 decimal) of land.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"land_holding_acres\",\n    \"operator\": \">=\",\n    \"value\": \"0.40\",\n    \"source_sentence\": \"Farmers must own at least 0.40 acre (40 decimal) of land.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"there should not be an existing borewell at the site\",\n    \"source_sentence\": \"There should not be an existing borewell at the site.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"no previous grants or financial assistance have been taken for borewell construction at the same site by the farmer\",\n    \"source_sentence\": \"No previous grants or financial assistance have been taken for borewell construction at the same site by the Farmer.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"the grant is valid for one borewell and one motor pump set per farmer\",\n    \"source_sentence\": \"The grant is valid for one borewell and one motor pump set per farmer.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"borewell must be dug to a depth of 15-70 meters and with 4-6 inch diameter to qualify for the grant\",\n    \"source_sentence\": \"Borewell must be dug to a depth of 15-70 meters and with 4-6 inch diameter to qualify for the grant.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:55:56"
+}

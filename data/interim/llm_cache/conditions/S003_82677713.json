@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Odisha",
+   "source_sentence": "The PFCS should have completed at least 1 year from the date of its registration under \"The Odisha Cooperative Societies Act-1962\"."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant should be an active Primary Fisherman Cooperative Society",
+   "source_sentence": "The applicant should be an active Primary Fisherman Cooperative Society (PFCS)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "PFCS should have completed at least 1 year from the date of its registration",
+   "source_sentence": "The PFCS should have completed at least 1 year from the date of its registration under \"The Odisha Cooperative Societies Act-1962\"."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "PFCS should be in working condition",
+   "source_sentence": "The PFCS should be in working condition."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "PFCS should not have availed the revolving fund before",
+   "source_sentence": "The PFCS should not have availed the revolving fund before."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "PFCS should be conducting Committee of Management meetings and AGB meetings in time",
+   "source_sentence": "The PFCS should be conducting Committee of Management meetings and AGB meetings in time as per the OCS Act and Rules framed there under the Bylaws of the Society."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "PFCS should have paid the Government lease value of the reservoir/ pond if taken on lease",
+   "source_sentence": "The PFCS should have paid the Government lease value of the reservoir/ pond if taken on lease as per the Rules."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "PFCS should be able to produce last year's audited balance sheets with Profit Loss accounts",
+   "source_sentence": "The PFCS should be able to produce last year's audited balance sheets with Profit Loss accounts of the Society from AGCS-empanelled CA firms/auditors."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Odisha\", \"source_sentence\": \"The PFCS should have completed at least 1 year from the date of its registration under \\\"The Odisha Cooperative Societies Act-1962\\\".\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant should be an active Primary Fisherman Cooperative Society\", \"source_sentence\": \"The applicant should be an active Primary Fisherman Cooperative Society (PFCS).\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"PFCS should have completed at least 1 year from the date of its registration\", \"source_sentence\": \"The PFCS should have completed at least 1 year from the date of its registration under \\\"The Odisha Cooperative Societies Act-1962\\\".\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"PFCS should be in working condition\", \"source_sentence\": \"The PFCS should be in working condition.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"PFCS should not have availed the revolving fund before\", \"source_sentence\": \"The PFCS should not have availed the revolving fund before.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"PFCS should be conducting Committee of Management meetings and AGB meetings in time\", \"source_sentence\": \"The PFCS should be conducting Committee of Management meetings and AGB meetings in time as per the OCS Act and Rules framed there under the Bylaws of the Society.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"PFCS should have paid the Government lease value of the reservoir/ pond if taken on lease\", \"source_sentence\": \"The PFCS should have paid the Government lease value of the reservoir/ pond if taken on lease as per the Rules.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"PFCS should be able to produce last year's audited balance sheets with Profit Loss accounts\", \"source_sentence\": \"The PFCS should be able to produce last year's audited balance sheets with Profit Loss accounts of the Society from AGCS-empanelled CA firms/auditors.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:48:46"
+}

@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Register using the icon New Registration at the NSP Portal URL.",
+   "Get your Student Registration ID after successful registration.",
+   "Login into the account using the Student Registration ID and Fresh Application icon.",
+   "Click the Application Form icon to open the application screen.",
+   "Fill out the complete application form and click Final Submit.",
+   "Note the system-generated registration number received after submission."
+  ],
+  "department": "Adi Dravidar Welfare and Scheduled Tribes Welfare Department, Union Territory of Puducherry"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Register using the icon New Registration at the NSP Portal URL.\",\n  \"Get your Student Registration ID after successful registration.\",\n  \"Login into the account using the Student Registration ID and Fresh Application icon.\",\n  \"Click the Application Form icon to open the application screen.\",\n  \"Fill out the complete application form and click Final Submit.\",\n  \"Note the system-generated registration number received after submission.\"\n ],\n \"department\": \"Adi Dravidar Welfare and Scheduled Tribes Welfare Department, Union Territory of Puducherry\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:46:15"
+}

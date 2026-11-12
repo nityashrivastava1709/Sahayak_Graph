@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Passport-size photograph",
+   "conditional": false
+  },
+  {
+   "name": "Identity Proof",
+   "conditional": false
+  },
+  {
+   "name": "Bank account details",
+   "conditional": false
+  },
+  {
+   "name": "Documents proof of being a farmer",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Passport-size photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Identity Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank account details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Documents proof of being a farmer\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:43:56"
+}

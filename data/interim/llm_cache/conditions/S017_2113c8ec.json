@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "ST",
+   "source_sentence": "The applicant must be a tribal grower."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "area is ineligible for subsidy if it received consolidation subsidy during the XII Plan period",
+   "source_sentence": "The applicant's area is ineligible for subsidy if it received consolidation subsidy during the XII Plan period."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "land records must be in their name",
+   "source_sentence": "The applicant's land records must be in their name."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "provide land records or a certified possession certificate",
+   "source_sentence": "The applicant should provide land records or a certified possession certificate."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "procure seed material for gap filling or consolidation exclusively from the Coffee Board",
+   "source_sentence": "The applicant must procure seed material for gap filling or consolidation exclusively from the Coffee Board."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"=\", \"value\": \"ST\", \"source_sentence\": \"The applicant must be a tribal grower.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"area is ineligible for subsidy if it received consolidation subsidy during the XII Plan period\", \"source_sentence\": \"The applicant's area is ineligible for subsidy if it received consolidation subsidy during the XII Plan period.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"land records must be in their name\", \"source_sentence\": \"The applicant's land records must be in their name.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"provide land records or a certified possession certificate\", \"source_sentence\": \"The applicant should provide land records or a certified possession certificate.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"procure seed material for gap filling or consolidation exclusively from the Coffee Board\", \"source_sentence\": \"The applicant must procure seed material for gap filling or consolidation exclusively from the Coffee Board.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:51:53"
+}

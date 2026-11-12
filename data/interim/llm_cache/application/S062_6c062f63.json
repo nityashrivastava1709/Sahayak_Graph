@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Go to the official website of State Scholarship Portal 2.0.",
+   "Register yourself by filling in the required personal details.",
+   "Log in using your Application ID and password.",
+   "Select the scheme name and enter your information and bank account details.",
+   "Upload your photo, signature, and important documents, then click submit."
+  ],
+  "department": "Higher Education Department of Madhya Pradesh"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Go to the official website of State Scholarship Portal 2.0.\",\n  \"Register yourself by filling in the required personal details.\",\n  \"Log in using your Application ID and password.\",\n  \"Select the scheme name and enter your information and bank account details.\",\n  \"Upload your photo, signature, and important documents, then click submit.\"\n ],\n \"department\": \"Higher Education Department of Madhya Pradesh\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:24"
+}

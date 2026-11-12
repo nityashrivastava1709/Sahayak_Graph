@@ -1,0 +1,9 @@
+{
+ "parsed": {
+  "conflict": false,
+  "reason": "Scheme A provides educational scholarships while Scheme B provides one-time financial assistance for marriage, so they do not offer the same kind of benefit."
+ },
+ "raw": "{\n  \"conflict\": false,\n  \"reason\": \"Scheme A provides educational scholarships while Scheme B provides one-time financial assistance for marriage, so they do not offer the same kind of benefit.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T11:00:21"
+}

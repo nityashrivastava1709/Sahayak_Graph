@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "construction_worker",
+   "source_sentence": "Applicant himself or his/her husband/wife/father must be a registered construction worker and his/her contribution must be updated."
+  },
+  {
+   "or_group": 1,
+   "attribute": "age",
+   "operator": "between",
+   "value": "18-35",
+   "source_sentence": "If the registered worker himself wants to undergo training, then his/her age should be between 18-35."
+  },
+  {
+   "or_group": 2,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "married",
+   "source_sentence": "Age dependencies: Dependent wife/ unmarried daughter has no age limit."
+  },
+  {
+   "or_group": 2,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "unmarried",
+   "source_sentence": "Age dependencies: Dependent wife/ unmarried daughter has no age limit."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "<=",
+   "value": "21",
+   "source_sentence": "The maximum age of dependent son is 21 years"
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"construction_worker\", \"source_sentence\": \"Applicant himself or his/her husband/wife/father must be a registered construction worker and his/her contribution must be updated.\"},\n  {\"or_group\": 1, \"attribute\": \"age\", \"operator\": \"between\", \"value\": \"18-35\", \"source_sentence\": \"If the registered worker himself wants to undergo training, then his/her age should be between 18-35.\"},\n  {\"or_group\": 2, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"married\", \"source_sentence\": \"Age dependencies: Dependent wife/ unmarried daughter has no age limit.\"},\n  {\"or_group\": 2, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"unmarried\", \"source_sentence\": \"Age dependencies: Dependent wife/ unmarried daughter has no age limit.\"},\n  {\"or_group\": 0, \"attribute\": \"age\", \"operator\": \"<=\", \"value\": \"21\", \"source_sentence\": \"The maximum age of dependent son is 21 years\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:53"
+}

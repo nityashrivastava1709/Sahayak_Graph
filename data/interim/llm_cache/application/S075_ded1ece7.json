@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Apply to the concerned District Social Welfare Officer online at least one month before marriage with required documents.",
+   "Wait for the DSWO to verify details regarding marital status and age.",
+   "Wait for the DSWO to submit the case to the Deputy Commissioner with recommendations.",
+   "Wait for the Deputy Commissioner to verify eligibility and sanction the financial assistance."
+  ],
+  "department": "Social Welfare Department"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Apply to the concerned District Social Welfare Officer online at least one month before marriage with required documents.\",\n  \"Wait for the DSWO to verify details regarding marital status and age.\",\n  \"Wait for the DSWO to submit the case to the Deputy Commissioner with recommendations.\",\n  \"Wait for the Deputy Commissioner to verify eligibility and sanction the financial assistance.\"\n ],\n \"department\": \"Social Welfare Department\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:46:11"
+}

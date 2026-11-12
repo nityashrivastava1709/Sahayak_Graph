@@ -1,0 +1,28 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "The beneficiary should be a Farmer."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Tamil Nadu",
+   "source_sentence": "The beneficiary should be a resident of Tamil Nadu."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "raise seed farms with Pulses crop",
+   "source_sentence": "The beneficiary should raise seed farms with Pulses crop."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"farmer\", \"source_sentence\": \"The beneficiary should be a Farmer.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Tamil Nadu\", \"source_sentence\": \"The beneficiary should be a resident of Tamil Nadu.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"raise seed farms with Pulses crop\", \"source_sentence\": \"The beneficiary should raise seed farms with Pulses crop.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:58:27"
+}

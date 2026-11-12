@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Obtain the Application Form (Form-P) free of cost from the designated local office.",
+   "Fill in the required information including person details, contact details, and bank account details.",
+   "Attach self-attested copies of required documents such as Aadhaar, ration card, voter ID, income certificate, and husband’s death certificate.",
+   "Submit the completed application form to the appropriate concerned authority based on your area of residence."
+  ],
+  "department": "Women and Child Development and Social Welfare Department"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Obtain the Application Form (Form-P) free of cost from the designated local office.\",\n  \"Fill in the required information including person details, contact details, and bank account details.\",\n  \"Attach self-attested copies of required documents such as Aadhaar, ration card, voter ID, income certificate, and husband’s death certificate.\",\n  \"Submit the completed application form to the appropriate concerned authority based on your area of residence.\"\n ],\n \"department\": \"Women and Child Development and Social Welfare Department\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:47:04"
+}

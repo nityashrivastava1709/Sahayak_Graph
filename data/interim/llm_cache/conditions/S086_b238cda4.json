@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Manipur",
+   "source_sentence": "The applicant should be a domicile of the state of Manipur."
+  },
+  {
+   "or_group": 1,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "abandoned_or_deserted",
+   "source_sentence": "The applicant should be a Destitute Woman or an Adolescent Girl."
+  },
+  {
+   "or_group": 1,
+   "attribute": "age",
+   "operator": "<=",
+   "value": "18",
+   "source_sentence": "The applicant should be a Destitute Woman or an Adolescent Girl."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "between",
+   "value": "18 and 38",
+   "source_sentence": "The applicant should be in the 18 to 38 years age group."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_11_12",
+   "source_sentence": "The Minimum Educational qualification for Computer Course is 12th Pass."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Manipur\",\n    \"source_sentence\": \"The applicant should be a domicile of the state of Manipur.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"marital_status\",\n    \"operator\": \"=\",\n    \"value\": \"abandoned_or_deserted\",\n    \"source_sentence\": \"The applicant should be a Destitute Woman or an Adolescent Girl.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"age\",\n    \"operator\": \"<=\",\n    \"value\": \"18\",\n    \"source_sentence\": \"The applicant should be a Destitute Woman or an Adolescent Girl.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"between\",\n    \"value\": \"18 and 38\",\n    \"source_sentence\": \"The applicant should be in the 18 to 38 years age group.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"class_11_12\",\n    \"source_sentence\": \"The Minimum Educational qualification for Computer Course is 12th Pass.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T16:01:54"
+}

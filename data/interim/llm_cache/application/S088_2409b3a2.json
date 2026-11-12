@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit the official website.",
+   "Click on the Click to apply services.",
+   "Login on Digital Punjab portal or register if you do not have an account.",
+   "Fill out the application form.",
+   "Attach the required documents.",
+   "Submit."
+  ],
+  "department": "Social Security and Women & Child Development Department of Punjab Government"
+ },
+ "raw": "{\n  \"mode\": \"online\",\n  \"steps\": [\n    \"Visit the official website.\",\n    \"Click on the Click to apply services.\",\n    \"Login on Digital Punjab portal or register if you do not have an account.\",\n    \"Fill out the application form.\",\n    \"Attach the required documents.\",\n    \"Submit.\"\n  ],\n  \"department\": \"Social Security and Women & Child Development Department of Punjab Government\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:47:02"
+}

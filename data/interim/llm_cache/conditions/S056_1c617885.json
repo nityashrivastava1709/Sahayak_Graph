@@ -1,0 +1,84 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: State Governments",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: District Administrations",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Village Panchayats",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Urban Local Bodies",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Schools",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Colleges",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Institutions (other than schools/colleges)",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Industries",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Civil Society Organizations",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Water User Associations",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applicant type: Individuals",
+   "source_sentence": "Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: State Governments\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: District Administrations\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Village Panchayats\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Urban Local Bodies\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Schools\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Colleges\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Institutions (other than schools/colleges)\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Industries\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Civil Society Organizations\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Water User Associations\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"applicant type: Individuals\", \"source_sentence\": \"Following Applicants are eligible to apply State Governments. District Administrations. Village Panchayats. Urban Local Bodies. Schools. Colleges. Institutions (other than schools/colleges). Industries. Civil Society Organizations. Water User Associations. Individuals.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-12T10:47:05"
+}

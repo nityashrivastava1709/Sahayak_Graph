@@ -1,0 +1,43 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Ration Card",
+   "conditional": false
+  },
+  {
+   "name": "Voter ID",
+   "conditional": false
+  },
+  {
+   "name": "Disability Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Husband's Death Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Bank Pass Book",
+   "conditional": false
+  },
+  {
+   "name": "Nomination Form",
+   "conditional": true
+  },
+  {
+   "name": "Passport Size Photograph",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Voter ID\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Disability Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Husband's Death Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Pass Book\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Nomination Form\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Passport Size Photograph\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:49:20"
+}

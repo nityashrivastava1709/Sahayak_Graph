@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Visit the Collector Office, Assistant Director, Backward Classes and Minority Welfare Department District Office to get the application form.",
+   "Fill in all mandatory fields, attach a passport-sized photograph, and attach copies of mandatory documents.",
+   "Submit the duly filled and signed application form along with documents to the concerned authority within the prescribed period.",
+   "Request a receipt or acknowledgement containing submission details from the concerned authority."
+  ],
+  "department": "Backward Classes and Minorities Welfare Department, Government of Madhya Pradesh"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Visit the Collector Office, Assistant Director, Backward Classes and Minority Welfare Department District Office to get the application form.\",\n  \"Fill in all mandatory fields, attach a passport-sized photograph, and attach copies of mandatory documents.\",\n  \"Submit the duly filled and signed application form along with documents to the concerned authority within the prescribed period.\",\n  \"Request a receipt or acknowledgement containing submission details from the concerned authority.\"\n ],\n \"department\": \"Backward Classes and Minorities Welfare Department, Government of Madhya Pradesh\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:35"
+}

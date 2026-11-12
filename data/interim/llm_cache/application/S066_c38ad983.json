@@ -1,0 +1,14 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Fill out the application form on the online portal.",
+   "Check the email sent to the nominator containing the application link.",
+   "The nominator verifies the details and forwards the nomination to SERB."
+  ],
+  "department": "Department of Science & Technology, Government of India"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Fill out the application form on the online portal.\",\n  \"Check the email sent to the nominator containing the application link.\",\n  \"The nominator verifies the details and forwards the nomination to SERB.\"\n ],\n \"department\": \"Department of Science & Technology, Government of India\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:34"
+}

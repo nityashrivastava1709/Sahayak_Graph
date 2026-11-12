@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Proof of Identity",
+   "conditional": false
+  },
+  {
+   "name": "Address Proof",
+   "conditional": false
+  },
+  {
+   "name": "Medical Reports",
+   "conditional": true
+  },
+  {
+   "name": "Police Complaint Copy",
+   "conditional": true
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Proof of Identity\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Address Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Medical Reports\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Police Complaint Copy\",\n    \"conditional\": true\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:31"
+}

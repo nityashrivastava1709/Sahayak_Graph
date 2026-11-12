@@ -1,0 +1,28 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The applicant must be a woman."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "have experienced domestic violence as defined under the Protection of Women from Domestic Violence Act 2005",
+   "source_sentence": "The applicant must have experienced domestic violence as defined under the \" Protection of Women from Domestic Violence Act 2005 \"."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "be in need of legal advice, counselling, medical aid, transportation, or shelter as per the provisions of the scheme",
+   "source_sentence": "The applicant must be in need of legal advice, counselling, medical aid, transportation, or shelter as per the provisions of the scheme."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"The applicant must be a woman.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"have experienced domestic violence as defined under the Protection of Women from Domestic Violence Act 2005\",\n    \"source_sentence\": \"The applicant must have experienced domestic violence as defined under the \\\" Protection of Women from Domestic Violence Act 2005 \\\".\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"be in need of legal advice, counselling, medical aid, transportation, or shelter as per the provisions of the scheme\",\n    \"source_sentence\": \"The applicant must be in need of legal advice, counselling, medical aid, transportation, or shelter as per the provisions of the scheme.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:25"
+}

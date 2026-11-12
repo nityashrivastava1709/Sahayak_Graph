@@ -1,0 +1,31 @@
+{
+ "parsed": [
+  {
+   "name": "Parivaar Pahchan Patra",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "PAN Card",
+   "conditional": false
+  },
+  {
+   "name": "Scheduled Caste Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Bank Passbook or Cancelled Cheque",
+   "conditional": false
+  },
+  {
+   "name": "Photo of availability of shed/space for keeping animals",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Parivaar Pahchan Patra\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"PAN Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Scheduled Caste Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Passbook or Cancelled Cheque\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Photo of availability of shed/space for keeping animals\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:52"
+}

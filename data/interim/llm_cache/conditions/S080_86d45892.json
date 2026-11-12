@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Meghalaya",
+   "source_sentence": "The applicant/farmer should be a resident of Meghalaya."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of not exceeding 2 Ha/family."
+  },
+  {
+   "or_group": 0,
+   "attribute": "owns_land",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of not exceeding 2 Ha/family."
+  },
+  {
+   "or_group": 0,
+   "attribute": "land_holding_acres",
+   "operator": "<=",
+   "value": "4.94",
+   "source_sentence": "The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of not exceeding 2 Ha/family."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Meghalaya\",\n    \"source_sentence\": \"The applicant/farmer should be a resident of Meghalaya.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of not exceeding 2 Ha/family.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"owns_land\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of not exceeding 2 Ha/family.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"land_holding_acres\",\n    \"operator\": \"<=\",\n    \"value\": \"4.94\",\n    \"source_sentence\": \"The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of not exceeding 2 Ha/family.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:58:20"
+}

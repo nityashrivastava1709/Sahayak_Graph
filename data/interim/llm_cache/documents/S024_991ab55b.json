@@ -1,0 +1,27 @@
+{
+ "parsed": [
+  {
+   "name": "Identity Proof",
+   "conditional": false
+  },
+  {
+   "name": "Bank Passbook",
+   "conditional": false
+  },
+  {
+   "name": "Age Proof",
+   "conditional": false
+  },
+  {
+   "name": "Labour Card",
+   "conditional": false
+  },
+  {
+   "name": "Birth Certificate",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Identity Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Passbook\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Age Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Labour Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Birth Certificate\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:08"
+}

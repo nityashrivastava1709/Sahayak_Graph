@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Delhi",
+   "source_sentence": "The applicant should be a resident of Delhi."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "class_9_10|class_11_12",
+   "source_sentence": "The applicant should be a student from Nursery to Class 12th."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "enrolled in a Government or Aided School in Delhi",
+   "source_sentence": "The applicant should be enrolled in a Government or Aided School in Delhi."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "attending classes regularly according to school norms",
+   "source_sentence": "The applicant should be attending classes regularly according to school norms."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Delhi\",\n    \"source_sentence\": \"The applicant should be a resident of Delhi.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"in\",\n    \"value\": \"class_9_10|class_11_12\",\n    \"source_sentence\": \"The applicant should be a student from Nursery to Class 12th.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"enrolled in a Government or Aided School in Delhi\",\n    \"source_sentence\": \"The applicant should be enrolled in a Government or Aided School in Delhi.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"attending classes regularly according to school norms\",\n    \"source_sentence\": \"The applicant should be attending classes regularly according to school norms.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:06"
+}

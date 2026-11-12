@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "construction_worker",
+   "source_sentence": "The applicant should be a Building/ Construction Worker (Unorganised Worker)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">=",
+   "value": "18",
+   "source_sentence": "The applicant should be a minimum of 18 years of age."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "have engaged in building and construction work for at least 90 days in a given year",
+   "source_sentence": "The applicant should have engaged in building and construction work for at least 90 days in a given year."
+  },
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The applicant should be a registered woman construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "construction_worker",
+   "source_sentence": "The applicant should be a registered woman construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Karnataka",
+   "source_sentence": "The applicant should be a registered woman construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka."
+  },
+  {
+   "or_group": 0,
+   "attribute": "pregnancy_status",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The applicant should be pregnant."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Assistance is only for the first two (2) deliveries",
+   "source_sentence": "Assistance is only for the first two (2) deliveries."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"construction_worker\",\n    \"source_sentence\": \"The applicant should be a Building/ Construction Worker (Unorganised Worker).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \">=\",\n    \"value\": \"18\",\n    \"source_sentence\": \"The applicant should be a minimum of 18 years of age.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"have engaged in building and construction work for at least 90 days in a given year\",\n    \"source_sentence\": \"The applicant should have engaged in building and construction work for at least 90 days in a given year.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"The applicant should be a registered woman construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"construction_worker\",\n    \"source_sentence\": \"The applicant should be a registered woman construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Karnataka\",\n    \"source_sentence\": \"The applicant should be a registered woman construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"pregnancy_status\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The applicant should be pregnant.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Assistance is only for the first two (2) deliveries\",\n    \"source_sentence\": \"Assistance is only for the first two (2) deliveries.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:59"
+}

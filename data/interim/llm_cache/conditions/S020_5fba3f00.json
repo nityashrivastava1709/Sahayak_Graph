@@ -1,0 +1,77 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "Girl students should be from extremely backward classes of Rajasthan origin."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "Backward_Class",
+   "source_sentence": "Girl students should be from extremely backward classes of Rajasthan origin."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Rajasthan",
+   "source_sentence": "Girl students should be from extremely backward classes of Rajasthan origin."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Students have secured 50% or more marks in the 12th (C.S.)",
+   "source_sentence": "Students have secured 50% or more marks in the 12th (C.S.)"
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education",
+   "source_sentence": "The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education and have been admitted to Government Colleges, State Funded Universities located in Rajasthan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "admitted to Government Colleges, State Funded Universities located in Rajasthan",
+   "source_sentence": "The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education and have been admitted to Government Colleges, State Funded Universities located in Rajasthan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "Applicants should be studying regularly after being admitted in the first year of their bachelor's degree."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "undergraduate",
+   "source_sentence": "Applicants should be studying regularly after being admitted in the first year of their bachelor's degree."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<",
+   "value": "250000",
+   "source_sentence": "The annual income of the student's parent/guardian/guardian/husband should be less than Rs.2.50 lakh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "will not receive the benefit of the Devnarayan Higher Education Financial Assistance Scheme or other financial assistance scheme",
+   "source_sentence": "The benefit of the Devnarayan Higher Education Financial Assistance Scheme / other financial assistance scheme will not be payable to the student who gets the benefit in this scheme."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"gender\", \"operator\": \"=\", \"value\": \"female\", \"source_sentence\": \"Girl students should be from extremely backward classes of Rajasthan origin.\"},\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"=\", \"value\": \"Backward_Class\", \"source_sentence\": \"Girl students should be from extremely backward classes of Rajasthan origin.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Rajasthan\", \"source_sentence\": \"Girl students should be from extremely backward classes of Rajasthan origin.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Students have secured 50% or more marks in the 12th (C.S.)\", \"source_sentence\": \"Students have secured 50% or more marks in the 12th (C.S.)\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education\", \"source_sentence\": \"The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education and have been admitted to Government Colleges, State Funded Universities located in Rajasthan.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"admitted to Government Colleges, State Funded Universities located in Rajasthan\", \"source_sentence\": \"The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education and have been admitted to Government Colleges, State Funded Universities located in Rajasthan.\"},\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"student\", \"source_sentence\": \"Applicants should be studying regularly after being admitted in the first year of their bachelor's degree.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"=\", \"value\": \"undergraduate\", \"source_sentence\": \"Applicants should be studying regularly after being admitted in the first year of their bachelor's degree.\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<\", \"value\": \"250000\", \"source_sentence\": \"The annual income of the student's parent/guardian/guardian/husband should be less than Rs.2.50 lakh.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"will not receive the benefit of the Devnarayan Higher Education Financial Assistance Scheme or other financial assistance scheme\", \"source_sentence\": \"The benefit of the Devnarayan Higher Education Financial Assistance Scheme / other financial assistance scheme will not be payable to the student who gets the benefit in this scheme.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:52:15"
+}

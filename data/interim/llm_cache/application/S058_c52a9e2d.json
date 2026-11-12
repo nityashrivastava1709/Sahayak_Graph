@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Contact any one of the specified authorities and explain the domestic violence and required assistance.",
+   "Provide a verbal or written account of the incident and personal details to the authority.",
+   "Submit the required documents to support the claim and need for assistance.",
+   "Undergo assessment by the concerned authority to determine the immediate need for assistance.",
+   "Receive the facilitated assistance such as legal counsel, counselling, medical aid, transportation, or shelter.",
+   "Keep a record of interactions and submitted documents for future reference."
+  ],
+  "department": ""
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Contact any one of the specified authorities and explain the domestic violence and required assistance.\",\n  \"Provide a verbal or written account of the incident and personal details to the authority.\",\n  \"Submit the required documents to support the claim and need for assistance.\",\n  \"Undergo assessment by the concerned authority to determine the immediate need for assistance.\",\n  \"Receive the facilitated assistance such as legal counsel, counselling, medical aid, transportation, or shelter.\",\n  \"Keep a record of interactions and submitted documents for future reference.\"\n ],\n \"department\": \"\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:18"
+}

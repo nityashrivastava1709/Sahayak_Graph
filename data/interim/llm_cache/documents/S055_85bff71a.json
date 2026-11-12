@@ -1,0 +1,31 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Land Details",
+   "conditional": false
+  },
+  {
+   "name": "Caste Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Landless Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Death Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Divorce Certificate",
+   "conditional": true
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Land Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Caste Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Landless Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Death Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Divorce Certificate\",\n    \"conditional\": true\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:28"
+}

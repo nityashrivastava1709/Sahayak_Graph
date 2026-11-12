@@ -1,0 +1,14 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Enroll in a Government or Aided School from Nursery to XII",
+   "School authorities verify enrollment and class details",
+   "School compiles and submits the list of eligible students to the Department of Education"
+  ],
+  "department": "Department of Education (DoE), Government of NCT of Delhi"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Enroll in a Government or Aided School from Nursery to XII\",\n    \"School authorities verify enrollment and class details\",\n    \"School compiles and submits the list of eligible students to the Department of Education\"\n  ],\n  \"department\": \"Department of Education (DoE), Government of NCT of Delhi\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:43"
+}

@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Passport-size photograph",
+   "conditional": false
+  },
+  {
+   "name": "Identity Proof",
+   "conditional": false
+  },
+  {
+   "name": "Bank passbook",
+   "conditional": false
+  },
+  {
+   "name": "Land ownership or lease document",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Passport-size photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Identity Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank passbook\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Land ownership or lease document\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:48:04"
+}

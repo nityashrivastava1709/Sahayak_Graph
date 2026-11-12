@@ -1,0 +1,31 @@
+{
+ "parsed": [
+  {
+   "name": "Proof of Registration of Cooperative Society",
+   "conditional": false
+  },
+  {
+   "name": "Membership List of the Cooperative Society",
+   "conditional": false
+  },
+  {
+   "name": "Recent Audit Reports of the Society",
+   "conditional": false
+  },
+  {
+   "name": "Bank Account Details of the Cooperative Society",
+   "conditional": false
+  },
+  {
+   "name": "Identity Proof of the Applicant",
+   "conditional": false
+  },
+  {
+   "name": "Project Proposal Document",
+   "conditional": true
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Proof of Registration of Cooperative Society\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Membership List of the Cooperative Society\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Recent Audit Reports of the Society\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Account Details of the Cooperative Society\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Identity Proof of the Applicant\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Project Proposal Document\",\n    \"conditional\": true\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:12"
+}

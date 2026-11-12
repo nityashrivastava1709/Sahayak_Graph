@@ -1,0 +1,199 @@
+{
+  "operators": [
+    "=",
+    "<",
+    "<=",
+    ">",
+    ">=",
+    "between",
+    "in"
+  ],
+  "attributes": {
+    "age": {
+      "type": "number",
+      "unit": "years",
+      "operators": [
+        "=",
+        "<",
+        "<=",
+        ">",
+        ">=",
+        "between"
+      ],
+      "description": "Age of the applicant (or of the child/student, if the scheme is about them)."
+    },
+    "gender": {
+      "type": "category",
+      "values": [
+        "female",
+        "male",
+        "transgender"
+      ],
+      "operators": [
+        "=",
+        "in"
+      ],
+      "description": "Gender the scheme is restricted to."
+    },
+    "annual_income": {
+      "type": "number",
+      "unit": "rupees per year",
+      "operators": [
+        "<",
+        "<=",
+        ">",
+        ">=",
+        "between"
+      ],
+      "description": "Annual income limit in rupees (family or individual). Convert lakh to rupees (2.5 lakh = 250000)."
+    },
+    "state": {
+      "type": "state",
+      "operators": [
+        "=",
+        "in"
+      ],
+      "description": "State or UT the applicant must live in / belong to. Use the full official name."
+    },
+    "occupation": {
+      "type": "category",
+      "values": [
+        "farmer",
+        "fisherman",
+        "student",
+        "artisan_or_weaver",
+        "construction_worker",
+        "unorganised_worker",
+        "government_employee",
+        "self_employed",
+        "unemployed",
+        "other"
+      ],
+      "operators": [
+        "=",
+        "in"
+      ],
+      "description": "What the applicant does for a living."
+    },
+    "social_category": {
+      "type": "category",
+      "values": [
+        "SC",
+        "ST",
+        "OBC",
+        "General",
+        "EWS",
+        "Minority",
+        "Backward_Class",
+        "Other_Community"
+      ],
+      "operators": [
+        "=",
+        "in"
+      ],
+      "description": "Caste / community category. Use Other_Community for named communities such as Brahmin or Saharia."
+    },
+    "disability": {
+      "type": "yesno",
+      "values": [
+        "yes",
+        "no"
+      ],
+      "operators": [
+        "="
+      ],
+      "description": "Whether the applicant (or family member) must have a disability."
+    },
+    "marital_status": {
+      "type": "category",
+      "values": [
+        "unmarried",
+        "married",
+        "widowed",
+        "divorced",
+        "abandoned_or_deserted"
+      ],
+      "operators": [
+        "=",
+        "in"
+      ],
+      "description": "Marital status required. A widow is 'widowed'."
+    },
+    "education_level": {
+      "type": "category",
+      "values": [
+        "class_1_5",
+        "class_6_8",
+        "class_9_10",
+        "class_11_12",
+        "diploma_or_iti",
+        "undergraduate",
+        "postgraduate",
+        "phd"
+      ],
+      "operators": [
+        "=",
+        "in"
+      ],
+      "description": "Level the applicant is currently studying at (or has completed)."
+    },
+    "residence_type": {
+      "type": "category",
+      "values": [
+        "rural",
+        "urban"
+      ],
+      "operators": [
+        "=",
+        "in"
+      ],
+      "description": "Rural or urban area of residence."
+    },
+    "owns_land": {
+      "type": "yesno",
+      "values": [
+        "yes",
+        "no"
+      ],
+      "operators": [
+        "="
+      ],
+      "description": "Whether the applicant must own agricultural land."
+    },
+    "land_holding_acres": {
+      "type": "number",
+      "unit": "acres",
+      "operators": [
+        "<",
+        "<=",
+        ">",
+        ">=",
+        "between"
+      ],
+      "description": "Size of land held, in acres (convert hectares: 1 ha = 2.47 acres)."
+    },
+    "bpl_status": {
+      "type": "yesno",
+      "values": [
+        "yes",
+        "no"
+      ],
+      "operators": [
+        "="
+      ],
+      "description": "Whether the family must be Below Poverty Line."
+    },
+    "pregnancy_status": {
+      "type": "yesno",
+      "values": [
+        "yes",
+        "no"
+      ],
+      "operators": [
+        "="
+      ],
+      "description": "Whether the applicant must be pregnant or a recent mother."
+    }
+  },
+  "unmapped": "unmapped"
+}

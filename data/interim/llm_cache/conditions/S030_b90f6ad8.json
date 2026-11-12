@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "The applicant should be a student."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "class_9_10|class_11_12",
+   "source_sentence": "The applicant should be studying in class 9th to 12th."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in a government school",
+   "source_sentence": "The applicant should be studying in a government school in Madhya Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Madhya Pradesh",
+   "source_sentence": "The applicant should be studying in a government school in Madhya Pradesh."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"student\",\n    \"source_sentence\": \"The applicant should be a student.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"in\",\n    \"value\": \"class_9_10|class_11_12\",\n    \"source_sentence\": \"The applicant should be studying in class 9th to 12th.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"studying in a government school\",\n    \"source_sentence\": \"The applicant should be studying in a government school in Madhya Pradesh.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Madhya Pradesh\",\n    \"source_sentence\": \"The applicant should be studying in a government school in Madhya Pradesh.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:00"
+}

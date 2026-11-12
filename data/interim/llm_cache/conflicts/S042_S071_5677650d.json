@@ -1,0 +1,9 @@
+{
+ "parsed": {
+  "conflict": false,
+  "reason": "The schemes do not conflict because Scheme B explicitly forbids its beneficiaries from receiving any other scholarship, and they serve different target groups based on caste and parental occupation."
+ },
+ "raw": "{\n  \"conflict\": false,\n  \"reason\": \"The schemes do not conflict because Scheme B explicitly forbids its beneficiaries from receiving any other scholarship, and they serve different target groups based on caste and parental occupation.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:59:39"
+}

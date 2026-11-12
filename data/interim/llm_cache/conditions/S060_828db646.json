@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "disability",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The college applying for a grant for any one of the components of the scheme should have enrolled disabled persons, including persons with visual impairment, hearing impairment, locomotor disability, etc., in various courses of the institute."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Definitions of disability are in accordance with the Persons with Disabilities Act 1995",
+   "source_sentence": "The definitions of disability are in accordance with the Persons with Disabilities Act 1995 ."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Institutions applying for the scheme should have been approved by the UGC under Sections 2(f) and 12 B",
+   "source_sentence": "Institutions applying for the scheme should have been approved by the UGC under Sections 2(f) and 12 B."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "The college should have constituted an expert committee involving faculty members, experts in the field and differently-abled persons themselves",
+   "source_sentence": "The college should have constituted an expert committee involving faculty members, experts in the field and differently-abled persons themselves."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "The committee should meet at least once a year to review the activities related to the concerned scheme(s)",
+   "source_sentence": "The committee should meet at least once a year to review the activities related to the concerned scheme(s)."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"disability\", \"operator\": \"=\", \"value\": \"yes\", \"source_sentence\": \"The college applying for a grant for any one of the components of the scheme should have enrolled disabled persons, including persons with visual impairment, hearing impairment, locomotor disability, etc., in various courses of the institute.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Definitions of disability are in accordance with the Persons with Disabilities Act 1995\", \"source_sentence\": \"The definitions of disability are in accordance with the Persons with Disabilities Act 1995 .\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Institutions applying for the scheme should have been approved by the UGC under Sections 2(f) and 12 B\", \"source_sentence\": \"Institutions applying for the scheme should have been approved by the UGC under Sections 2(f) and 12 B.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"The college should have constituted an expert committee involving faculty members, experts in the field and differently-abled persons themselves\", \"source_sentence\": \"The college should have constituted an expert committee involving faculty members, experts in the field and differently-abled persons themselves.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"The committee should meet at least once a year to review the activities related to the concerned scheme(s)\", \"source_sentence\": \"The committee should meet at least once a year to review the activities related to the concerned scheme(s).\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:33"
+}

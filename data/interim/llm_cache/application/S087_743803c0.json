@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Log on to the DST e-PMS Portal and register as a new user.",
+   "Click on the Submit proposals link after logging in.",
+   "Fill in all the mandatory information sought against each menu.",
+   "Enter the financial details including the fellowship amount, HRA, research grant, and overhead.",
+   "Preview your details and click the Submit button to finally push data into the server."
+  ],
+  "department": "Department of Science and Technology"
+ },
+ "raw": "{\n  \"mode\": \"online\",\n  \"steps\": [\n    \"Log on to the DST e-PMS Portal and register as a new user.\",\n    \"Click on the Submit proposals link after logging in.\",\n    \"Fill in all the mandatory information sought against each menu.\",\n    \"Enter the financial details including the fellowship amount, HRA, research grant, and overhead.\",\n    \"Preview your details and click the Submit button to finally push data into the server.\"\n  ],\n  \"department\": \"Department of Science and Technology\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:47:01"
+}

@@ -1,0 +1,31 @@
+{
+ "parsed": [
+  {
+   "name": "Registration Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Last Two Years' Statement of Accounts",
+   "conditional": false
+  },
+  {
+   "name": "Project Report",
+   "conditional": false
+  },
+  {
+   "name": "List of Prospective Beneficiaries",
+   "conditional": false
+  },
+  {
+   "name": "Detailed List of Beneficiaries",
+   "conditional": false
+  },
+  {
+   "name": "Bills/Vouchers",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Registration Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Last Two Years' Statement of Accounts\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Project Report\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"List of Prospective Beneficiaries\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Detailed List of Beneficiaries\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bills/Vouchers\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:55"
+}

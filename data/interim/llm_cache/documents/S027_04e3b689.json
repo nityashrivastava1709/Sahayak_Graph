@@ -1,0 +1,55 @@
+{
+ "parsed": [
+  {
+   "name": "Application form",
+   "conditional": false
+  },
+  {
+   "name": "Marriage certificate",
+   "conditional": true
+  },
+  {
+   "name": "Non-Reserved Category Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Residence",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Letter of Admission to School/College",
+   "conditional": false
+  },
+  {
+   "name": "Admission Letter",
+   "conditional": false
+  },
+  {
+   "name": "Leaving Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Std-10 Marksheet",
+   "conditional": false
+  },
+  {
+   "name": "Receipt of Tuition Fee",
+   "conditional": false
+  },
+  {
+   "name": "Bank Passbook",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Application form\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Marriage certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Non-Reserved Category Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Residence\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Letter of Admission to School/College\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Admission Letter\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Leaving Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Std-10 Marksheet\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Receipt of Tuition Fee\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Passbook\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:11"
+}

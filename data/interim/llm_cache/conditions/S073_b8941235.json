@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "SC",
+   "source_sentence": "The student should belong to the Scheduled Caste Category of Gujarat."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Gujarat",
+   "source_sentence": "The student should belong to the Scheduled Caste Category of Gujarat."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in the selected/designated school",
+   "source_sentence": "The student should be studying in the selected/designated school."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "600000",
+   "source_sentence": "The family income of the student should not be more than 10 times of the income determined for the poverty line. (For Rural Area: ₹6,00,000/- & for Urban Area: ₹6,00,000/)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Students entering Class 8th or 11th will be eligible for assistance only once every year",
+   "source_sentence": "Students entering Class 8th or 11th will be eligible for assistance only once every year."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Assistance is also available for Class 6 at Balachadi School, Jamnagar, and Sainik School, Kherwa",
+   "source_sentence": "Assistance is also available for Class 6 at Balachadi School, Jamnagar, and Sainik School, Kherwa."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "SC",
+   "source_sentence": "Note: The Scheduled Caste (SC) students who are studying in famous private selected schools like Doon School, Dehradun; Sofiya School, Abu; Mayo School, Ajmer; Sainik School, Balachadi; Mahila Sainik School, Kherva; Dist. Mehsana, etc. are eligible to apply under the scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in famous private selected schools like Doon School, Dehradun; Sofiya School, Abu; Mayo School, Ajmer; Sainik School, Balachadi; Mahila Sainik School, Kherva; Dist. Mehsana, etc.",
+   "source_sentence": "Note: The Scheduled Caste (SC) students who are studying in famous private selected schools like Doon School, Dehradun; Sofiya School, Abu; Mayo School, Ajmer; Sainik School, Balachadi; Mahila Sainik School, Kherva; Dist. Mehsana, etc. are eligible to apply under the scheme."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"SC\",\n    \"source_sentence\": \"The student should belong to the Scheduled Caste Category of Gujarat.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Gujarat\",\n    \"source_sentence\": \"The student should belong to the Scheduled Caste Category of Gujarat.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"studying in the selected/designated school\",\n    \"source_sentence\": \"The student should be studying in the selected/designated school.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"600000\",\n    \"source_sentence\": \"The family income of the student should not be more than 10 times of the income determined for the poverty line. (For Rural Area: ₹6,00,000/- & for Urban Area: ₹6,00,000/).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Students entering Class 8th or 11th will be eligible for assistance only once every year\",\n    \"source_sentence\": \"Students entering Class 8th or 11th will be eligible for assistance only once every year.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Assistance is also available for Class 6 at Balachadi School, Jamnagar, and Sainik School, Kherwa\",\n    \"source_sentence\": \"Assistance is also available for Class 6 at Balachadi School, Jamnagar, and Sainik School, Kherwa.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"SC\",\n    \"source_sentence\": \"Note: The Scheduled Caste (SC) students who are studying in famous private selected schools like Doon School, Dehradun; Sofiya School, Abu; Mayo School, Ajmer; Sainik School, Balachadi; Mahila Sainik School, Kherva; Dist. Mehsana, etc. are eligible to apply under the scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"studying in famous private selected schools like Doon School, Dehradun; Sofiya School, Abu; Mayo School, Ajmer; Sainik School, Balachadi; Mahila Sainik School, Kherva; Dist. Mehsana, etc.\",\n    \"source_sentence\": \"Note: The Scheduled Caste (SC) students who are studying in famous private selected schools like Doon School, Dehradun; Sofiya School, Abu; Mayo School, Ajmer; Sainik School, Balachadi; Mahila Sainik School, Kherva; Dist. Mehsana, etc. are eligible to apply under the scheme.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:57:36"
+}

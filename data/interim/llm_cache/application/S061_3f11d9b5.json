@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit the e-District Portal of the Govt. of NCT of Delhi.",
+   "Register on the portal using your Aadhaar Card and complete the registration form.",
+   "Log in to the portal using your Login ID and Password.",
+   "Click Apply Service, select the scheme, and fill out the online application form.",
+   "Upload the required documents, review the information, and click Finish.",
+   "Enter the OTP received on your mobile number and click Submit."
+  ],
+  "department": "Department for the Welfare of SC/ST/OBC, Government of NCT of Delhi"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit the e-District Portal of the Govt. of NCT of Delhi.\",\n  \"Register on the portal using your Aadhaar Card and complete the registration form.\",\n  \"Log in to the portal using your Login ID and Password.\",\n  \"Click Apply Service, select the scheme, and fill out the online application form.\",\n  \"Upload the required documents, review the information, and click Finish.\",\n  \"Enter the OTP received on your mobile number and click Submit.\"\n ],\n \"department\": \"Department for the Welfare of SC/ST/OBC, Government of NCT of Delhi\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:23"
+}

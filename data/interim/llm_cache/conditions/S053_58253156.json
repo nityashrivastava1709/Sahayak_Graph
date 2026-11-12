@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Bihar",
+   "source_sentence": "The student should be a resident of Bihar state."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "in",
+   "value": "SC|ST",
+   "source_sentence": "The student belongs to the Scheduled Caste and Scheduled Tribe."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "enrolled and reside in hostels following the departmental guidelines and instructions operated by the Scheduled Caste and Scheduled Tribe Welfare Department",
+   "source_sentence": "The student should be enrolled and reside in hostels following the departmental guidelines and instructions operated by the Scheduled Caste and Scheduled Tribe Welfare Department."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in a recognized course",
+   "source_sentence": "The student should be studying in a recognized course."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in a recognized educational institution",
+   "source_sentence": "The student should be studying in a recognized educational institution."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Bihar\",\n    \"source_sentence\": \"The student should be a resident of Bihar state.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"in\",\n    \"value\": \"SC|ST\",\n    \"source_sentence\": \"The student belongs to the Scheduled Caste and Scheduled Tribe.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"enrolled and reside in hostels following the departmental guidelines and instructions operated by the Scheduled Caste and Scheduled Tribe Welfare Department\",\n    \"source_sentence\": \"The student should be enrolled and reside in hostels following the departmental guidelines and instructions operated by the Scheduled Caste and Scheduled Tribe Welfare Department.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"studying in a recognized course\",\n    \"source_sentence\": \"The student should be studying in a recognized course.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"studying in a recognized educational institution\",\n    \"source_sentence\": \"The student should be studying in a recognized educational institution.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:55:46"
+}

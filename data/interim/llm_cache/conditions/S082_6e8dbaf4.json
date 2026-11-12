@@ -1,0 +1,28 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "The beneficiary should be a Farmer."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Tamil Nadu",
+   "source_sentence": "The beneficiary should be a resident of any of the following districts of Tamil Nadu: Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli, and Thoothukudi."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "grow maize",
+   "source_sentence": "The beneficiary should grow maize."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"The beneficiary should be a Farmer.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Tamil Nadu\",\n    \"source_sentence\": \"The beneficiary should be a resident of any of the following districts of Tamil Nadu: Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli, and Thoothukudi.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"grow maize\",\n    \"source_sentence\": \"The beneficiary should grow maize.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:58:35"
+}

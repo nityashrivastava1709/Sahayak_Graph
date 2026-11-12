@@ -1,0 +1,9 @@
+{
+ "parsed": {
+  "conflict": false,
+  "reason": "Scheme A provides an incentive for students with the highest marks in Class 12 from government schools, whereas Scheme B provides an incentive for Scheduled Caste girls entering Class 11 after passing Class 10, thus targeting different academic stages and groups."
+ },
+ "raw": "{\n  \"conflict\": false,\n  \"reason\": \"Scheme A provides an incentive for students with the highest marks in Class 12 from government schools, whereas Scheme B provides an incentive for Scheduled Caste girls entering Class 11 after passing Class 10, thus targeting different academic stages and groups.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:59:31"
+}

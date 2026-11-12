@@ -1,0 +1,13 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Gather all required documents as directed by the authority.",
+   "Contact the Headmaster of the School."
+  ],
+  "department": "Adi Dravidar and Tribal Welfare Department"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Gather all required documents as directed by the authority.\",\n  \"Contact the Headmaster of the School.\"\n ],\n \"department\": \"Adi Dravidar and Tribal Welfare Department\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:17"
+}

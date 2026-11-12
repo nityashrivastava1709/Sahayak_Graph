@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must have valid registration with the competent authority",
+   "source_sentence": "The Mahila Mandal must have valid registration with the competent authority."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Goa",
+   "source_sentence": "The Mahila Mandal must have been operating successfully within the state of Goa for the last 2 years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "operating successfully within the state for the last 2 years",
+   "source_sentence": "The Mahila Mandal must have been operating successfully within the state of Goa for the last 2 years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "submit a project report specifying the activities/training and a list of prospective beneficiaries with educational details",
+   "source_sentence": "Each group must submit a project report specifying the activities/training and a list of prospective beneficiaries with educational details."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "minimum of 20 members for training/orientation",
+   "source_sentence": "There must be a minimum of 20 members for training/orientation."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must have valid registration with the competent authority\",\n    \"source_sentence\": \"The Mahila Mandal must have valid registration with the competent authority.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Goa\",\n    \"source_sentence\": \"The Mahila Mandal must have been operating successfully within the state of Goa for the last 2 years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"operating successfully within the state for the last 2 years\",\n    \"source_sentence\": \"The Mahila Mandal must have been operating successfully within the state of Goa for the last 2 years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"submit a project report specifying the activities/training and a list of prospective beneficiaries with educational details\",\n    \"source_sentence\": \"Each group must submit a project report specifying the activities/training and a list of prospective beneficiaries with educational details.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"minimum of 20 members for training/orientation\",\n    \"source_sentence\": \"There must be a minimum of 20 members for training/orientation.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:22"
+}

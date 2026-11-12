@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Madhya Pradesh",
+   "source_sentence": "The livestock owner should be a resident of Madhya Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "have valid livestock registration documents",
+   "source_sentence": "The applicant should have valid livestock registration documents."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "have the required infrastructure to undertake AI operations",
+   "source_sentence": "The applicant should have the required infrastructure to undertake AI operations."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "in",
+   "value": "General|OBC|EWS|Minority|Backward_Class|Other_Community",
+   "source_sentence": "The applicant should not belong to any of the scheduled castes and tribes."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "have the required knowledge and skill to undertake AI operations",
+   "source_sentence": "The applicant should have the required knowledge and skill to undertake AI operations."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "not have any prior criminal record",
+   "source_sentence": "The applicant should not have any prior criminal record."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Madhya Pradesh\",\n    \"source_sentence\": \"The livestock owner should be a resident of Madhya Pradesh.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"have valid livestock registration documents\",\n    \"source_sentence\": \"The applicant should have valid livestock registration documents.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"have the required infrastructure to undertake AI operations\",\n    \"source_sentence\": \"The applicant should have the required infrastructure to undertake AI operations.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"in\",\n    \"value\": \"General|OBC|EWS|Minority|Backward_Class|Other_Community\",\n    \"source_sentence\": \"The applicant should not belong to any of the scheduled castes and tribes.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"have the required knowledge and skill to undertake AI operations\",\n    \"source_sentence\": \"The applicant should have the required knowledge and skill to undertake AI operations.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"not have any prior criminal record\",\n    \"source_sentence\": \"The applicant should not have any prior criminal record.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:15"
+}

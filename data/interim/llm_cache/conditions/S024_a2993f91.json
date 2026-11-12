@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Himachal Pradesh",
+   "source_sentence": "The applicant should be a resident of Himachal Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "construction_worker",
+   "source_sentence": "The applicant should be a Building or Construction Worker."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "between",
+   "value": "18 and 60",
+   "source_sentence": "The age of the applicant should be between 18 and 60 years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "worked in building or construction activities for at least 90 days in the preceding 12 months",
+   "source_sentence": "The applicant should have worked in building or construction activities for at least 90 days in the preceding 12 months."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "registration must be renewed annually",
+   "source_sentence": "The registration must be renewed annually."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "worker's membership with the Welfare Board must be active at the time of application",
+   "source_sentence": "The worker's membership with the Welfare Board must be active at the time of application."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "worker should have at least a two-month subscription to the Welfare Board",
+   "source_sentence": "The worker should have at least a two-month subscription to the Welfare Board."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "benefit is applicable for the birth of up to two daughters of the registered worker",
+   "source_sentence": "The benefit is applicable for the birth of up to two daughters of the registered worker."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Himachal Pradesh\",\n    \"source_sentence\": \"The applicant should be a resident of Himachal Pradesh.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"construction_worker\",\n    \"source_sentence\": \"The applicant should be a Building or Construction Worker.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"between\",\n    \"value\": \"18 and 60\",\n    \"source_sentence\": \"The age of the applicant should be between 18 and 60 years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"worked in building or construction activities for at least 90 days in the preceding 12 months\",\n    \"source_sentence\": \"The applicant should have worked in building or construction activities for at least 90 days in the preceding 12 months.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"registration must be renewed annually\",\n    \"source_sentence\": \"The registration must be renewed annually.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"worker's membership with the Welfare Board must be active at the time of application\",\n    \"source_sentence\": \"The worker's membership with the Welfare Board must be active at the time of application.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"worker should have at least a two-month subscription to the Welfare Board\",\n    \"source_sentence\": \"The worker should have at least a two-month subscription to the Welfare Board.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"benefit is applicable for the birth of up to two daughters of the registered worker\",\n    \"source_sentence\": \"The benefit is applicable for the birth of up to two daughters of the registered worker.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:52:54"
+}

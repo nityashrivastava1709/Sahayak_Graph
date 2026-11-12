@@ -1,0 +1,39 @@
+{
+ "parsed": [
+  {
+   "name": "Identity Proof",
+   "conditional": false
+  },
+  {
+   "name": "Passport-size photograph",
+   "conditional": false
+  },
+  {
+   "name": "Below Poverty Line (BPL) card",
+   "conditional": false
+  },
+  {
+   "name": "Residence proof",
+   "conditional": false
+  },
+  {
+   "name": "Ration card",
+   "conditional": false
+  },
+  {
+   "name": "Educational details of the child",
+   "conditional": false
+  },
+  {
+   "name": "Bank account details",
+   "conditional": false
+  },
+  {
+   "name": "Certificate regarding non-availing of other scholarship",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Identity Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Passport-size photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Below Poverty Line (BPL) card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Residence proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Educational details of the child\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank account details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Certificate regarding non-availing of other scholarship\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:07"
+}

@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "name": "Nativity/Citizenship/Residential Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Birth Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Stamp-sized Photograph",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "SSLC Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Public Information Certificate",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Nativity/Citizenship/Residential Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Birth Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Stamp-sized Photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"SSLC Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Public Information Certificate\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:44:01"
+}

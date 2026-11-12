@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Obtain the mandatory permit for the construction of a new or replacement tubewell from the Pondicherry Ground Water Authority.",
+   "Approach the concerned office to get an NOC if constructing the tubewell through private machinery.",
+   "Construct the tubewell using registered private machinery and undergo inspection by the Agricultural Officer.",
+   "Visit the concerned office during office hours to request and obtain the hard copy of the prescribed application form.",
+   "Fill in all mandatory fields, attach self-attested copies of mandatory documents, and paste a passport-sized photograph.",
+   "Submit the duly filled and signed application form and documents to the aforementioned authority within 90 days."
+  ],
+  "department": "Department of Agriculture and Farmer's Welfare, Union Territory of Puducherry"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Obtain the mandatory permit for the construction of a new or replacement tubewell from the Pondicherry Ground Water Authority.\",\n  \"Approach the concerned office to get an NOC if constructing the tubewell through private machinery.\",\n  \"Construct the tubewell using registered private machinery and undergo inspection by the Agricultural Officer.\",\n  \"Visit the concerned office during office hours to request and obtain the hard copy of the prescribed application form.\",\n  \"Fill in all mandatory fields, attach self-attested copies of mandatory documents, and paste a passport-sized photograph.\",\n  \"Submit the duly filled and signed application form and documents to the aforementioned authority within 90 days.\"\n ],\n \"department\": \"Department of Agriculture and Farmer's Welfare, Union Territory of Puducherry\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:32"
+}

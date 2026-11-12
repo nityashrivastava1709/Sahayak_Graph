@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "The beneficiary must be a student."
+  },
+  {
+   "or_group": 0,
+   "attribute": "disability",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The beneficiary must be a differently abled person."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "class_9_10|class_11_12|undergraduate|postgraduate",
+   "source_sentence": "The beneficiary must be a student of the following courses: 9th to 12th Standard. Degree Courses. Postgraduate, Medical, Engineering, Vocational, and Other Professional Courses."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in government-recognized schools/colleges/training centers",
+   "source_sentence": "The beneficiary must be differently abled, who are studying in government-recognized schools/colleges/training centers."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "obtained not less than 40% of the marks in the previous qualifying examination",
+   "source_sentence": "The beneficiary must have obtained not less than 40% of the marks in the previous qualifying examination."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"student\",\n    \"source_sentence\": \"The beneficiary must be a student.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"disability\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The beneficiary must be a differently abled person.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"in\",\n    \"value\": \"class_9_10|class_11_12|undergraduate|postgraduate\",\n    \"source_sentence\": \"The beneficiary must be a student of the following courses: 9th to 12th Standard. Degree Courses. Postgraduate, Medical, Engineering, Vocational, and Other Professional Courses.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"studying in government-recognized schools/colleges/training centers\",\n    \"source_sentence\": \"The beneficiary must be differently abled, who are studying in government-recognized schools/colleges/training centers.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"obtained not less than 40% of the marks in the previous qualifying examination\",\n    \"source_sentence\": \"The beneficiary must have obtained not less than 40% of the marks in the previous qualifying examination.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:57:22"
+}

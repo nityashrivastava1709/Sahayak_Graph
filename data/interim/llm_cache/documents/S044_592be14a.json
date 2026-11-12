@@ -1,0 +1,103 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Age",
+   "conditional": false
+  },
+  {
+   "name": "Caste Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Declaration for Assignment",
+   "conditional": false
+  },
+  {
+   "name": "Declaration Form",
+   "conditional": false
+  },
+  {
+   "name": "Certificate issued by competent authority",
+   "conditional": false
+  },
+  {
+   "name": "Payment Details",
+   "conditional": false
+  },
+  {
+   "name": "Original Discharge summary/ OP Ticket",
+   "conditional": false
+  },
+  {
+   "name": "Original Medical Bills",
+   "conditional": false
+  },
+  {
+   "name": "Original Lab reports",
+   "conditional": true
+  },
+  {
+   "name": "Immobilizations Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Fitness Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Disability Certificate",
+   "conditional": false
+  },
+  {
+   "name": "FIR/GD Entry/CSR/Police Report",
+   "conditional": false
+  },
+  {
+   "name": "NEFT details",
+   "conditional": false
+  },
+  {
+   "name": "Duly signed claim voucher",
+   "conditional": false
+  },
+  {
+   "name": "Original Medical Reports",
+   "conditional": false
+  },
+  {
+   "name": "Original Death Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Legal Heirship certificate",
+   "conditional": false
+  },
+  {
+   "name": "Post Mortem Report",
+   "conditional": false
+  },
+  {
+   "name": "FIR",
+   "conditional": false
+  },
+  {
+   "name": "Newspaper cutting",
+   "conditional": false
+  },
+  {
+   "name": "Viscera Report",
+   "conditional": true
+  },
+  {
+   "name": "Inquest Report",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Age\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Caste Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Declaration for Assignment\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Declaration Form\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Certificate issued by competent authority\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Payment Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Original Discharge summary/ OP Ticket\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Original Medical Bills\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Original Lab reports\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Immobilizations Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Fitness Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Disability Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"FIR/GD Entry/CSR/Police Report\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"NEFT details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Duly signed claim voucher\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Original Medical Reports\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Original Death Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Legal Heirship certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Post Mortem Report\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"FIR\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Newspaper cutting\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Viscera Report\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Inquest Report\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:46:09"
+}

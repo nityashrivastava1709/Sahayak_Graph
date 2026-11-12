@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Go to the Agriculture Department office or Krishi Vigyan Kendra of your district.",
+   "Get the application form to apply under this scheme.",
+   "Enter all the necessary information asked in the form carefully.",
+   "Attach the required documents with the application form.",
+   "Submit the application form to the same agriculture department."
+  ],
+  "department": "Agriculture Department"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Go to the Agriculture Department office or Krishi Vigyan Kendra of your district.\",\n    \"Get the application form to apply under this scheme.\",\n    \"Enter all the necessary information asked in the form carefully.\",\n    \"Attach the required documents with the application form.\",\n    \"Submit the application form to the same agriculture department.\"\n  ],\n  \"department\": \"Agriculture Department\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:37"
+}

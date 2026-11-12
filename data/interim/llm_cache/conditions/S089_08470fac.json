@@ -1,0 +1,56 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "widowed",
+   "source_sentence": "The beneficiary must be widow girl/woman."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">=",
+   "value": "60",
+   "source_sentence": "The beneficiary should attain the age of 60 years or more."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "West Bengal",
+   "source_sentence": "The beneficiary must be a citizen of India and a resident of West Bengal."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "12000",
+   "source_sentence": "The beneficiary family income must not exceed ₹ 1,000/- per month."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must not be maintained by any of her relative",
+   "source_sentence": "The beneficiary must not be maintained by any of her relative."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "resident of West Bengal for at least ten years on the date of making the application",
+   "source_sentence": "The beneficiary must have been a resident of West Bengal for at least ten years on the date of making the application."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Professional beggars and mendicants are not eligible for the pension",
+   "source_sentence": "Professional beggars and mendicants are not eligible for the pension."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"widowed\", \"source_sentence\": \"The beneficiary must be widow girl/woman.\"},\n  {\"or_group\": 0, \"attribute\": \"age\", \"operator\": \">=\", \"value\": \"60\", \"source_sentence\": \"The beneficiary should attain the age of 60 years or more.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"West Bengal\", \"source_sentence\": \"The beneficiary must be a citizen of India and a resident of West Bengal.\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"12000\", \"source_sentence\": \"The beneficiary family income must not exceed ₹ 1,000/- per month.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"must not be maintained by any of her relative\", \"source_sentence\": \"The beneficiary must not be maintained by any of her relative.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"resident of West Bengal for at least ten years on the date of making the application\", \"source_sentence\": \"The beneficiary must have been a resident of West Bengal for at least ten years on the date of making the application.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Professional beggars and mendicants are not eligible for the pension\", \"source_sentence\": \"Professional beggars and mendicants are not eligible for the pension.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T16:02:10"
+}

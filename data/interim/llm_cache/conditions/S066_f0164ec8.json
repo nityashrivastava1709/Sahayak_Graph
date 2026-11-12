@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The nominee should be an active woman scientist with an excellent record of research performance as an independent investigator."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "active scientist with an excellent record of research performance as an independent investigator",
+   "source_sentence": "The nominee should be an active woman scientist with an excellent record of research performance as an independent investigator."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "phd",
+   "source_sentence": "The nominee should be an outstanding woman researcher and innovator working in Indian academic institutions and R&D laboratories, holding Ph.D. degrees in any branch of science and engineering."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "working in Indian academic institutions and R&D laboratories",
+   "source_sentence": "The nominee should be an outstanding woman researcher and innovator working in Indian academic institutions and R&D laboratories, holding Ph.D. degrees in any branch of science and engineering."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "in regular service throughout the duration of the Fellowship",
+   "source_sentence": "The nominee should be in regular service throughout the duration of the Fellowship."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "between",
+   "value": "35-55",
+   "source_sentence": "The nominee should be an Indian citizen between 35-55 years of age working in institutions in India."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "working in institutions in India",
+   "source_sentence": "The nominee should be an Indian citizen between 35-55 years of age working in institutions in India."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must not be receiving any other fellowships from Government sources during the tenure",
+   "source_sentence": "The nominee should not be receiving any other fellowships from Government sources during the tenure."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"The nominee should be an active woman scientist with an excellent record of research performance as an independent investigator.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"active scientist with an excellent record of research performance as an independent investigator\",\n    \"source_sentence\": \"The nominee should be an active woman scientist with an excellent record of research performance as an independent investigator.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"phd\",\n    \"source_sentence\": \"The nominee should be an outstanding woman researcher and innovator working in Indian academic institutions and R&D laboratories, holding Ph.D. degrees in any branch of science and engineering.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"working in Indian academic institutions and R&D laboratories\",\n    \"source_sentence\": \"The nominee should be an outstanding woman researcher and innovator working in Indian academic institutions and R&D laboratories, holding Ph.D. degrees in any branch of science and engineering.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"in regular service throughout the duration of the Fellowship\",\n    \"source_sentence\": \"The nominee should be in regular service throughout the duration of the Fellowship.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"between\",\n    \"value\": \"35-55\",\n    \"source_sentence\": \"The nominee should be an Indian citizen between 35-55 years of age working in institutions in India.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"working in institutions in India\",\n    \"source_sentence\": \"The nominee should be an Indian citizen between 35-55 years of age working in institutions in India.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must not be receiving any other fellowships from Government sources during the tenure\",\n    \"source_sentence\": \"The nominee should not be receiving any other fellowships from Government sources during the tenure.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:57:00"
+}

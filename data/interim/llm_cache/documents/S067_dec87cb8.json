@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "name": "School Details",
+   "conditional": false
+  },
+  {
+   "name": "Teacher Details",
+   "conditional": false
+  },
+  {
+   "name": "Remarkable Achievements",
+   "conditional": true
+  },
+  {
+   "name": "Details of Nearest Sastraposhini School",
+   "conditional": false
+  },
+  {
+   "name": "Official Bank Account Details",
+   "conditional": false
+  },
+  {
+   "name": "Declaration",
+   "conditional": false
+  },
+  {
+   "name": "Undertaking",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"School Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Teacher Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Remarkable Achievements\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Details of Nearest Sastraposhini School\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Official Bank Account Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Declaration\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Undertaking\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:49"
+}

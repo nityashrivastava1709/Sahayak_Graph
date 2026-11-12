@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Visit the Sikkim Industrial Development & Investment Corporation during office hours to request a hard copy of the application form.",
+   "Fill in all mandatory fields in the application form and attach copies of mandatory documents.",
+   "Submit the duly filled and signed application form along with the documents to the Corporation.",
+   "Request a receipt or acknowledgment containing submission details and a unique identification number."
+  ],
+  "department": "Department of Personnel, and Reforms, Training, Public Grievances, Government of Sikkim"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Visit the Sikkim Industrial Development & Investment Corporation during office hours to request a hard copy of the application form.\",\n    \"Fill in all mandatory fields in the application form and attach copies of mandatory documents.\",\n    \"Submit the duly filled and signed application form along with the documents to the Corporation.\",\n    \"Request a receipt or acknowledgment containing submission details and a unique identification number.\"\n  ],\n  \"department\": \"Department of Personnel, and Reforms, Training, Public Grievances, Government of Sikkim\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:01"
+}

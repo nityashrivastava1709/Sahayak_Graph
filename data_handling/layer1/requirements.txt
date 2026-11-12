@@ -1,0 +1,5 @@
+pandas>=2.0
+python-dotenv>=1.0
+scikit-learn>=1.3
+google-genai>=1.0      # Gemini SDK (NOT google-generativeai)
+jsonschema>=4.0        # validates every Gemini reply against its schema

@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "The applicant should be a Student."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "SC",
+   "source_sentence": "The applicant should be from a Scheduled Caste."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "250000",
+   "source_sentence": "The annual income of the family of the applicant should not exceed ₹2,50,000/-."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "diploma_or_iti|undergraduate|postgraduate|phd",
+   "source_sentence": "The applicant should be enrolled in a recognized post-matriculation/post-secondary course in India."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "should not be availing of any other scholarship for the same course from any other source",
+   "source_sentence": "The applicant should not be availing of any other scholarship for the same course from any other source."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"student\", \"source_sentence\": \"The applicant should be a Student.\"},\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"=\", \"value\": \"SC\", \"source_sentence\": \"The applicant should be from a Scheduled Caste.\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"250000\", \"source_sentence\": \"The annual income of the family of the applicant should not exceed ₹2,50,000/-.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"in\", \"value\": \"diploma_or_iti|undergraduate|postgraduate|phd\", \"source_sentence\": \"The applicant should be enrolled in a recognized post-matriculation/post-secondary course in India.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"should not be availing of any other scholarship for the same course from any other source\", \"source_sentence\": \"The applicant should not be availing of any other scholarship for the same course from any other source.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:37"
+}

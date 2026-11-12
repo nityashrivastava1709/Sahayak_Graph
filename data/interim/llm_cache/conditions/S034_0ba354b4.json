@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Rajasthan",
+   "source_sentence": "The student should be a native of Rajasthan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "Other_Community",
+   "source_sentence": "The student should belong to Saharia class, a tribe of the Baran district of Rajasthan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "undergraduate",
+   "source_sentence": "The student should be a regular trainee in the government / non-government BEd training institute."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "mother/father/guardian should not be a taxpayer",
+   "source_sentence": "The student's mother/father/guardian/guardian should not be a taxpayer."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "not studying while living in a hostel run by the government",
+   "source_sentence": "The student who is studying while living in the hostel is run by the government. They will not be entitled to benefit under the said scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "should have a Vaidya Bhamashah card and Aadhaar",
+   "source_sentence": "Students should have a Vaidya Bhamashah card and Aadhaar."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Rajasthan\",\n    \"source_sentence\": \"The student should be a native of Rajasthan.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"Other_Community\",\n    \"source_sentence\": \"The student should belong to Saharia class, a tribe of the Baran district of Rajasthan.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"undergraduate\",\n    \"source_sentence\": \"The student should be a regular trainee in the government / non-government BEd training institute.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"mother/father/guardian should not be a taxpayer\",\n    \"source_sentence\": \"The student's mother/father/guardian/guardian should not be a taxpayer.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"not studying while living in a hostel run by the government\",\n    \"source_sentence\": \"The student who is studying while living in the hostel is run by the government. They will not be entitled to benefit under the said scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"should have a Vaidya Bhamashah card and Aadhaar\",\n    \"source_sentence\": \"Students should have a Vaidya Bhamashah card and Aadhaar.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:25"
+}

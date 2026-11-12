@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Himachal Pradesh",
+   "source_sentence": "Applicant must be a resident of Himachal Pradesh."
+  },
+  {
+   "or_group": 1,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "widowed",
+   "source_sentence": "Applicant must be a widow, deserted woman, or unmarried woman."
+  },
+  {
+   "or_group": 1,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "abandoned_or_deserted",
+   "source_sentence": "Applicant must be a widow, deserted woman, or unmarried woman."
+  },
+  {
+   "or_group": 1,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "unmarried",
+   "source_sentence": "Applicant must be a widow, deserted woman, or unmarried woman."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "35000",
+   "source_sentence": "Applicant's annual income should not exceed Rs. 35,000."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Himachal Pradesh\", \"source_sentence\": \"Applicant must be a resident of Himachal Pradesh.\"},\n  {\"or_group\": 1, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"widowed\", \"source_sentence\": \"Applicant must be a widow, deserted woman, or unmarried woman.\"},\n  {\"or_group\": 1, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"abandoned_or_deserted\", \"source_sentence\": \"Applicant must be a widow, deserted woman, or unmarried woman.\"},\n  {\"or_group\": 1, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"unmarried\", \"source_sentence\": \"Applicant must be a widow, deserted woman, or unmarried woman.\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"35000\", \"source_sentence\": \"Applicant's annual income should not exceed Rs. 35,000.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T16:02:11"
+}

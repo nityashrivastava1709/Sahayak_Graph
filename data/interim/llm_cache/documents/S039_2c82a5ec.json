@@ -1,0 +1,27 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Identity Proof",
+   "conditional": false
+  },
+  {
+   "name": "Curriculum Vitae",
+   "conditional": false
+  },
+  {
+   "name": "Recommendation Letter",
+   "conditional": false
+  },
+  {
+   "name": "Educational Certificates",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Identity Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Curriculum Vitae\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Recommendation Letter\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Educational Certificates\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:46:02"
+}

@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Admission Proof",
+   "conditional": false
+  },
+  {
+   "name": "Affidavit",
+   "conditional": false
+  },
+  {
+   "name": "Project viability and technical feasibility certification",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Admission Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Affidavit\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Project viability and technical feasibility certification\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:01"
+}

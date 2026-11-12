@@ -1,0 +1,13 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Contact the Principal of your respective government school or institution.",
+   "Provide your record or certificate to the teacher to enter your profile."
+  ],
+  "department": "School Education Department, Government of Madhya Pradesh"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Contact the Principal of your respective government school or institution.\",\n  \"Provide your record or certificate to the teacher to enter your profile.\"\n ],\n \"department\": \"School Education Department, Government of Madhya Pradesh\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:10"
+}

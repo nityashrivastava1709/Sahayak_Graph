@@ -1,0 +1,13 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Contact the principal of the school to avail the benefits.",
+   "The principal submits the online proposal on the Digital Gujarat Portal."
+  ],
+  "department": "Directorate of Scheduled Caste Welfare, Department of Social Justice & Empowerment, Government of Gujarat"
+ },
+ "raw": "{\n  \"mode\": \"online\",\n  \"steps\": [\n    \"Contact the principal of the school to avail the benefits.\",\n    \"The principal submits the online proposal on the Digital Gujarat Portal.\"\n  ],\n  \"department\": \"Directorate of Scheduled Caste Welfare, Department of Social Justice & Empowerment, Government of Gujarat\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:38"
+}

@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Visit the Tehsil Social Welfare Officer and request an application form.",
+   "Fill in all mandatory fields, attach a photograph, and necessary documents.",
+   "Submit the completed application form and documents to the Tehsil Social Welfare Officer.",
+   "Request a receipt or acknowledgement from the concerned authority."
+  ],
+  "department": "Social Welfare Department, Union Territory of Jammu and Kashmir"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Visit the Tehsil Social Welfare Officer and request an application form.\",\n  \"Fill in all mandatory fields, attach a photograph, and necessary documents.\",\n  \"Submit the completed application form and documents to the Tehsil Social Welfare Officer.\",\n  \"Request a receipt or acknowledgement from the concerned authority.\"\n ],\n \"department\": \"Social Welfare Department, Union Territory of Jammu and Kashmir\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:44:01"
+}

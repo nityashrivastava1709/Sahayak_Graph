@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "artisan_or_weaver",
+   "source_sentence": "The parent of the applicant should be a Weaver/Artisan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "registered with the Handicrafts and Handloom Departments having valid registration car/certificate",
+   "source_sentence": "The parent should be registered with the Handicrafts and Handloom Departments having valid registration car/certificate."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "not have availed benefits under Pre-Matric Scholarship Scheme, Post-Matric Scholarship Scheme, Prime Minister's Scholarship Scheme, or any other scheme",
+   "source_sentence": "The applicant should not have availed benefits under the following schemes being implemented by the departments: Pre-Matric Scholarship Scheme; Post-Matric Scholarship Scheme; Prime Minister's Scholarship Scheme; Any other scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "seek NOC from the concerned Zonal Educational Officer and Tehsil Social Welfare Officer",
+   "source_sentence": "The applicant shall seek NOC from the concerned Zonal Educational Officer and Tehsil Social Welfare Officer."
+  },
+  {
+   "or_group": 1,
+   "attribute": "bpl_status",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The applicant should have a Below Poverty Line (BPL) Card, Antyodaya Anna Yojana (AAY) Ration Card, Priority Household (PHH) Card."
+  },
+  {
+   "or_group": 1,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "EWS",
+   "source_sentence": "The applicant should have Economically Weaker Section (EWS) Certificate."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "90000",
+   "source_sentence": "The total annual income of the parents of the applicant should be less than or equal to ₹90,000."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Income Certificate should be issued by 1st Class Magistrate/Tehsildar concerned",
+   "source_sentence": "The Income Certificate should be issued by 1st Class Magistrate/Tehsildar concerned."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"artisan_or_weaver\",\n    \"source_sentence\": \"The parent of the applicant should be a Weaver/Artisan.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"registered with the Handicrafts and Handloom Departments having valid registration car/certificate\",\n    \"source_sentence\": \"The parent should be registered with the Handicrafts and Handloom Departments having valid registration car/certificate.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"not have availed benefits under Pre-Matric Scholarship Scheme, Post-Matric Scholarship Scheme, Prime Minister's Scholarship Scheme, or any other scheme\",\n    \"source_sentence\": \"The applicant should not have availed benefits under the following schemes being implemented by the departments: Pre-Matric Scholarship Scheme; Post-Matric Scholarship Scheme; Prime Minister's Scholarship Scheme; Any other scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"seek NOC from the concerned Zonal Educational Officer and Tehsil Social Welfare Officer\",\n    \"source_sentence\": \"The applicant shall seek NOC from the concerned Zonal Educational Officer and Tehsil Social Welfare Officer.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"bpl_status\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The applicant should have a Below Poverty Line (BPL) Card, Antyodaya Anna Yojana (AAY) Ration Card, Priority Household (PHH) Card.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"EWS\",\n    \"source_sentence\": \"The applicant should have Economically Weaker Section (EWS) Certificate.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"90000\",\n    \"source_sentence\": \"The total annual income of the parents of the applicant should be less than or equal to ₹90,000.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Income Certificate should be issued by 1st Class Magistrate/Tehsildar concerned\",\n    \"source_sentence\": \"The Income Certificate should be issued by 1st Class Magistrate/Tehsildar concerned.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:55"
+}

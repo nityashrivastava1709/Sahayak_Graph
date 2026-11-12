@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit the official Website of Karnataka Building & Other Construction Workers Welfare Board and click on Login.",
+   "Enter your registered mobile number and the received OTP.",
+   "From the dashboard, click on Schemes.",
+   "Select the concerned scheme, fill in mandatory details, and upload required documents.",
+   "Review the details and click on Submit to complete the application process."
+  ],
+  "department": "Department of Labour, Karnataka"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit the official Website of Karnataka Building & Other Construction Workers Welfare Board and click on Login.\",\n  \"Enter your registered mobile number and the received OTP.\",\n  \"From the dashboard, click on Schemes.\",\n  \"Select the concerned scheme, fill in mandatory details, and upload required documents.\",\n  \"Review the details and click on Submit to complete the application process.\"\n ],\n \"department\": \"Department of Labour, Karnataka\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:44:30"
+}

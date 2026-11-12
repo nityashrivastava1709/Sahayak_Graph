@@ -1,0 +1,56 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The applicant must be a female."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">=",
+   "value": "18",
+   "source_sentence": "The applicant must be of marriageable age, i.e. 18 years or above (Legal Age for Marriage in India)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "bpl_status",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The applicant must be from either AAY (Antyodaya Anna Yojana) or PHH (Priority Households) ration card holder families."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must not have availed the financial benefit for the same purpose under any other UT/Centrally Sponsored Scheme, especially Ladli Beti Scheme",
+   "source_sentence": "The applicant must not have availed the financial benefit for the same purpose under any other UT/Centrally Sponsored Scheme, especially Ladli Beti Scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "can avail of benefits only once under the scheme",
+   "source_sentence": "She can avail of benefits only once under the scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "applied at least one month in advance (before the date of marriage) to the concerned District Social Welfare Officer along with proof of marriage, proof of age, copy of AAY or PHH ration card, and Aadhaar card",
+   "source_sentence": "The applicant must have applied at least one month in advance (before the date of marriage) to the concerned District Social Welfare Officer along with proof of marriage, proof of age, copy of AAY or PHH ration card, and Aadhaar card."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_6_8",
+   "source_sentence": "The minimum qualification of the beneficiary girl has to be 8th Pass or equivalent."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"The applicant must be a female.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \">=\",\n    \"value\": \"18\",\n    \"source_sentence\": \"The applicant must be of marriageable age, i.e. 18 years or above (Legal Age for Marriage in India).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"bpl_status\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The applicant must be from either AAY (Antyodaya Anna Yojana) or PHH (Priority Households) ration card holder families.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must not have availed the financial benefit for the same purpose under any other UT/Centrally Sponsored Scheme, especially Ladli Beti Scheme\",\n    \"source_sentence\": \"The applicant must not have availed the financial benefit for the same purpose under any other UT/Centrally Sponsored Scheme, especially Ladli Beti Scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"can avail of benefits only once under the scheme\",\n    \"source_sentence\": \"She can avail of benefits only once under the scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"applied at least one month in advance (before the date of marriage) to the concerned District Social Welfare Officer along with proof of marriage, proof of age, copy of AAY or PHH ration card, and Aadhaar card\",\n    \"source_sentence\": \"The applicant must have applied at least one month in advance (before the date of marriage) to the concerned District Social Welfare Officer along with proof of marriage, proof of age, copy of AAY or PHH ration card, and Aadhaar card.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"class_6_8\",\n    \"source_sentence\": \"The minimum qualification of the beneficiary girl has to be 8th Pass or equivalent.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:57:47"
+}

@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Madhya Pradesh",
+   "source_sentence": "The applicant must be a permanent resident of Madhya Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must have achieved the highest marks in their district in the Class 12 examination",
+   "source_sentence": "The student must have achieved the highest marks in their district in the Class 12 examination."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_11_12",
+   "source_sentence": "The student must have passed their Class 12 examination from a government school in Madhya Pradesh (Government Higher Secondary School)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must have passed their Class 12 examination from a government school in Madhya Pradesh",
+   "source_sentence": "The student must have passed their Class 12 examination from a government school in Madhya Pradesh (Government Higher Secondary School)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<",
+   "value": "100000",
+   "source_sentence": "The student's parents' income from all sources should be less than ₹1,00,000/- per year."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Madhya Pradesh\",\n    \"source_sentence\": \"The applicant must be a permanent resident of Madhya Pradesh.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must have achieved the highest marks in their district in the Class 12 examination\",\n    \"source_sentence\": \"The student must have achieved the highest marks in their district in the Class 12 examination.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"class_11_12\",\n    \"source_sentence\": \"The student must have passed their Class 12 examination from a government school in Madhya Pradesh (Government Higher Secondary School).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must have passed their Class 12 examination from a government school in Madhya Pradesh\",\n    \"source_sentence\": \"The student must have passed their Class 12 examination from a government school in Madhya Pradesh (Government Higher Secondary School).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<\",\n    \"value\": \"100000\",\n    \"source_sentence\": \"The student's parents' income from all sources should be less than ₹1,00,000/- per year.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:52:32"
+}

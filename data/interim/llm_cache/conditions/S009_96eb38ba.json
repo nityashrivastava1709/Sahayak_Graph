@@ -1,0 +1,91 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "SC",
+   "source_sentence": "The applicant should belong to the Scheduled Caste Community."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Puducherry",
+   "source_sentence": "The applicant should be an Indian National and native of the Union Territory of Puducherry by birth or by continuous residence for the past 5 years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must obtain the necessary permit to sink a new/replacement tubewell/filter point from Pondicherry Ground Water Authority, Puducherry",
+   "source_sentence": "The applicant must obtain the necessary permit to sink a new/replacement tubewell/filter point from Pondicherry Ground Water Authority, Puducherry."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "tubewell/Filter point should have been constructed through a departmental power rig/hand bore set or should have been constructed with a No Objection Certificate of the Agriculture Department for engaging private drilling machinery registered with Pondicherry Ground Water Authority under departmental supervision",
+   "source_sentence": "The tubewell/Filter point should have been constructed through a departmental power rig/hand bore set or should have been constructed with a No Objection Certificate of the Agriculture Department for engaging private drilling machinery registered with Pondicherry Ground Water Authority under departmental supervision."
+  },
+  {
+   "or_group": 0,
+   "attribute": "land_holding_acres",
+   "operator": ">=",
+   "value": "1.5",
+   "source_sentence": "The applicant should hold a minimum of 1.5 acres of land under the command area of the tubewell/filter point to be constructed."
+  },
+  {
+   "or_group": 0,
+   "attribute": "owns_land",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The applicant should have ownership of the land for at least 2 years and a clear ownership title deed in his/her name."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must have ownership of the land for at least 2 years and a clear ownership title deed in his/her name",
+   "source_sentence": "The applicant should have ownership of the land for at least 2 years and a clear ownership title deed in his/her name."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "eligible land holding of 1.5 acres should be in favour of the applicant farmer, spouse, or a member of the joint/undivided family",
+   "source_sentence": "The eligible land holding of 1.5 acres should be in favour of the applicant farmer, spouse, or a member of the joint/undivided family."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must not have already availed themselves of the subsidy for the same purpose within 5 years",
+   "source_sentence": "Farmers who have already availed themselves of the subsidy for the same purpose within 5 years are not entitled to any benefit under this scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "casing pipes should have a BIS certificate and should have been purchased from an authorized dealer/M/s.PASIC Ltd",
+   "source_sentence": "The casing pipes should have a BIS certificate and should have been purchased from an authorized dealer/M/s.PASIC Ltd."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "brand of pipes is left to the choice of the applicant but pipes should be BIS certified and should have been purchased either from PASIC or from the list of authorized dealers",
+   "source_sentence": "The brand of pipes is left to the choice of the applicant but pipes should be BIS certified and should have been purchased either from PASIC or from the list of authorized dealers."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must not convert the lands for a minimum period of 10 years from the date of construction to any purpose other than agriculture and execute a bond accordingly",
+   "source_sentence": "The applicant should not convert the lands for a minimum period of 10 years from the date of construction of the tubewell/filter point to any purpose other than agriculture and should execute a bond accordingly."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"SC\",\n    \"source_sentence\": \"The applicant should belong to the Scheduled Caste Community.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Puducherry\",\n    \"source_sentence\": \"The applicant should be an Indian National and native of the Union Territory of Puducherry by birth or by continuous residence for the past 5 years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must obtain the necessary permit to sink a new/replacement tubewell/filter point from Pondicherry Ground Water Authority, Puducherry\",\n    \"source_sentence\": \"The applicant must obtain the necessary permit to sink a new/replacement tubewell/filter point from Pondicherry Ground Water Authority, Puducherry.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"tubewell/Filter point should have been constructed through a departmental power rig/hand bore set or should have been constructed with a No Objection Certificate of the Agriculture Department for engaging private drilling machinery registered with Pondicherry Ground Water Authority under departmental supervision\",\n    \"source_sentence\": \"The tubewell/Filter point should have been constructed through a departmental power rig/hand bore set or should have been constructed with a No Objection Certificate of the Agriculture Department for engaging private drilling machinery registered with Pondicherry Ground Water Authority under departmental supervision.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"land_holding_acres\",\n    \"operator\": \">=\",\n    \"value\": \"1.5\",\n    \"source_sentence\": \"The applicant should hold a minimum of 1.5 acres of land under the command area of the tubewell/filter point to be constructed.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"owns_land\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The applicant should have ownership of the land for at least 2 years and a clear ownership title deed in his/her name.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must have ownership of the land for at least 2 years and a clear ownership title deed in his/her name\",\n    \"source_sentence\": \"The applicant should have ownership of the land for at least 2 years and a clear ownership title deed in his/her name.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"eligible land holding of 1.5 acres should be in favour of the applicant farmer, spouse, or a member of the joint/undivided family\",\n    \"source_sentence\": \"The eligible land holding of 1.5 acres should be in favour of the applicant farmer, spouse, or a member of the joint/undivided family.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must not have already availed themselves of the subsidy for the same purpose within 5 years\",\n    \"source_sentence\": \"Farmers who have already availed themselves of the subsidy for the same purpose within 5 years are not entitled to any benefit under this scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"casing pipes should have a BIS certificate and should have been purchased from an authorized dealer/M/s.PASIC Ltd\",\n    \"source_sentence\": \"The casing pipes should have a BIS certificate and should have been purchased from an authorized dealer/M/s.PASIC Ltd.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"brand of pipes is left to the choice of the applicant but pipes should be BIS certified and should have been purchased either from PASIC or from the list of authorized dealers\",\n    \"source_sentence\": \"The brand of pipes is left to the choice of the applicant but pipes should be BIS certified and should have been purchased either from PASIC or from the list of authorized dealers.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must not convert the lands for a minimum period of 10 years from the date of construction to any purpose other than agriculture and execute a bond accordingly\",\n    \"source_sentence\": \"The applicant should not convert the lands for a minimum period of 10 years from the date of construction of the tubewell/filter point to any purpose other than agriculture and should execute a bond accordingly.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:49:26"
+}

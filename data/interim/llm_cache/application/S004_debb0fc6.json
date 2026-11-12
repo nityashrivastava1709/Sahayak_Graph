@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "both",
+  "steps": [
+   "Visit the official website.",
+   "Click on the apply option for the Abhinandhan Education Loan Subsidy.",
+   "Fill out the Assam Abhinandhan Scheme Online Application Form with required details.",
+   "Upload the required documents.",
+   "Submit the application."
+  ],
+  "department": ""
+ },
+ "raw": "{\n \"mode\": \"both\",\n \"steps\": [\n  \"Visit the official website.\",\n  \"Click on the apply option for the Abhinandhan Education Loan Subsidy.\",\n  \"Fill out the Assam Abhinandhan Scheme Online Application Form with required details.\",\n  \"Upload the required documents.\",\n  \"Submit the application.\"\n ],\n \"department\": \"\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:13"
+}

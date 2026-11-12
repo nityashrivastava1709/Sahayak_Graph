@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "undergraduate",
+   "source_sentence": "Eligibility A student, who is pursuing UG programme in SAUs/DUs/CAU/CUs of NARES in courses duly accredited by the National Agricultural Education Accreditation Board (NAEAB) of ICAR, New Delhi"
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "Eligibility A student, who is pursuing UG programme in SAUs/DUs/CAU/CUs of NARES in courses duly accredited by the National Agricultural Education Accreditation Board (NAEAB) of ICAR, New Delhi"
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must maintain merit and good conduct as certified by the Head of College/University/Institution",
+   "source_sentence": "The student must maintain merit and good conduct as certified by the Head of College/University/Institution."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "should not remain absent during the programme without prior permission of the Competent Authority",
+   "source_sentence": "He/ She should not remain absent during the programme without prior permission of the Competent Authority."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "should not participate in any agitation/ strike and should not take up any job even on part time basis or any other financial assistance for the same activities during the period",
+   "source_sentence": "The candidate should not participate in any agitation/ strike and should not take up any job even on part time basis or any other financial assistance for the same activities during the period."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"=\",\n    \"value\": \"undergraduate\",\n    \"source_sentence\": \"Eligibility A student, who is pursuing UG programme in SAUs/DUs/CAU/CUs of NARES in courses duly accredited by the National Agricultural Education Accreditation Board (NAEAB) of ICAR, New Delhi\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"student\",\n    \"source_sentence\": \"Eligibility A student, who is pursuing UG programme in SAUs/DUs/CAU/CUs of NARES in courses duly accredited by the National Agricultural Education Accreditation Board (NAEAB) of ICAR, New Delhi\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must maintain merit and good conduct as certified by the Head of College/University/Institution\",\n    \"source_sentence\": \"The student must maintain merit and good conduct as certified by the Head of College/University/Institution.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"should not remain absent during the programme without prior permission of the Competent Authority\",\n    \"source_sentence\": \"He/ She should not remain absent during the programme without prior permission of the Competent Authority.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"should not participate in any agitation/ strike and should not take up any job even on part time basis or any other financial assistance for the same activities during the period\",\n    \"source_sentence\": \"The candidate should not participate in any agitation/ strike and should not take up any job even on part time basis or any other financial assistance for the same activities during the period.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:57:58"
+}

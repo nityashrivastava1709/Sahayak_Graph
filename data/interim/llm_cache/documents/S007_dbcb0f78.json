@@ -1,0 +1,31 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhar Card",
+   "conditional": false
+  },
+  {
+   "name": "Ration card",
+   "conditional": false
+  },
+  {
+   "name": "Proof of age",
+   "conditional": false
+  },
+  {
+   "name": "Proof of income",
+   "conditional": false
+  },
+  {
+   "name": "Passport size photograph",
+   "conditional": false
+  },
+  {
+   "name": "Mobile number",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of age\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of income\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Passport size photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Mobile number\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:43:57"
+}

@@ -1,0 +1,19 @@
+{
+ "parsed": [
+  {
+   "name": "Passport-size photograph",
+   "conditional": false
+  },
+  {
+   "name": "Identity Proof",
+   "conditional": false
+  },
+  {
+   "name": "Proof of having sufficient available cultivable land",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Passport-size photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Identity Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of having sufficient available cultivable land\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:54"
+}

@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Student’s Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Parent Identification Documents",
+   "conditional": false
+  },
+  {
+   "name": "Bank loan documents",
+   "conditional": false
+  },
+  {
+   "name": "Residence certificate",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Student’s Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Parent Identification Documents\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank loan documents\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Residence certificate\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:43:54"
+}

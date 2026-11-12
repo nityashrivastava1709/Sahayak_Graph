@@ -1,0 +1,43 @@
+{
+ "parsed": [
+  {
+   "name": "Class XII Mark sheet / Certificate",
+   "conditional": false
+  },
+  {
+   "name": "SC/ST Category Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Bank Passbook / E-Statement",
+   "conditional": false
+  },
+  {
+   "name": "Previous Mark Sheets / Certificates",
+   "conditional": false
+  },
+  {
+   "name": "Declaration of No Other Financial Support",
+   "conditional": false
+  },
+  {
+   "name": "National Food Security Scheme Card",
+   "conditional": true
+  },
+  {
+   "name": "Annual Family Income Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Income Tax Return",
+   "conditional": true
+  },
+  {
+   "name": "Affidavit of Non-Employment",
+   "conditional": true
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Class XII Mark sheet / Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"SC/ST Category Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Bank Passbook / E-Statement\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Previous Mark Sheets / Certificates\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Declaration of No Other Financial Support\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"National Food Security Scheme Card\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Annual Family Income Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Income Tax Return\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Affidavit of Non-Employment\",\n    \"conditional\": true\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:46:14"
+}

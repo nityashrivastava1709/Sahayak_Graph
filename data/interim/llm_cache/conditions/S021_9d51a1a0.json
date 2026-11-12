@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The applicant should be a girl student."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "undergraduate|postgraduate|diploma_or_iti",
+   "source_sentence": "The applicant should be enrolled in UG, PG, Diploma, Certificate or PG Diploma courses under distance education mode."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Rajasthan",
+   "source_sentence": "The applicant should be a native of Rajasthan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in a state-funded university or government institution in Rajasthan, including IGNOU",
+   "source_sentence": "The applicant should be studying in a state-funded university or government institution in Rajasthan, including IGNOU (Indira Gandhi National Open University)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "not availing of other fee reimbursement in State Government Schemes during the same tenure",
+   "source_sentence": "The applicant who is availing of other fee reimbursement in State Government Schemes during the same tenure is not eligible in this scheme."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"gender\", \"operator\": \"=\", \"value\": \"female\", \"source_sentence\": \"The applicant should be a girl student.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"in\", \"value\": \"undergraduate|postgraduate|diploma_or_iti\", \"source_sentence\": \"The applicant should be enrolled in UG, PG, Diploma, Certificate or PG Diploma courses under distance education mode.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Rajasthan\", \"source_sentence\": \"The applicant should be a native of Rajasthan.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"studying in a state-funded university or government institution in Rajasthan, including IGNOU\", \"source_sentence\": \"The applicant should be studying in a state-funded university or government institution in Rajasthan, including IGNOU (Indira Gandhi National Open University).\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"not availing of other fee reimbursement in State Government Schemes during the same tenure\", \"source_sentence\": \"The applicant who is availing of other fee reimbursement in State Government Schemes during the same tenure is not eligible in this scheme.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:52:23"
+}

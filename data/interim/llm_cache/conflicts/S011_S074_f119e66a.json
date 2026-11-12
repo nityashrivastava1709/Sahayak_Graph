@@ -1,0 +1,9 @@
+{
+ "parsed": {
+  "conflict": false,
+  "reason": "Scheme A provides financial assistance for foreign study for research degrees for backward class students with specific age and academic criteria, whereas Scheme B provides school-level scholarships for students in classes 6 to 10 who are residents of Madhya Pradesh, targeting different educational levels and benefit types."
+ },
+ "raw": "{\n  \"conflict\": false,\n  \"reason\": \"Scheme A provides financial assistance for foreign study for research degrees for backward class students with specific age and academic criteria, whereas Scheme B provides school-level scholarships for students in classes 6 to 10 who are residents of Madhya Pradesh, targeting different educational levels and benefit types.\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T11:00:33"
+}

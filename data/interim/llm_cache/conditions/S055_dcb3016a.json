@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "1) Farmers producer companies under the project in the district, registered farmer groups/self-help groups in the project village."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">",
+   "value": "18",
+   "source_sentence": "3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age)."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"1) Farmers producer companies under the project in the district, registered farmer groups/self-help groups in the project village.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \">\",\n    \"value\": \"18\",\n    \"source_sentence\": \"3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age).\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:07"
+}

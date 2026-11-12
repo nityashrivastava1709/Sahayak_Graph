@@ -1,0 +1,14 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Write an application on plain paper",
+   "Attach copies of all mandatory documents",
+   "Submit the application and documents at the nearest office of the Agriculture Development Officer"
+  ],
+  "department": "Department of Agriculture & Farmers’ Welfare, Government of Meghalaya"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Write an application on plain paper\",\n  \"Attach copies of all mandatory documents\",\n  \"Submit the application and documents at the nearest office of the Agriculture Development Officer\"\n ],\n \"department\": \"Department of Agriculture & Farmers’ Welfare, Government of Meghalaya\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:46:21"
+}

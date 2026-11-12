@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "SC",
+   "source_sentence": "The bride's mother must belong to a Scheduled Caste community."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "marriage of up to two daughters in a family",
+   "source_sentence": "Financial help is available for the marriage of up to two daughters in a family."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">=",
+   "value": "18",
+   "source_sentence": "The bride must be at least 18 years old on the date of marriage."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "first marriage of each daughter",
+   "source_sentence": "This assistance is only for the first marriage of each daughter."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "24000",
+   "source_sentence": "Your family's monthly income cannot be more than ₹2,000/-."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Chandigarh",
+   "source_sentence": "Applicant must have lived in Chandigarh for at least 3 years."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"SC\",\n    \"source_sentence\": \"The bride's mother must belong to a Scheduled Caste community.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"marriage of up to two daughters in a family\",\n    \"source_sentence\": \"Financial help is available for the marriage of up to two daughters in a family.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \">=\",\n    \"value\": \"18\",\n    \"source_sentence\": \"The bride must be at least 18 years old on the date of marriage.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"first marriage of each daughter\",\n    \"source_sentence\": \"This assistance is only for the first marriage of each daughter.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"24000\",\n    \"source_sentence\": \"Your family's monthly income cannot be more than ₹2,000/-.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Chandigarh\",\n    \"source_sentence\": \"Applicant must have lived in Chandigarh for at least 3 years.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:53:15"
+}

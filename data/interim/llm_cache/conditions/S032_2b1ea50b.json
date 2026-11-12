@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "Other_Community",
+   "source_sentence": "The applicant should be from Denotified, Nomadic, or Semi-Nomadic Community."
+  },
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The applicant should be a girl."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_11_12",
+   "source_sentence": "The applicant should be enrolled in the 11th Standard."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studying in a recognized institution",
+   "source_sentence": "The applicant should be studying in a recognized institution."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "studied continuously without any academic breaks",
+   "source_sentence": "The applicant should have studied continuously without any academic breaks."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"=\", \"value\": \"Other_Community\", \"source_sentence\": \"The applicant should be from Denotified, Nomadic, or Semi-Nomadic Community.\"},\n  {\"or_group\": 0, \"attribute\": \"gender\", \"operator\": \"=\", \"value\": \"female\", \"source_sentence\": \"The applicant should be a girl.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"=\", \"value\": \"class_11_12\", \"source_sentence\": \"The applicant should be enrolled in the 11th Standard.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"studying in a recognized institution\", \"source_sentence\": \"The applicant should be studying in a recognized institution.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"studied continuously without any academic breaks\", \"source_sentence\": \"The applicant should have studied continuously without any academic breaks.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:11"
+}

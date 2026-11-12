@@ -1,0 +1,47 @@
+{
+ "parsed": [
+  {
+   "name": "Identity Proof",
+   "conditional": false
+  },
+  {
+   "name": "Passport-size photograph",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Age",
+   "conditional": false
+  },
+  {
+   "name": "Caste Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Residence proof",
+   "conditional": false
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Death Certificate of Husband",
+   "conditional": true
+  },
+  {
+   "name": "Proof of divorce",
+   "conditional": true
+  },
+  {
+   "name": "Bank Passbook",
+   "conditional": false
+  },
+  {
+   "name": "Ration Card",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Identity Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Passport-size photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Age\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Caste Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Residence proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Death Certificate of Husband\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Proof of divorce\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Bank Passbook\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration Card\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:48:03"
+}

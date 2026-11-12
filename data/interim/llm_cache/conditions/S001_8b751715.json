@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Puducherry",
+   "source_sentence": "The missing fisherman should have been a resident of the Union territory of Puducherry."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "lost his/her life while fishing",
+   "source_sentence": "The missing fisherman must have lost his/her life while fishing."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "between",
+   "value": "18-60",
+   "source_sentence": "The missing fisherman must have been in the age group of 18-60 years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must not have been a beneficiary of the old age pension scheme",
+   "source_sentence": "The missing fisherman must not have been a beneficiary of the old age pension scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "enrolled as a member of the Fishermen/Fisherwomen Co-operative Society",
+   "source_sentence": "The missing fisherman should have enrolled as a member of the Fishermen/Fisherwomen Co-operative Society."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Puducherry\",\n    \"source_sentence\": \"The missing fisherman should have been a resident of the Union territory of Puducherry.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"lost his/her life while fishing\",\n    \"source_sentence\": \"The missing fisherman must have lost his/her life while fishing.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"between\",\n    \"value\": \"18-60\",\n    \"source_sentence\": \"The missing fisherman must have been in the age group of 18-60 years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must not have been a beneficiary of the old age pension scheme\",\n    \"source_sentence\": \"The missing fisherman must not have been a beneficiary of the old age pension scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"enrolled as a member of the Fishermen/Fisherwomen Co-operative Society\",\n    \"source_sentence\": \"The missing fisherman should have enrolled as a member of the Fishermen/Fisherwomen Co-operative Society.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:48:34"
+}

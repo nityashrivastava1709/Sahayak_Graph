@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit the official website.",
+   "Select the Login option or Register Option.",
+   "Log in with your Jan-Aadhaar ID on the Rajasthan SSO portal.",
+   "Fill out the application form.",
+   "Attach the required documents.",
+   "Submit the application."
+  ],
+  "department": ""
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit the official website.\",\n  \"Select the Login option or Register Option.\",\n  \"Log in with your Jan-Aadhaar ID on the Rajasthan SSO portal.\",\n  \"Fill out the application form.\",\n  \"Attach the required documents.\",\n  \"Submit the application.\"\n ],\n \"department\": \"\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:59"
+}

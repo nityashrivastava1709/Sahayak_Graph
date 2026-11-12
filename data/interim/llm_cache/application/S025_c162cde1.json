@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "both",
+  "steps": [
+   "Download the application form from the website or collect it from the District Social Welfare Offices or Office of CDPOs.",
+   "Fill in the mandatory fields of the application form.",
+   "Attach the supporting self-attested documents and a passport-sized photograph.",
+   "Submit the form to the Office of the District Social Welfare Officer concerned."
+  ],
+  "department": "Department of Social Welfare, Govt. of Manipur"
+ },
+ "raw": "{\n  \"mode\": \"both\",\n  \"steps\": [\n    \"Download the application form from the website or collect it from the District Social Welfare Offices or Office of CDPOs.\",\n    \"Fill in the mandatory fields of the application form.\",\n    \"Attach the supporting self-attested documents and a passport-sized photograph.\",\n    \"Submit the form to the Office of the District Social Welfare Officer concerned.\"\n  ],\n  \"department\": \"Department of Social Welfare, Govt. of Manipur\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:14"
+}

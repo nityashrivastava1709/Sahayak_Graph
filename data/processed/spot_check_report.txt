@@ -1,0 +1,17 @@
+Schemes checked: 18
+Rules judged   : 120
+  correct         : 89
+  wrong_value     : 0
+  wrong_attribute : 0
+  missing         : 29
+  hallucinated    : 2
+Error rate     : 25.8%  (limit 15%)
+Verdict        : TOO HIGH - improve the Step C prompt and re-run Step C
+
+Schemes with the most errors:
+scheme_id                                       scheme_name  errors
+     S056                             National Water Awards      11
+     S045                                Ladli Laxmi Yojana       8
+     S087                         WISE Fellowship for Ph.D.       6
+     S011 Backward Classes Foreign Study Scholarship Scheme       3
+     S036       Indira Mahila Shakti Udyam Protsahan Yojana       1

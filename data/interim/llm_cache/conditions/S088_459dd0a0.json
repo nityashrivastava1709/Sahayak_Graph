@@ -1,0 +1,84 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Punjab",
+   "source_sentence": "Beneficiary should be a Permanent Resident of Punjab ."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "60000",
+   "source_sentence": "The Annual Income of Beneficiary should not be more than Rs. 60,000/-per year ."
+  },
+  {
+   "or_group": 1,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "widowed",
+   "source_sentence": "The below mentioned women are eligible for monthly pension :- Widow Women."
+  },
+  {
+   "or_group": 1,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Destitute Women",
+   "source_sentence": "Destitute Women."
+  },
+  {
+   "or_group": 1,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "unmarried",
+   "source_sentence": "Unmarried Women."
+  },
+  {
+   "or_group": 2,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "widowed",
+   "source_sentence": "The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years."
+  },
+  {
+   "or_group": 2,
+   "attribute": "age",
+   "operator": "<",
+   "value": "58",
+   "source_sentence": "The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years."
+  },
+  {
+   "or_group": 3,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Destitute Women",
+   "source_sentence": "The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years."
+  },
+  {
+   "or_group": 3,
+   "attribute": "age",
+   "operator": "<",
+   "value": "58",
+   "source_sentence": "The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years."
+  },
+  {
+   "or_group": 4,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "unmarried",
+   "source_sentence": "Unmarried Women: Above 30 Years."
+  },
+  {
+   "or_group": 4,
+   "attribute": "age",
+   "operator": ">",
+   "value": "30",
+   "source_sentence": "Unmarried Women: Above 30 Years."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Punjab\", \"source_sentence\": \"Beneficiary should be a Permanent Resident of Punjab .\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"60000\", \"source_sentence\": \"The Annual Income of Beneficiary should not be more than Rs. 60,000/-per year .\"},\n  {\"or_group\": 1, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"widowed\", \"source_sentence\": \"The below mentioned women are eligible for monthly pension :- Widow Women.\"},\n  {\"or_group\": 1, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Destitute Women\", \"source_sentence\": \"Destitute Women.\"},\n  {\"or_group\": 1, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"unmarried\", \"source_sentence\": \"Unmarried Women.\"},\n  {\"or_group\": 2, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"widowed\", \"source_sentence\": \"The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years.\"},\n  {\"or_group\": 2, \"attribute\": \"age\", \"operator\": \"<\", \"value\": \"58\", \"source_sentence\": \"The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years.\"},\n  {\"or_group\": 3, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Destitute Women\", \"source_sentence\": \"The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years.\"},\n  {\"or_group\": 3, \"attribute\": \"age\", \"operator\": \"<\", \"value\": \"58\", \"source_sentence\": \"The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years.\"},\n  {\"or_group\": 4, \"attribute\": \"marital_status\", \"operator\": \"=\", \"value\": \"unmarried\", \"source_sentence\": \"Unmarried Women: Above 30 Years.\"},\n  {\"or_group\": 4, \"attribute\": \"age\", \"operator\": \">\", \"value\": \"30\", \"source_sentence\": \"Unmarried Women: Above 30 Years.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T16:02:09"
+}

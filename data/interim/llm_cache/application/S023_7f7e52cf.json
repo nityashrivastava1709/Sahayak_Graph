@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "both",
+  "steps": [
+   "Visit the nearest Anganwadi, Child Development Project Office, or social justice office in Kerala state.",
+   "Collect the application form from the Child Development Project Officer through Anganwadi Workers or download it from the official website.",
+   "Fill out the application form and attach the prescribed documents.",
+   "Forward the duly filled application form to the concerned District Social Justice Office in Kerala."
+  ],
+  "department": "Social Justice Department, Government of Kerala"
+ },
+ "raw": "{\n \"mode\": \"both\",\n \"steps\": [\n  \"Visit the nearest Anganwadi, Child Development Project Office, or social justice office in Kerala state.\",\n  \"Collect the application form from the Child Development Project Officer through Anganwadi Workers or download it from the official website.\",\n  \"Fill out the application form and attach the prescribed documents.\",\n  \"Forward the duly filled application form to the concerned District Social Justice Office in Kerala.\"\n ],\n \"department\": \"Social Justice Department, Government of Kerala\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:43:11"
+}

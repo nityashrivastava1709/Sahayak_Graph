@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Haryana",
+   "source_sentence": "The applicant should be a permanent resident of Haryana."
+  },
+  {
+   "or_group": 1,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "widowed",
+   "source_sentence": "The applicant should be a widow, destitute woman, or girl."
+  },
+  {
+   "or_group": 1,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "destitute woman or girl",
+   "source_sentence": "The applicant should be a widow, destitute woman, or girl."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "between",
+   "value": "14 and 45",
+   "source_sentence": "The applicant's age should be between 14 and 45 years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "in",
+   "value": "SC|Backward_Class",
+   "source_sentence": "The applicant should belong to the Scheduled Caste or Backward Class category."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<",
+   "value": "250000",
+   "source_sentence": "The applicant's annual family income should be less than ₹2.5 lakhs."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Haryana\",\n    \"source_sentence\": \"The applicant should be a permanent resident of Haryana.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"marital_status\",\n    \"operator\": \"=\",\n    \"value\": \"widowed\",\n    \"source_sentence\": \"The applicant should be a widow, destitute woman, or girl.\"\n  },\n  {\n    \"or_group\": 1,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"destitute woman or girl\",\n    \"source_sentence\": \"The applicant should be a widow, destitute woman, or girl.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"between\",\n    \"value\": \"14 and 45\",\n    \"source_sentence\": \"The applicant's age should be between 14 and 45 years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"in\",\n    \"value\": \"SC|Backward_Class\",\n    \"source_sentence\": \"The applicant should belong to the Scheduled Caste or Backward Class category.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<\",\n    \"value\": \"250000\",\n    \"source_sentence\": \"The applicant's annual family income should be less than ₹2.5 lakhs.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:58:14"
+}

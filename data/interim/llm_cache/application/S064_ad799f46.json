@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "both",
+  "steps": [
+   "Obtain the application form from the office or print the prescribed format.",
+   "Fill in all mandatory fields, attach a passport-sized photograph, and required documents.",
+   "Submit the filled application form along with documents to the designated authority.",
+   "Request a receipt or acknowledgment containing submission details from the authority."
+  ],
+  "department": "Department of Women & Child Development, Government of Pondicherry"
+ },
+ "raw": "{\n  \"mode\": \"both\",\n  \"steps\": [\n    \"Obtain the application form from the office or print the prescribed format.\",\n    \"Fill in all mandatory fields, attach a passport-sized photograph, and required documents.\",\n    \"Submit the filled application form along with documents to the designated authority.\",\n    \"Request a receipt or acknowledgment containing submission details from the authority.\"\n  ],\n  \"department\": \"Department of Women & Child Development, Government of Pondicherry\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:28"
+}

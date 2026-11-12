@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Obtain a Land Holding certificate from the concerned CO/EAC/BDO/SDO/ADC/DC office.",
+   "Fill out the application form with accurate and complete details.",
+   "Attach the necessary documents as specified by the bank.",
+   "Submit the completed application form and supporting documents to the bank."
+  ],
+  "department": "Government of Arunachal Pradesh"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Obtain a Land Holding certificate from the concerned CO/EAC/BDO/SDO/ADC/DC office.\",\n  \"Fill out the application form with accurate and complete details.\",\n  \"Attach the necessary documents as specified by the bank.\",\n  \"Submit the completed application form and supporting documents to the bank.\"\n ],\n \"department\": \"Government of Arunachal Pradesh\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:57"
+}

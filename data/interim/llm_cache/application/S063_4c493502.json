@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Collect the application form by visiting the Primary Cooperative Agriculture and Rural Development Bank.",
+   "Fill in all mandatory fields, attach a passport-sized photograph, and attach copies of mandatory documents.",
+   "Submit the duly filled and signed application form along with the documents to the concerned authority.",
+   "Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted."
+  ],
+  "department": "Co-operation, Food and Consumer Protection Department, Tamil Nadu"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Collect the application form by visiting the Primary Cooperative Agriculture and Rural Development Bank.\",\n    \"Fill in all mandatory fields, attach a passport-sized photograph, and attach copies of mandatory documents.\",\n    \"Submit the duly filled and signed application form along with the documents to the concerned authority.\",\n    \"Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted.\"\n  ],\n  \"department\": \"Co-operation, Food and Consumer Protection Department, Tamil Nadu\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:27"
+}

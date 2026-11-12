@@ -1,0 +1,51 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Mobile number",
+   "conditional": false
+  },
+  {
+   "name": "Email id",
+   "conditional": false
+  },
+  {
+   "name": "Passport size photo",
+   "conditional": false
+  },
+  {
+   "name": "BPL Ration Card",
+   "conditional": false
+  },
+  {
+   "name": "Disability ID card",
+   "conditional": false
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Medical board certificate",
+   "conditional": false
+  },
+  {
+   "name": "Bank Pass Book",
+   "conditional": false
+  },
+  {
+   "name": "Certificate from Head of School/College",
+   "conditional": false
+  },
+  {
+   "name": "Other documents",
+   "conditional": true
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Mobile number\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Email id\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Passport size photo\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"BPL Ration Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Disability ID card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Medical board certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Pass Book\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Certificate from Head of School/College\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Other documents\",\n    \"conditional\": true\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:49:15"
+}

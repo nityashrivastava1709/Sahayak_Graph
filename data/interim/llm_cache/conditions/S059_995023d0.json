@@ -1,0 +1,28 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "The beneficiary should be a Farmer."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Tamil Nadu",
+   "source_sentence": "The beneficiary should be a resident of Tamil Nadu."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "produce and supply Foundation and Certified Class seeds to the Department",
+   "source_sentence": "The beneficiary should produce and supply Foundation and Certified Class seeds to the Department."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"The beneficiary should be a Farmer.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Tamil Nadu\",\n    \"source_sentence\": \"The beneficiary should be a resident of Tamil Nadu.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"produce and supply Foundation and Certified Class seeds to the Department\",\n    \"source_sentence\": \"The beneficiary should produce and supply Foundation and Certified Class seeds to the Department.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:56:30"
+}

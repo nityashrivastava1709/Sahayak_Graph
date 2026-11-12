@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Application and Self Declaration",
+   "conditional": false
+  },
+  {
+   "name": "Proof of photo identity",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Land Ownership",
+   "conditional": false
+  },
+  {
+   "name": "Bank Account details",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Application and Self Declaration\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of photo identity\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Land Ownership\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Account details\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:45:00"
+}

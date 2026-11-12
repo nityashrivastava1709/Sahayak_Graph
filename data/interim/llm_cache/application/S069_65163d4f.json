@@ -1,0 +1,14 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Visit the Deputy Director's office in your district and collect the application form",
+   "Fill out the application form and attach all the relevant documents",
+   "Submit the completely filled application form and attached documents to the concerned official in the office"
+  ],
+  "department": "Department of Animal Husbandry & Dairying, Government of Haryana"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Visit the Deputy Director's office in your district and collect the application form\",\n  \"Fill out the application form and attach all the relevant documents\",\n  \"Submit the completely filled application form and attached documents to the concerned official in the office\"\n ],\n \"department\": \"Department of Animal Husbandry & Dairying, Government of Haryana\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:59"
+}

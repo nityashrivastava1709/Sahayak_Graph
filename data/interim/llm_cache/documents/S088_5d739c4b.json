@@ -1,0 +1,31 @@
+{
+ "parsed": [
+  {
+   "name": "Divorce Deed",
+   "conditional": true
+  },
+  {
+   "name": "Date of Birth Proof",
+   "conditional": false
+  },
+  {
+   "name": "Bank Passbook",
+   "conditional": false
+  },
+  {
+   "name": "Disability Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Self Declaration",
+   "conditional": false
+  },
+  {
+   "name": "Death Certificate of Husband",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Divorce Deed\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Date of Birth Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Passbook\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Disability Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Self Declaration\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Death Certificate of Husband\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:49:19"
+}

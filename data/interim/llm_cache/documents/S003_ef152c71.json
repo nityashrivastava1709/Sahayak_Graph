@@ -1,0 +1,39 @@
+{
+ "parsed": [
+  {
+   "name": "Passport-size photograph",
+   "conditional": false
+  },
+  {
+   "name": "Society Registration Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Resolution Copy of General Body meeting",
+   "conditional": false
+  },
+  {
+   "name": "Audited Balance Sheet and Profit Loss Account",
+   "conditional": false
+  },
+  {
+   "name": "Receipt of payment of lease value",
+   "conditional": true
+  },
+  {
+   "name": "Joint Passbook Bank Account",
+   "conditional": false
+  },
+  {
+   "name": "Joint savings account with DFO",
+   "conditional": false
+  },
+  {
+   "name": "Aadhar copy",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Passport-size photograph\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Society Registration Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Resolution Copy of General Body meeting\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Audited Balance Sheet and Profit Loss Account\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Receipt of payment of lease value\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Joint Passbook Bank Account\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Joint savings account with DFO\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhar copy\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:43:53"
+}

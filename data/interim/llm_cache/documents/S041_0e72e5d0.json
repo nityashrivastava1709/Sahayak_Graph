@@ -1,0 +1,71 @@
+{
+ "parsed": [
+  {
+   "name": "Passport-sized Photograph",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Residence Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Declaration/Undertaking",
+   "conditional": true
+  },
+  {
+   "name": "Medical Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar Enrolment ID",
+   "conditional": false
+  },
+  {
+   "name": "Bank or Post Office Passbook with Photo",
+   "conditional": false
+  },
+  {
+   "name": "PAN Card",
+   "conditional": false
+  },
+  {
+   "name": "Passport",
+   "conditional": false
+  },
+  {
+   "name": "Ration Card",
+   "conditional": false
+  },
+  {
+   "name": "Voter Identity Card",
+   "conditional": false
+  },
+  {
+   "name": "MGNREGA Card",
+   "conditional": false
+  },
+  {
+   "name": "Kisan Photo Passbook",
+   "conditional": false
+  },
+  {
+   "name": "Driving License",
+   "conditional": false
+  },
+  {
+   "name": "Certificate of Identity",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\"name\": \"Passport-sized Photograph\", \"conditional\": false},\n  {\"name\": \"Aadhaar Card\", \"conditional\": false},\n  {\"name\": \"Residence Certificate\", \"conditional\": false},\n  {\"name\": \"Income Certificate\", \"conditional\": false},\n  {\"name\": \"Declaration/Undertaking\", \"conditional\": true},\n  {\"name\": \"Medical Certificate\", \"conditional\": false},\n  {\"name\": \"Aadhaar Enrolment ID\", \"conditional\": false},\n  {\"name\": \"Bank or Post Office Passbook with Photo\", \"conditional\": false},\n  {\"name\": \"PAN Card\", \"conditional\": false},\n  {\"name\": \"Passport\", \"conditional\": false},\n  {\"name\": \"Ration Card\", \"conditional\": false},\n  {\"name\": \"Voter Identity Card\", \"conditional\": false},\n  {\"name\": \"MGNREGA Card\", \"conditional\": false},\n  {\"name\": \"Kisan Photo Passbook\", \"conditional\": false},\n  {\"name\": \"Driving License\", \"conditional\": false},\n  {\"name\": \"Certificate of Identity\", \"conditional\": false}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:46:05"
+}

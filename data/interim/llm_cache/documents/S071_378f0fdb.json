@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "name": "Passport-size Photo",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar card",
+   "conditional": false
+  },
+  {
+   "name": "Domicile certificate",
+   "conditional": false
+  },
+  {
+   "name": "Death/disabled/Retired certificate",
+   "conditional": false
+  },
+  {
+   "name": "Previous year passing certificate",
+   "conditional": false
+  },
+  {
+   "name": "Samagra ID",
+   "conditional": false
+  },
+  {
+   "name": "Bank Passbook",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Passport-size Photo\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhaar card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Domicile certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Death/disabled/Retired certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Previous year passing certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Samagra ID\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Passbook\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:54"
+}

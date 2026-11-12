@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The applicant should be a girl student."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_11_12",
+   "source_sentence": "The girl student should be a native of Madhya Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Madhya Pradesh",
+   "source_sentence": "The girl student should be a native of Madhya Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "SC",
+   "source_sentence": "The girl student should belong to the Scheduled Caste category."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_9_10",
+   "source_sentence": "All Scheduled Caste girl students who have passed Class 10 and are entering Class 11 are eligible for the scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "parents or guardians of the applicant should not be income taxpayers",
+   "source_sentence": "The parents or guardians of the applicant should not be income taxpayers."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "pursuing her education continuously",
+   "source_sentence": "The girl student should be pursuing her education continuously."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "enrolled in a government or recognized government school/institution and attend regularly",
+   "source_sentence": "The girl student should be enrolled in a government or recognized government school/institution and attend regularly."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"gender\", \"operator\": \"=\", \"value\": \"female\", \"source_sentence\": \"The applicant should be a girl student.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"=\", \"value\": \"class_11_12\", \"source_sentence\": \"The girl student should be a native of Madhya Pradesh.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Madhya Pradesh\", \"source_sentence\": \"The girl student should be a native of Madhya Pradesh.\"},\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"=\", \"value\": \"SC\", \"source_sentence\": \"The girl student should belong to the Scheduled Caste category.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"=\", \"value\": \"class_9_10\", \"source_sentence\": \"All Scheduled Caste girl students who have passed Class 10 and are entering Class 11 are eligible for the scheme.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"parents or guardians of the applicant should not be income taxpayers\", \"source_sentence\": \"The parents or guardians of the applicant should not be income taxpayers.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"pursuing her education continuously\", \"source_sentence\": \"The girl student should be pursuing her education continuously.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"enrolled in a government or recognized government school/institution and attend regularly\", \"source_sentence\": \"The girl student should be enrolled in a government or recognized government school/institution and attend regularly.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:52"
+}

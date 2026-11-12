@@ -1,0 +1,13 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Wait for the notification issued by the Assistant Director in a daily newspaper or electronic media.",
+   "Submit the application to the concerned Assistant Director."
+  ],
+  "department": "Industries and Commerce Dept., Govt. of Jammu and Kashmir"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Wait for the notification issued by the Assistant Director in a daily newspaper or electronic media.\",\n    \"Submit the application to the concerned Assistant Director.\"\n  ],\n  \"department\": \"Industries and Commerce Dept., Govt. of Jammu and Kashmir\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:32"
+}

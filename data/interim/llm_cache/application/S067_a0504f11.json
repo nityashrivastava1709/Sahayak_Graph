@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "both",
+  "steps": [
+   "Download the prescribed format from the KSCSTE website.",
+   "Fill out the application format for the scheme.",
+   "Forward the application through the Head of the Institution.",
+   "Submit the application to the Director of KSCSTE by post."
+  ],
+  "department": "Kerala State Council for Science, Technology and Environment (KSCSTE)"
+ },
+ "raw": "{\n \"mode\": \"both\",\n \"steps\": [\n  \"Download the prescribed format from the KSCSTE website.\",\n  \"Fill out the application format for the scheme.\",\n  \"Forward the application through the Head of the Institution.\",\n  \"Submit the application to the Director of KSCSTE by post.\"\n ],\n \"department\": \"Kerala State Council for Science, Technology and Environment (KSCSTE)\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:54"
+}

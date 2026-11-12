@@ -1,0 +1,55 @@
+{
+ "parsed": [
+  {
+   "name": "Nationality, Nativity, and Caste certificate",
+   "conditional": false
+  },
+  {
+   "name": "Land ownership certificate",
+   "conditional": false
+  },
+  {
+   "name": "Permit",
+   "conditional": false
+  },
+  {
+   "name": "Registration Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Energization letter",
+   "conditional": true
+  },
+  {
+   "name": "NOC",
+   "conditional": true
+  },
+  {
+   "name": "License for private machinery",
+   "conditional": true
+  },
+  {
+   "name": "Original bills",
+   "conditional": false
+  },
+  {
+   "name": "Bank loan bills and certificate",
+   "conditional": true
+  },
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Farmers Identity Card",
+   "conditional": false
+  },
+  {
+   "name": "Bank Passbook",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Nationality, Nativity, and Caste certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Land ownership certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Permit\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Registration Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Energization letter\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"NOC\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"License for private machinery\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Original bills\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank loan bills and certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Farmers Identity Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Passbook\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:44:00"
+}

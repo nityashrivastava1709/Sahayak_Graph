@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Go to your nearest Anganwadi centre",
+   "Ask for Arogya Lakshmi application form",
+   "Fill all the required information in this application form",
+   "Attach all the required documents to the application form",
+   "Submit this form in the Anganwadi centre"
+  ],
+  "department": "Women Development and Child Welfare Department of Telangana"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Go to your nearest Anganwadi centre\",\n    \"Ask for Arogya Lakshmi application form\",\n    \"Fill all the required information in this application form\",\n    \"Attach all the required documents to the application form\",\n    \"Submit this form in the Anganwadi centre\"\n  ],\n  \"department\": \"Women Development and Child Welfare Department of Telangana\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:42:26"
+}

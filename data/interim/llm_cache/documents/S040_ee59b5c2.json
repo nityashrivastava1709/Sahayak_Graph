@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "name": "Caste Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Academic Records",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Bank Account Details",
+   "conditional": false
+  },
+  {
+   "name": "Residential Proof",
+   "conditional": false
+  },
+  {
+   "name": "Domicile Certificate",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Caste Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Academic Records\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Account Details\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Residential Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Domicile Certificate\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:46:03"
+}

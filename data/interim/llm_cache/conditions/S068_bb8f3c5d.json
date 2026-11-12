@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "ST",
+   "source_sentence": "The student should belong to the Scheduled Tribe category."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "class_6_8",
+   "source_sentence": "The student who is studying as a regular student in classes 6 to 8 in schools run by the Central Government, State Government, Municipalities and schools recognized by the Department of Education."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "parents/guardians are not income taxpayers when they are not alive",
+   "source_sentence": "Students whose parents/guardians are not income taxpayers when they are not alive."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "not getting any other type of scholarship or allowance for study from central, state / public sources",
+   "source_sentence": "The student who is not getting any other type of scholarship or allowance for study from central, state / public sources."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "has not failed in the lower class in the last session",
+   "source_sentence": "The student who has not failed in the lower class in the last session."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"=\", \"value\": \"ST\", \"source_sentence\": \"The student should belong to the Scheduled Tribe category.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"=\", \"value\": \"class_6_8\", \"source_sentence\": \"The student who is studying as a regular student in classes 6 to 8 in schools run by the Central Government, State Government, Municipalities and schools recognized by the Department of Education.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"parents/guardians are not income taxpayers when they are not alive\", \"source_sentence\": \"Students whose parents/guardians are not income taxpayers when they are not alive.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"not getting any other type of scholarship or allowance for study from central, state / public sources\", \"source_sentence\": \"The student who is not getting any other type of scholarship or allowance for study from central, state / public sources.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"has not failed in the lower class in the last session\", \"source_sentence\": \"The student who has not failed in the lower class in the last session.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:57:13"
+}

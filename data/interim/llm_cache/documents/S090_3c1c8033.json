@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Recommendation from Gram Panchayat",
+   "conditional": false
+  },
+  {
+   "name": "Copy of Parivar Register",
+   "conditional": false
+  },
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Bank Account",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Recommendation from Gram Panchayat\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Copy of Parivar Register\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Account\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:49:21"
+}

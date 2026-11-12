@@ -1,0 +1,56 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "The applicant should be a student."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Madhya Pradesh",
+   "source_sentence": "The student should be a permanent resident of Madhya Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "in",
+   "value": "Backward_Class|Minority",
+   "source_sentence": "The student should belong to the Backward Classes or Minorities community."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "class_6_8|class_9_10",
+   "source_sentence": "Students from Class 6 to 10 are eligible for the benefits under this scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "parents or guardians should not be income taxpayers",
+   "source_sentence": "The parents or guardians should not be income taxpayers or own more than 10 acres of land."
+  },
+  {
+   "or_group": 0,
+   "attribute": "land_holding_acres",
+   "operator": "<=",
+   "value": "10",
+   "source_sentence": "The parents or guardians should not be income taxpayers or own more than 10 acres of land."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "There should not have been any increase in the income of the parents or guardians in the past year",
+   "source_sentence": "Note: There should not have been any increase in the income of the parents or guardians in the past year."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"student\",\n    \"source_sentence\": \"The applicant should be a student.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Madhya Pradesh\",\n    \"source_sentence\": \"The student should be a permanent resident of Madhya Pradesh.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"in\",\n    \"value\": \"Backward_Class|Minority\",\n    \"source_sentence\": \"The student should belong to the Backward Classes or Minorities community.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"in\",\n    \"value\": \"class_6_8|class_9_10\",\n    \"source_sentence\": \"Students from Class 6 to 10 are eligible for the benefits under this scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"parents or guardians should not be income taxpayers\",\n    \"source_sentence\": \"The parents or guardians should not be income taxpayers or own more than 10 acres of land.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"land_holding_acres\",\n    \"operator\": \"<=\",\n    \"value\": \"10\",\n    \"source_sentence\": \"The parents or guardians should not be income taxpayers or own more than 10 acres of land.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"There should not have been any increase in the income of the parents or guardians in the past year\",\n    \"source_sentence\": \"Note: There should not have been any increase in the income of the parents or guardians in the past year.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:57:41"
+}

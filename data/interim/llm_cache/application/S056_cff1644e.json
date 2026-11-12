@@ -1,0 +1,17 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit the official website and click on the Registration button.",
+   "Choose the type Individual or Organization and provide the required details.",
+   "Click submit to complete registration.",
+   "Log in to the portal using your credentials.",
+   "Select the scheme name and click Nominate or Apply Now.",
+   "Fill in the mandatory fields in the online application form and click Submit."
+  ],
+  "department": "Department of Water Resources, River Developmen,t and Ganga Rejuvenation"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit the official website and click on the Registration button.\",\n  \"Choose the type Individual or Organization and provide the required details.\",\n  \"Click submit to complete registration.\",\n  \"Log in to the portal using your credentials.\",\n  \"Select the scheme name and click Nominate or Apply Now.\",\n  \"Fill in the mandatory fields in the online application form and click Submit.\"\n ],\n \"department\": \"Department of Water Resources, River Developmen,t and Ganga Rejuvenation\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:13"
+}

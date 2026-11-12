@@ -1,0 +1,27 @@
+{
+ "parsed": [
+  {
+   "name": "Address Proof",
+   "conditional": false
+  },
+  {
+   "name": "Last Year's Mark Sheet",
+   "conditional": false
+  },
+  {
+   "name": "Bank Account",
+   "conditional": false
+  },
+  {
+   "name": "Passport Size Photo",
+   "conditional": false
+  },
+  {
+   "name": "Mobile Number",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Address Proof\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Last Year's Mark Sheet\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Account\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Passport Size Photo\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Mobile Number\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:44:08"
+}

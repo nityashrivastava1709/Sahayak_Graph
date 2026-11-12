@@ -1,0 +1,56 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "Eligible Beneficiary/Group Farmers cultivating short-term crops in Arunachal Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Arunachal Pradesh",
+   "source_sentence": "Eligible Beneficiary/Group Farmers cultivating short-term crops in Arunachal Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Farmers who hold Kisan Credit Cards or avail themselves of crop production loans from commercial banks, APRB, and APSCAB Ltd are eligible for the scheme.",
+   "source_sentence": "Farmers who hold Kisan Credit Cards or avail themselves of crop production loans from commercial banks, APRB, and APSCAB Ltd are eligible for the scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "The farmers should have a good repayment track record and promptly repay their short-term production credit (crop loan) within one year.",
+   "source_sentence": "The farmers should have a good repayment track record and promptly repay their short-term production credit (crop loan) within one year."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "300000",
+   "source_sentence": "The scheme is available for crop loans or Kisan Credit Card limits up to Rs. 3.00 lakhs."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "The farmers must fulfill the eligibility criteria and documentation requirements set by the banks.",
+   "source_sentence": "The farmers must fulfill the eligibility criteria and documentation requirements set by the banks."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Arunachal Pradesh",
+   "source_sentence": "The scheme is open to both small and marginal farmers as well as large farmers in the state."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"farmer\", \"source_sentence\": \"Eligible Beneficiary/Group Farmers cultivating short-term crops in Arunachal Pradesh.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Arunachal Pradesh\", \"source_sentence\": \"Eligible Beneficiary/Group Farmers cultivating short-term crops in Arunachal Pradesh.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Farmers who hold Kisan Credit Cards or avail themselves of crop production loans from commercial banks, APRB, and APSCAB Ltd are eligible for the scheme.\", \"source_sentence\": \"Farmers who hold Kisan Credit Cards or avail themselves of crop production loans from commercial banks, APRB, and APSCAB Ltd are eligible for the scheme.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"The farmers should have a good repayment track record and promptly repay their short-term production credit (crop loan) within one year.\", \"source_sentence\": \"The farmers should have a good repayment track record and promptly repay their short-term production credit (crop loan) within one year.\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"300000\", \"source_sentence\": \"The scheme is available for crop loans or Kisan Credit Card limits up to Rs. 3.00 lakhs.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"The farmers must fulfill the eligibility criteria and documentation requirements set by the banks.\", \"source_sentence\": \"The farmers must fulfill the eligibility criteria and documentation requirements set by the banks.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Arunachal Pradesh\", \"source_sentence\": \"The scheme is open to both small and marginal farmers as well as large farmers in the state.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:51:43"
+}

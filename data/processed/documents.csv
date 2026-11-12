@@ -1,0 +1,534 @@
+﻿scheme_id,document_name,raw_name,is_conditional
+S001,Passport-size Photograph,Photograph of the Family,False
+S001,Domicile/Residence Certificate,Residential Certificate,False
+S001,Birth Certificate / Age Proof,Proof of Age,False
+S001,Self Declaration / Affidavit,Declaration Regarding Old Age Pension Scheme,False
+S001,Registration / Membership Certificate,Membership Certificate,False
+S001,Identity Proof,Electoral Identity Card,False
+S001,Ration Card / BPL Card,Ration Card,False
+S001,Panchayat Statement / Letter,Panchayathar’s Letter,False
+S001,No Claim Certificate,No Claim Certificate,False
+S001,Police Report / FIR,FIR and Non-traceable Certificate,False
+S001,Next of Kin Statement,Statement of Next Kin,False
+S001,Witness Statement,Statement of Persons Who Have Lastly Seen the Missing Person,False
+S001,Missing Person Newspaper Report,Newspaper Report of the Missing Person,False
+S002,Identity Proof,Farmer Identity Card,False
+S002,Land Ownership Documents,Land Document,True
+S002,Consent / No Objection Document,Letter of Consent,True
+S002,Cultivation Certificate,Cultivation Certificate,True
+S003,Passport-size Photograph,Passport-size photograph,False
+S003,Registration / Membership Certificate,Society Registration Certificate,False
+S003,General Body Resolution,Resolution Copy of General Body meeting,False
+S003,Audit / Financial Statements,Audited Balance Sheet and Profit Loss Account,False
+S003,Fee Receipt,Receipt of payment of lease value,True
+S003,Bank Account Details,Joint Passbook Bank Account,False
+S003,Joint Savings Account With Dfo,Joint savings account with DFO,False
+S003,Aadhaar Card,Aadhar copy,False
+S004,Aadhaar Card,Student’s Aadhaar Card,False
+S004,Parent Identity Proof,Parent Identification Documents,False
+S004,Bank Account Details,Bank loan documents,False
+S004,Domicile/Residence Certificate,Residence certificate,False
+S005,Identity Proof,Proof of Identity,False
+S005,Proof of Admission / Bonafide Certificate,Proof of enrollment,False
+S006,Passport-size Photograph,Passport-size photograph,False
+S006,Identity Proof,Identity Proof,False
+S006,Bank Account Details,Bank account details,False
+S006,Proof of Farmer Status,Documents proof of being a farmer,False
+S007,Aadhaar Card,Aadhar Card,False
+S007,Ration Card / BPL Card,Ration card,False
+S007,Birth Certificate / Age Proof,Proof of age,False
+S007,Income Certificate,Proof of income,False
+S007,Passport-size Photograph,Passport size photograph,False
+S008,Ex-serviceman Service Record,Ex-Serviceman Discharge Book / Service Particulars,False
+S008,Identity Proof,Ex-Serviceman Widow Identity Card,False
+S008,Aadhaar Card,Aadhaar Card,False
+S008,Domicile/Residence Certificate,Proof of Residence,False
+S008,Birth Certificate / Age Proof,Marriage Certificate,False
+S008,Pension Payment Order,Pension Payment Order,False
+S008,Daughter's Name in Official Records,Proof of Daughter's Name in Official Records,False
+S008,Fee Receipt,Undertaking for Non-Receipt of Similar Assistance,False
+S008,Death Certificate,Death Certificate,False
+S008,Marriage Certificate,Marriage Invitation Card,False
+S008,Bank Account Details,Bank Account Details,False
+S008,Passport-size Photograph,Recent Passport-Sized Photographs,False
+S009,Caste Certificate,"Nationality, Nativity, and Caste certificate",False
+S009,Land Ownership Documents,Land ownership certificate,False
+S009,Permit,Permit,False
+S009,Registration / Membership Certificate,Registration Certificate,False
+S009,Energization Letter,Energization letter,True
+S009,No Objection Certificate,NOC,True
+S009,Medical Bills / Vouchers,Original bills,False
+S009,Bank Account Details,Bank loan bills and certificate,True
+S009,Aadhaar Card,Aadhaar Card,False
+S009,Identity Proof,Farmers Identity Card,False
+S010,Domicile/Residence Certificate,Nativity/Citizenship/Residential Certificate,False
+S010,Income Certificate,Income Certificate,False
+S010,Birth Certificate / Age Proof,Birth Certificate,False
+S010,Passport-size Photograph,Stamp-sized Photograph,False
+S010,Aadhaar Card,Aadhaar Card,False
+S010,Marksheet / Educational Certificate,SSLC Certificate,False
+S010,Public Information Certificate,Public Information Certificate,False
+S011,Marksheet / Educational Certificate,Marksheet of Previous Examination,False
+S011,Proof of Admission / Bonafide Certificate,Proof of Admission,False
+S011,Employment / Experience Certificate,Experience Certificate,False
+S011,Birth Certificate / Age Proof,Birth Certificate,False
+S011,Income Certificate,Income Certificate,False
+S011,Caste Certificate,Caste Certificate,False
+S011,Passport,Passport,False
+S011,Aadhaar Card,Aadhar Card,False
+S011,Passport-size Photograph,Passport-size Photographs,False
+S012,Aadhaar Card,Aadhaar Card,False
+S012,Bank Account Details,Bank Passbook,False
+S013,Identity Proof,Identity Proof,False
+S013,Domicile/Residence Certificate,Residence Proof,False
+S013,Income Certificate,Income Proof,False
+S013,Aadhaar Card,Aadhar Card,False
+S013,Passport-size Photograph,Passport-size Photograph,False
+S013,Marksheet / Educational Certificate,Academics Certificates,False
+S013,Bank Account Details,Bank Details,False
+S013,Caste Certificate,Caste Certificate,False
+S014,Aadhaar Card,Aadhaar Card,False
+S014,Income Certificate,White Ration Card / Income Certificate,False
+S014,Caste Certificate,Caste Certificate,False
+S014,Domicile/Residence Certificate,Residence Certificate,False
+S014,Birth Certificate / Age Proof,Birth Certificate,False
+S014,Marksheet / Educational Certificate,Marks Sheet of SSC,False
+S014,Educational Qualification Proof,Proof of CPT clearance OR Graduation Certificate,False
+S014,Course Registration / Fee Proof,Proof of registration and fees paid for the CA Intern (IPCC) Course,False
+S014,Bank Account Details,Bank Passbook,False
+S015,Address Proof,Address Proof,False
+S015,Marksheet / Educational Certificate,Last Year's Mark Sheet,False
+S015,Bank Account Details,Bank Account,False
+S015,Passport-size Photograph,Passport Size Photo,False
+S016,Land Ownership Documents,Land holding certificate,False
+S016,Agriculture Production Proof,Certificate of area and crop being cultivated,False
+S016,Bank Account Details,Aadhaar seeded bank account details,False
+S016,Aadhaar Card,Aadhaar Card,False
+S017,Self Declaration / Affidavit,Application and Self Declaration,False
+S017,Identity Proof,Proof of photo identity,False
+S017,Land Ownership Documents,Proof of Land Ownership,False
+S017,Bank Account Details,Bank Account details,False
+S018,Income Certificate,Income Certificate,False
+S018,Proof of Admission / Bonafide Certificate,Admission Proof,False
+S018,Self Declaration / Affidavit,Affidavit,False
+S018,Project Viability / Feasibility Certificate,Project viability and technical feasibility certification,False
+S019,Bank Account Details,Bank Passbook or cancelled cheque,False
+S019,Land Ownership Documents,Proof of own land,False
+S019,Non-Availing of Benefits Certificate,Certificate of not availing benefit earlier,False
+S020,Domicile/Residence Certificate,Applicant Domicile Certificate,False
+S020,Fee Receipt,College Fee Receipt,False
+S020,Caste Certificate,Caste Certificate,False
+S020,Income Certificate,Income Certificate,False
+S020,Marksheet / Educational Certificate,Education Qualification Marksheet or Certificate,False
+S020,Bank Account Details,Bank Passbook,False
+S020,Aadhaar Card,Aadhar Card,False
+S021,Identity Proof,Identity Proof,False
+S021,Marksheet / Educational Certificate,Educational Qualification Certificate,False
+S021,Aadhaar Card,Jan Aadhaar Card,False
+S021,Proof of Admission / Bonafide Certificate,Proof of Admission,False
+S021,Fee Receipt,Fee Receipt,False
+S021,Bank Account Details,Bank Account Details,False
+S021,Passport-size Photograph,Passport-sized Photograph,False
+S021,Income Certificate,Income Certificate,False
+S021,Caste Certificate,Caste Certificate,True
+S021,Domicile/Residence Certificate,Domicile Certificate/Proof of residence in Rajasthan,False
+S021,Non-Judicial Stamp Paper,Non-judicial stamp of 100 Rupees,False
+S022,Passport-size Photograph,Passport-size Photo,False
+S022,Aadhaar Card,Aadhaar Card,False
+S022,Domicile/Residence Certificate,Domicile Certificate,False
+S022,Ration Card / BPL Card,Ration Card,False
+S022,Marksheet / Educational Certificate,Class 12 Marksheet,False
+S022,Income Certificate,Income Certificate,False
+S022,Samagra ID,Samagra ID,False
+S022,Bank Account Details,Bank Passbook,False
+S023,Identity Proof,Identity Proof,False
+S023,Passport-size Photograph,Passport-size photograph,False
+S023,Ration Card / BPL Card,Below Poverty Line (BPL) card,False
+S023,Domicile/Residence Certificate,Residence proof,False
+S023,Educational Details,Educational details of the child,False
+S023,Bank Account Details,Bank account details,False
+S023,Non-Availing of Benefits Certificate,Certificate regarding non-availing of other scholarship,False
+S024,Identity Proof,Identity Proof,False
+S024,Bank Account Details,Bank Passbook,False
+S024,Birth Certificate / Age Proof,Age Proof,False
+S024,Labour Card,Labour Card,False
+S025,Domicile/Residence Certificate,Residential / Domicile Certificate,False
+S025,Bank Account Details,Bank Account Details,False
+S025,Aadhaar Card,Aadhaar Card,False
+S025,Identity Proof,Proof of Identity,False
+S025,Birth Certificate / Age Proof,Proof of Age / Date of Birth,False
+S025,Death Certificate,Death Certificate of the Husband,False
+S025,Ration Card / BPL Card,Ration Card / BPL Card,False
+S026,Death Certificate,Death Certificate,False
+S026,Caste Certificate,Caste Certificate,False
+S026,Birth Certificate / Age Proof,Age Proof,False
+S026,Aadhaar Card,Aadhar Card,False
+S026,Domicile/Residence Certificate,Residence Proof,False
+S026,Legal Guardian Certificate,Legal Guardian Certificate,True
+S027,Application Form,Application form,False
+S027,Birth Certificate / Age Proof,Marriage certificate,True
+S027,Non-Reserved Category Certificate,Non-Reserved Category Certificate,False
+S027,Income Certificate,Income Certificate,False
+S027,Domicile/Residence Certificate,Proof of Residence,False
+S027,Aadhaar Card,Aadhaar Card,False
+S027,Proof of Admission / Bonafide Certificate,Letter of Admission to School/College,False
+S027,Marksheet / Educational Certificate,Leaving Certificate,False
+S027,Fee Receipt,Receipt of Tuition Fee,False
+S027,Bank Account Details,Bank Passbook,False
+S028,Cooperative Society Registration Proof,Proof of Registration of Cooperative Society,False
+S028,Registration / Membership Certificate,Membership List of the Cooperative Society,False
+S028,Audit / Financial Statements,Recent Audit Reports of the Society,False
+S028,Bank Account Details,Bank Account Details of the Cooperative Society,False
+S028,Identity Proof,Identity Proof of the Applicant,False
+S028,Project Proposal,Project Proposal Document,True
+S029,Passport-size Photograph,Passport size photo,False
+S029,Identity Proof,Identity proof,False
+S029,Caste Certificate,Caste Certificate,False
+S029,Marksheet / Educational Certificate,Educational certificate,False
+S030,Passport-size Photograph,Passport-size Photograph,False
+S030,Aadhaar Card,Aadhaar card,False
+S030,Domicile/Residence Certificate,Domicile certificate,False
+S030,Caste Certificate,Caste certificate,False
+S030,Marksheet / Educational Certificate,Previous class passing certificate/marksheet,False
+S030,Samagra ID,Samagra ID,False
+S030,Bank Account Details,Bank Passbook,False
+S031,Proof of Admission / Bonafide Certificate,Admission Proof,False
+S031,Bank Account Details,Bank Account Details,False
+S032,Passport-size Photograph,Passport-size Photograph,False
+S032,Aadhaar Card,Aadhaar Card,False
+S032,Domicile/Residence Certificate,Domicile Certificate,False
+S032,Caste Certificate,Caste Certificate,False
+S032,Samagra ID,Samagra ID,False
+S032,Bank Account Details,Bank Account Details,False
+S032,Marksheet / Educational Certificate,Previous Year Marksheets,False
+S032,Proof of Admission / Bonafide Certificate,Proof of Enrollment into 11th Standard,False
+S033,Registration / Membership Certificate,Registration Certificate,False
+S033,Financial Statement / Utilization Certificate,Last Two Years' Statement of Accounts,False
+S033,Project Report,Project Report,False
+S033,Beneficiary List,List of Prospective Beneficiaries,False
+S033,Medical Bills / Vouchers,Bills/Vouchers,False
+S034,Caste Certificate,Caste Certificate,False
+S034,Aadhaar Card,Aadhar Card,False
+S034,Marksheet / Educational Certificate,Education Qualification Marksheet,False
+S034,Income Certificate,Income Certificate,False
+S035,Aadhaar Card,Aadhaar Card,False
+S035,Passport-size Photograph,Passport-size Photograph,False
+S035,Identity Proof,Identity Proof,False
+S035,Birth Certificate / Age Proof,Proof of Age,False
+S035,Ration Card / BPL Card,BPL Card / Ration Card,False
+S035,Caste Certificate,Caste Certificate,True
+S035,Address Proof,Address Proof,False
+S035,Death Certificate,Death Certificate of the husband,False
+S035,Bank Account Details,Bank passbook / Bank account details,False
+S036,Aadhaar Card,Aadhar Card,False
+S036,Address Proof,Address Proof,False
+S036,Bank Account Details,Bank Account Statement,False
+S036,Passport-size Photograph,Passport Size Photo,False
+S037,Invitation / Hosting Letter,Invitation/hosting letter,False
+S037,Project Proposal,Visiting proposal,False
+S037,No Objection Certificate,No objection certificate,False
+S037,Passport-size Photograph,Recent Photograph,False
+S037,Passport,Passport,False
+S037,Marksheet / Educational Certificate,Educational Certificates,False
+S038,Loan Sanction Letter,Loan Sanction Letter,False
+S038,Loan Utilization Proof,Proof of Loan Utilization,False
+S038,FRP Notification,FRP Notification,False
+S038,Audit / Financial Statements,Audit Reports,False
+S038,Bank Account Details,Loan Repayment Schedule and Bank Statements,False
+S039,Aadhaar Card,Aadhaar Card,False
+S039,Identity Proof,Identity Proof,False
+S039,Curriculum Vitae / Bio-data,Curriculum Vitae,False
+S039,Recommendation Letter,Recommendation Letter,False
+S039,Marksheet / Educational Certificate,Educational Certificates,False
+S040,Caste Certificate,Caste Certificate,False
+S040,Income Certificate,Income Certificate,False
+S040,Marksheet / Educational Certificate,Academic Records,False
+S040,Aadhaar Card,Aadhaar Card,False
+S040,Bank Account Details,Bank Account Details,False
+S040,Domicile/Residence Certificate,Residential Proof,False
+S041,Passport-size Photograph,Passport-sized Photograph,False
+S041,Aadhaar Card,Aadhaar Card,False
+S041,Domicile/Residence Certificate,Residence Certificate,False
+S041,Income Certificate,Income Certificate,False
+S041,Self Declaration / Affidavit,Declaration/Undertaking,True
+S041,Medical Certificate,Medical Certificate,False
+S041,Bank Account Details,Bank or Post Office Passbook with Photo,False
+S041,PAN Card,PAN Card,False
+S041,Passport,Passport,False
+S041,Ration Card / BPL Card,Ration Card,False
+S041,Identity Proof,Voter Identity Card,False
+S041,MGNREGA Job Card,MGNREGA Card,False
+S042,Aadhaar Card,Aadhaar Card,False
+S042,Passport-size Photograph,Passport-size photograph,False
+S042,Samagra ID,Samagra ID,False
+S042,Caste Certificate,Caste certificate,False
+S042,Bank Account Details,Bank passbook,False
+S042,Income Certificate,Income certificate,False
+S042,Domicile/Residence Certificate,Domicile certificate,False
+S042,Marksheet / Educational Certificate,Previous class passing marksheet,False
+S043,Registration / Membership Certificate,Registration Certificate,False
+S043,Payment / Transaction Proof,Proof of deposit of updated contribution,False
+S043,Application Form,Application form,False
+S044,Aadhaar Card,Aadhaar Card,False
+S044,Birth Certificate / Age Proof,Proof of Age,False
+S044,Caste Certificate,Caste Certificate,True
+S044,Self Declaration / Affidavit,Declaration for Assignment,False
+S044,Competent Authority Certificate,Certificate issued by competent authority,False
+S044,Payment / Transaction Proof,Payment Details,False
+S044,Medical Records / Reports,Original Discharge summary/ OP Ticket,False
+S044,Medical Bills / Vouchers,Original Medical Bills,False
+S044,Immobilization Certificate,Immobilizations Certificate,False
+S044,Medical / Fitness Certificate,Fitness Certificate,False
+S044,Disability Certificate,Disability Certificate,False
+S044,Police Report / FIR,FIR/GD Entry/CSR/Police Report,False
+S044,Death Certificate,Original Death Certificate,False
+S044,Legal Heir / Next of Kin Certificate,Legal Heirship certificate,False
+S044,Post-mortem / Inquest Documents,Post Mortem Report,False
+S044,Newspaper Cutting,Newspaper cutting,False
+S045,Samagra ID,Girl Child's Samagra ID,False
+S045,Family ID / Family Register,Family ID,False
+S045,Passport-size Photograph,Photo of girl child with mother/father,False
+S045,Family Planning Certificate,Family planning certificate,True
+S046,Passport-size Photograph,Passport-size photograph,False
+S046,Identity Proof,Identity Proof Documents,False
+S046,Land Ownership Documents,Proof of having sufficient available cultivable land,False
+S047,Employment / Experience Certificate,Employment Certificate,False
+S047,90 Days Work Certificate,90 Days Work Certificate,False
+S047,Aadhaar Card,Aadhar Card,False
+S047,Ration Card / BPL Card,Ration Card,True
+S047,Birth Certificate / Age Proof,Age Proof,False
+S047,Identity Proof,Proof of Identity,False
+S047,Self Declaration / Affidavit,Affidavit for second child,False
+S047,Bank Account Details,Proof of Bank Account,False
+S047,Passport-size Photograph,Photo of Child,False
+S047,Medical Records / Reports,Discharge Summary,False
+S048,Marksheet / Educational Certificate,Class XII Mark sheet / Certificate,False
+S048,SC/ST Category Certificate,SC/ST Category Certificate,True
+S048,Bank Account Details,Bank Passbook / E-Statement,False
+S048,Self Declaration / Affidavit,Declaration of No Other Financial Support,False
+S048,National Food Security Scheme Card,National Food Security Scheme Card,True
+S048,Income Certificate,Annual Family Income Certificate,True
+S048,Income Tax Return,Income Tax Return,True
+S049,Identity Proof,Identity Proof,False
+S049,Land Ownership Documents,Land Records Details,False
+S049,Bank Account Details,Bank Account Details,False
+S050,Passport-size Photograph,Passport-size photograph,False
+S050,Identity Proof,Identity Proof,False
+S050,Bank Account Details,Bank passbook/account details,False
+S050,Land Ownership Documents,Documents proof of possessing own or leased land,False
+S051,Birth Certificate / Age Proof,Proof of Age,False
+S051,Proof of Admission / Bonafide Certificate,Bonafide Himachali Certificate,False
+S051,Income Certificate,Proof of Annual Family Income,False
+S051,Marriage Certificate,Proof of Date of Marriage,False
+S051,Ration Card / BPL Card,BPL Certificate,False
+S052,Birth Certificate / Age Proof,Proof of Birth,False
+S053,Domicile/Residence Certificate,Resident Proof,False
+S053,Caste Certificate,Caste Certificate,False
+S053,Proof of Admission / Bonafide Certificate,Proof of Enrolment in a Recognized Educational Institution,False
+S053,Recognized Hostel Residence Proof,Residence in a Recognized Hostel,False
+S053,Bank Account Details,Bank Detail,False
+S054,Aadhaar Card,Aadhaar Card,False
+S054,Land Ownership Documents,Land Holding Certificate,False
+S054,Caste Certificate,Caste Certificate,False
+S054,Passport-size Photograph,Photograph,False
+S054,Self Declaration / Affidavit,Declaration Form,False
+S054,Payment / Transaction Proof,GST Voucher of the motor pump,False
+S055,Aadhaar Card,Aadhaar Card,False
+S055,Land Ownership Documents,Land Details,False
+S055,Caste Certificate,Caste Certificate,True
+S055,Death Certificate,Death Certificate,True
+S055,Divorce Certificate,Divorce Certificate,True
+S056,PowerPoint Presentation,PowerPoint Presentation,False
+S056,Passport-size Photograph,Newspaper coverage and photographs,True
+S057,Identity Proof,Proof of Identity,False
+S057,Address Proof,Proof of Address,False
+S057,Medical Records / Reports,Medical Records,False
+S057,Consent / No Objection Document,Consent Forms,False
+S057,Passport-size Photograph,Photographs,False
+S058,Identity Proof,Proof of Identity,False
+S058,Address Proof,Address Proof,False
+S058,Medical Records / Reports,Medical Reports,True
+S058,Police Report / FIR,Police Complaint Copy,True
+S059,Identity Proof,Proof of Identity,False
+S059,Land Ownership Documents,Land Ownership Documents or Lease Agreement,False
+S059,Agriculture Production Proof,Proof of Seed Production and Supply,False
+S059,Bank Account Details,Bank Account Details,False
+S060,Aadhaar Card,Aadhaar Card,False
+S060,Passport-size Photograph,Passport Sized Photograph,False
+S060,Domicile/Residence Certificate,Residential Certificate,False
+S060,Disability Certificate,Disability Certificate,False
+S060,Bank Account Details,Bank Account Details,False
+S060,Marksheet / Educational Certificate,Proof of Educational Qualification,False
+S060,Proof of Admission / Bonafide Certificate,Bonafide Certificate,False
+S061,Aadhaar Card,Aadhaar Card,False
+S061,Bank Account Details,Bank Account Details,False
+S061,Marksheet / Educational Certificate,Previous Year Mark Sheet,False
+S061,Fee Receipt,Original Fee Receipts,False
+S061,Income Certificate,Income Certificate,False
+S061,Caste Certificate,Caste Certificate,False
+S061,Proof of Admission / Bonafide Certificate,Institution Certificate,False
+S061,Institution Verification Certificate,Institute Verification Page,True
+S062,Aadhaar Card,Aadhar Card,False
+S062,Bank Account Details,Bank Account Details,False
+S062,Income Certificate,Income Certificate,False
+S062,Passport-size Photograph,Passport-size Photographs,False
+S063,Identity Proof,Identity Proof,False
+S063,Address Proof,Address Proof,False
+S063,Land Ownership Documents,Proof of land ownership or lease documents,False
+S064,Aadhaar Card,Aadhaar Card,False
+S064,Domicile/Residence Certificate,Residence Certificate,False
+S064,Income Certificate,Income Certificate,False
+S064,Passport-size Photograph,Passport-Sized Photograph,False
+S064,Self Declaration / Affidavit,Declaration/Undertaking,True
+S064,Proof of Admission / Bonafide Certificate,Study Certificate,False
+S064,Widow Certificate,Widow Status Certificate,False
+S064,Marksheet / Educational Certificate,S.S.L.C. book or Transfer Certificate,False
+S064,Fee Receipt,Tuition Fees Receipt,False
+S064,Bank Account Details,Bank or Post Office Passbook with Photo,True
+S064,PAN Card,PAN Card,True
+S064,Passport,Passport,True
+S064,Ration Card / BPL Card,Ration Card,True
+S064,Identity Proof,Voter Identity Card,True
+S064,MGNREGA Job Card,MGNREGA Card,True
+S065,Aadhaar Card,Aadhaar Card,False
+S065,Ration Card / BPL Card,Registration Card/Certificate,False
+S065,EWS Certificate,Economic Weaker Section Certificate,True
+S065,Income Certificate,Income Certificate,True
+S065,Marksheet / Educational Certificate,Proof of Educational Qualification,False
+S065,Bank Account Details,Bank Details,False
+S065,Domicile/Residence Certificate,Domicile Certificate,False
+S066,Identity Proof,Identity Proof,False
+S066,Passport-size Photograph,Passport Size Photograph,False
+S066,Birth Certificate / Age Proof,Proof of Age,False
+S066,Marksheet / Educational Certificate,Educational Qualifications Certificates,False
+S066,Awards / Achievements Proof,Details of Professional Awards/Recognition/Fellowship,False
+S066,Bank Account Details,Bank Details,False
+S067,Educational Details,School Details,False
+S067,Awards / Achievements Proof,Remarkable Achievements,True
+S067,Nearest Sastraposhini School Details,Details of Nearest Sastraposhini School,False
+S067,Bank Account Details,Official Bank Account Details,False
+S067,Self Declaration / Affidavit,Declaration,False
+S068,Aadhaar Card,Aadhaar Card,False
+S068,Income Certificate,Annual Income Certificate,False
+S068,Bank Account Details,Bank Details,False
+S068,Caste Certificate,Caste Certificate,False
+S068,Birth Certificate / Age Proof,Birth Certificate,False
+S069,Family ID / Family Register,Parivaar Pahchan Patra,False
+S069,Aadhaar Card,Aadhaar Card,False
+S069,PAN Card,PAN Card,False
+S069,Caste Certificate,Scheduled Caste Certificate,False
+S069,Bank Account Details,Bank Passbook or Cancelled Cheque,False
+S069,Passport-size Photograph,Photo of availability of shed/space for keeping animals,False
+S070,Proof of Admission / Bonafide Certificate,Institution Certificate,False
+S070,Identity Proof,National Identity Card of the Differently Abled,False
+S070,Marksheet / Educational Certificate,Statement of Marks,False
+S071,Passport-size Photograph,Passport-size Photo,False
+S071,Aadhaar Card,Aadhaar card,False
+S071,Domicile/Residence Certificate,Domicile certificate,False
+S071,Disability Certificate,Death/disabled/Retired certificate,False
+S071,Marksheet / Educational Certificate,Previous year passing certificate,False
+S071,Samagra ID,Samagra ID,False
+S071,Bank Account Details,Bank Passbook,False
+S072,Passport-size Photograph,Passport-size photograph,False
+S072,Identity Proof,Identity Proof,False
+S072,Land Ownership Documents,Proof of having sufficient available cultivable land,False
+S073,Passport-size Photograph,Passport size photo,False
+S073,Identity Proof,Identity proof,False
+S073,Caste Certificate,Caste Certificate,False
+S073,Bank Account Details,Bank Passbook,False
+S073,Marksheet / Educational Certificate,Educational certificate,False
+S074,Passport-size Photograph,Passport-size Photograph,False
+S074,Aadhaar Card,Aadhaar Card,False
+S074,Caste Certificate,Caste certificate,False
+S074,Domicile/Residence Certificate,Domicile certificate,False
+S074,Bank Account Details,Bank Passbook,False
+S074,Income Certificate,Income certificate,False
+S074,Self Declaration / Affidavit,Self-declaration form,True
+S074,Samagra ID,Samagra ID,False
+S075,Aadhaar Card,Aadhaar Card,False
+S075,Marriage Certificate,Proof of Marriage,False
+S075,Birth Certificate / Age Proof,Proof of Age,False
+S075,Ration Card / BPL Card,Ration Card,False
+S076,Identity Proof,Identity Proof,False
+S076,Passport-size Photograph,Passport size photograph,False
+S076,Educational Details,Educational documents,False
+S076,Caste Certificate,Caste certificate,False
+S076,Domicile/Residence Certificate,Nativity Certificate,False
+S076,Bank Account Details,Bank Account details,False
+S077,Demand/ Proposal,Demand/ Proposal,False
+S077,Financial Statement / Utilization Certificate,UC/AUC of Previous Financial Year,False
+S077,Educational Details,Details of students,False
+S078,Passport-size Photograph,Passport-size photograph,False
+S078,Identity Proof,Identity Proof,False
+S078,Bank Account Details,Bank passbook/account details,False
+S078,Proof of Farmer Status,Documents proof of being a farmer,False
+S079,Identity Proof,Identity Proof,False
+S079,Passport-size Photograph,Passport-size photograph,False
+S079,Birth Certificate / Age Proof,Proof of Age,False
+S079,Caste Certificate,Caste Certificate,False
+S079,Domicile/Residence Certificate,Residence proof,False
+S079,Income Certificate,Income Certificate,False
+S079,Death Certificate,Death Certificate of Husband,True
+S079,Divorce Certificate,Proof of divorce,True
+S079,Bank Account Details,Bank Passbook,False
+S079,Ration Card / BPL Card,Ration Card,False
+S080,Passport-size Photograph,Passport-size photograph,False
+S080,Identity Proof,Identity Proof,False
+S080,Bank Account Details,Bank passbook,False
+S080,Land Ownership Documents,Land ownership or lease document,False
+S081,Identity Proof,Proof of Identity,False
+S081,Land Ownership Documents,Land ownership documents or lease agreement,False
+S081,Cultivation Certificate,Proof of cultivation of pulses,False
+S081,Caste Certificate,Caste Certificate,True
+S082,Identity Proof,Proof of Identity,False
+S082,Land Ownership Documents,Land Ownership Documents,False
+S082,Caste Certificate,Caste Certificate,True
+S083,Aadhaar Card,Aadhar Card / Janadhar Card,False
+S083,Land Ownership Documents,Jamabandi,False
+S083,Bank Account Details,Bank Passbook,False
+S084,Aadhaar Card,Aadhaar Card,False
+S084,Passport-size Photograph,Passport size photo,False
+S084,Ration Card / BPL Card,BPL Ration Card,False
+S084,Identity Proof,Disability ID card,False
+S084,Income Certificate,Income Certificate,False
+S084,Medical / Fitness Certificate,Medical board certificate,False
+S084,Bank Account Details,Bank Pass Book,False
+S084,Institution Verification Certificate,Certificate from Head of School/College,False
+S085,Aadhaar Card,Aadhaar Card,False
+S085,Identity Proof,Driving License,False
+S085,Bank Account Details,Bank Details,False
+S085,Caste Certificate,Caste Certificate,False
+S085,Income Certificate,Income Certificate,False
+S085,Domicile/Residence Certificate,Domicile Certificate,False
+S086,Domicile/Residence Certificate,Residential / Domicile Certificate,False
+S086,Bank Account Details,Bank Account Details,False
+S086,Aadhaar Card,Aadhaar Card,False
+S086,Marksheet / Educational Certificate,Passing Certificate / Marksheet of Class 12th,False
+S086,Identity Proof,Proof of Identity,False
+S086,Birth Certificate / Age Proof,Proof of Age / Date of Birth,False
+S087,Project Proposal,Complete Proposal,False
+S087,Marksheet / Educational Certificate,High School Certificate,False
+S087,Sc/ St/ Ph Certificate,SC/ ST/ PH Certificate,True
+S087,Institution Verification Certificate,Certificate from the Head of the Institution,False
+S087,PhD Registration Certificate,Ph.D. Registration Letter,True
+S087,Consent / No Objection Document,Consent letter from Scientist Mentor cum Ph.D. Supervisor,False
+S087,Curriculum Vitae / Bio-data,Bio-Data of Scientist-Mentor,False
+S088,Divorce Certificate,Divorce Deed,True
+S088,Birth Certificate / Age Proof,Date of Birth Proof,False
+S088,Bank Account Details,Bank Passbook,False
+S088,Disability Certificate,Disability Certificate,False
+S088,Self Declaration / Affidavit,Self Declaration,False
+S088,Death Certificate,Death Certificate of Husband,False
+S089,Aadhaar Card,Aadhaar Card,False
+S089,Ration Card / BPL Card,Ration Card,False
+S089,Identity Proof,Voter ID,False
+S089,Disability Certificate,Disability Certificate,False
+S089,Income Certificate,Income Certificate,False
+S089,Death Certificate,Husband's Death Certificate,False
+S089,Bank Account Details,Bank Pass Book,False
+S089,Nomination Form,Nomination Form,True
+S089,Passport-size Photograph,Passport Size Photograph,False
+S090,Recommendation Letter,Recommendation from Gram Panchayat,False
+S090,Family ID / Family Register,Copy of Parivar Register,False
+S090,Aadhaar Card,Aadhaar Card,False
+S090,Bank Account Details,Bank Account,False

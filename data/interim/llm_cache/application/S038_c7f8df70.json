@@ -1,0 +1,14 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Prepare the proposal as an eligible sugar co-operative society.",
+   "Send the proposal through the District Registrar of the concerned district.",
+   "Submit the proposal to the Director of Sugar, Gujarat State, Gandhinagar."
+  ],
+  "department": "Agriculture, Farmers Welfare and Cooperation Department, Gujarat"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Prepare the proposal as an eligible sugar co-operative society.\",\n    \"Send the proposal through the District Registrar of the concerned district.\",\n    \"Submit the proposal to the Director of Sugar, Gujarat State, Gandhinagar.\"\n  ],\n  \"department\": \"Agriculture, Farmers Welfare and Cooperation Department, Gujarat\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:44:07"
+}

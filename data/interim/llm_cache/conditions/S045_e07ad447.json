@@ -1,0 +1,140 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "For Normal Cases The girl child should be born on or after January 1, 2006."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "born on or after January 1, 2006",
+   "source_sentence": "For Normal Cases The girl child should be born on or after January 1, 2006."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "registered in the local Anganwadi center",
+   "source_sentence": "The girl child should be registered in the local Anganwadi center."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Madhya Pradesh",
+   "source_sentence": "Parents should be natives of Madhya Pradesh."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "parents should not be income taxpayers",
+   "source_sentence": "Parents should not be income taxpayers."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "family planning has been adopted after the birth of the second child",
+   "source_sentence": "Family planning has been adopted after the birth of the second child."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "parents who have two or less than two children",
+   "source_sentence": "Parents who have two or less than two children, family planning has been adopted after the birth of the second child."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "family planning has been adopted after the birth of the second child",
+   "source_sentence": "Parents who have two or less than two children, family planning has been adopted after the birth of the second child."
+  },
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The girl child born from the first delivery will be given benefits without family planning but It is necessary for the mother/father to adopt family planning in order to get the benefit for the second girl child."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "mother/father to adopt family planning for the second girl child",
+   "source_sentence": "The girl child born from the first delivery will be given benefits without family planning but It is necessary for the mother/father to adopt family planning in order to get the benefit for the second girl child."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "special case: maximum 02 children and mother or father has died",
+   "source_sentence": "In a family where there are maximum 02 children and the mother or father has died, registration can be done till the girl child is 05 years old."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "<=",
+   "value": "5",
+   "source_sentence": "In a family where there are maximum 02 children and the mother or father has died, registration can be done till the girl child is 05 years old."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "woman/man getting married for the second time and already having 02 children excludes the daughter born from second marriage",
+   "source_sentence": "But in this type of case, if the woman/man gets married for the second time and already has 02 children, then the daughter born from the second marriage will not get the benefit of the scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "03 girls together born at the time of first delivery",
+   "source_sentence": "If there are 03 girls together born at the time of first delivery, all three girls will get the benefit."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "girls born to women prisoners in jail",
+   "source_sentence": "Girls born to women prisoners in jail will also be benefited under the scheme."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "girl child born to a rape victim",
+   "source_sentence": "The benefit of the scheme will be given to a girl child born to a rape victim or a girl child."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "family planning not adopted due to health related reasons with collector approval",
+   "source_sentence": "The collector has been given the authority to approve the cases till 02 instead of 01 year in the cases where family planning has not been adopted due to health related reasons."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "approval from district collector under special cases for late applications",
+   "source_sentence": "District collector will provide approval/rejection under special cases, after minutely examining the applications received late."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "application made by Superintendent of Orphanage/Protection Home within 1 year of admission and before age of 5 or within 1 year of adoption",
+   "source_sentence": "The application has to be made by the Superintendent of the Orphanage/Protection Home within 1 year of admission in the Orphanage and before the girl child attains the age of 5 years or within 1 year of adoption by the adoptive parents."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"For Normal Cases The girl child should be born on or after January 1, 2006.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"born on or after January 1, 2006\",\n    \"source_sentence\": \"For Normal Cases The girl child should be born on or after January 1, 2006.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"registered in the local Anganwadi center\",\n    \"source_sentence\": \"The girl child should be registered in the local Anganwadi center.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Madhya Pradesh\",\n    \"source_sentence\": \"Parents should be natives of Madhya Pradesh.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"parents should not be income taxpayers\",\n    \"source_sentence\": \"Parents should not be income taxpayers.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"family planning has been adopted after the birth of the second child\",\n    \"source_sentence\": \"Family planning has been adopted after the birth of the second child.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"parents who have two or less than two children\",\n    \"source_sentence\": \"Parents who have two or less than two children, family planning has been adopted after the birth of the second child.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"family planning has been adopted after the birth of the second child\",\n    \"source_sentence\": \"Parents who have two or less than two children, family planning has been adopted after the birth of the second child.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"The girl child born from the first delivery will be given benefits without family planning but It is necessary for the mother/father to adopt family planning in order to get the benefit for the second girl child.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"mother/father to adopt family planning for the second girl child\",\n    \"source_sentence\": \"The girl child born from the first delivery will be given benefits without family planning but It is necessary for the mother/father to adopt family planning in order to get the benefit for the second girl child.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"special case: maximum 02 children and mother or father has died\",\n    \"source_sentence\": \"In a family where there are maximum 02 children and the mother or father has died, registration can be done till the girl child is 05 years old.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"<=\",\n    \"value\": \"5\",\n    \"source_sentence\": \"In a family where there are maximum 02 children and the mother or father has died, registration can be done till the girl child is 05 years old.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"woman/man getting married for the second time and already having 02 children excludes the daughter born from second marriage\",\n    \"source_sentence\": \"But in this type of case, if the woman/man gets married for the second time and already has 02 children, then the daughter born from the second marriage will not get the benefit of the scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"03 girls together born at the time of first delivery\",\n    \"source_sentence\": \"If there are 03 girls together born at the time of first delivery, all three girls will get the benefit.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"girls born to women prisoners in jail\",\n    \"source_sentence\": \"Girls born to women prisoners in jail will also be benefited under the scheme.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"girl child born to a rape victim\",\n    \"source_sentence\": \"The benefit of the scheme will be given to a girl child born to a rape victim or a girl child.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"family planning not adopted due to health related reasons with collector approval\",\n    \"source_sentence\": \"The collector has been given the authority to approve the cases till 02 instead of 01 year in the cases where family planning has not been adopted due to health related reasons.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"approval from district collector under special cases for late applications\",\n    \"source_sentence\": \"District collector will provide approval/rejection under special cases, after minutely examining the applications received late.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"application made by Superintendent of Orphanage/Protection Home within 1 year of admission and before age of 5 or within 1 year of adoption\",\n    \"source_sentence\": \"The application has to be made by the Superintendent of the Orphanage/Protection Home within 1 year of admission in the Orphanage and before the girl child attains the age of 5 years or within 1 year of adoption by the adoptive parents.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-12T10:47:03"
+}

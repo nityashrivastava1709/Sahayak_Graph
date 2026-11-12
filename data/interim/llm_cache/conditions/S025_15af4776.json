@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Manipur",
+   "source_sentence": "The applicant should be a domicile of the state of Manipur."
+  },
+  {
+   "or_group": 0,
+   "attribute": "marital_status",
+   "operator": "=",
+   "value": "widowed",
+   "source_sentence": "The applicant should be a Widow."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "between",
+   "value": "18-40",
+   "source_sentence": "The age of applicant should be between 18-40 years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "bpl_status",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The applicant should belong to a Below Poverty Line (BPL) household."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Manipur\",\n    \"source_sentence\": \"The applicant should be a domicile of the state of Manipur.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"marital_status\",\n    \"operator\": \"=\",\n    \"value\": \"widowed\",\n    \"source_sentence\": \"The applicant should be a Widow.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"between\",\n    \"value\": \"18-40\",\n    \"source_sentence\": \"The age of applicant should be between 18-40 years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"bpl_status\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The applicant should belong to a Below Poverty Line (BPL) household.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:53:01"
+}

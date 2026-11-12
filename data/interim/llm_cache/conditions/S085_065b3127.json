@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "The person should be from the target group of NSKFDC.",
+   "source_sentence": "The person should be from the target group of NSKFDC."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "secured admission in a course run or supported by a Ministry, Department, or Organization of the Government or a company, society, or organization supported by the National Skill Development Corporation or State Skill Missions/State Skill Corporations",
+   "source_sentence": "The person should have secured admission in a course run or supported by a Ministry, Department, or Organization of the Government or a company, society, or organization supported by the National Skill Development Corporation or State Skill Missions/State Skill Corporations, preferably leading to a Certificate/Diploma/Degree etc. Issued by a Government Organization or an Organization recognized/authorized by the Government to do so."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Vocational Education and training courses of the duration of a minimum 6 months and up to 2 years run or supported by a Ministry/Department/Organization of the Government or a Company/Society/Organization supported by a National Skill Development Corporation or State Skills/Mission/State Skill Corporations.",
+   "source_sentence": "Course Eligibility Vocational Education and training courses of the duration of a minimum 6 months and up to 2 years run or supported by a Ministry/Department/Organization of the Government or a Company/Society/Organization supported by a National Skill Development Corporation or State Skills/Mission/State Skill Corporations."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">=",
+   "value": "18",
+   "source_sentence": "The candidate should attain a minimum age of 18 years on completion of the course."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "<=",
+   "value": "50",
+   "source_sentence": "The upper age limit is up to 50 years."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"The person should be from the target group of NSKFDC.\",\n    \"source_sentence\": \"The person should be from the target group of NSKFDC.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"secured admission in a course run or supported by a Ministry, Department, or Organization of the Government or a company, society, or organization supported by the National Skill Development Corporation or State Skill Missions/State Skill Corporations\",\n    \"source_sentence\": \"The person should have secured admission in a course run or supported by a Ministry, Department, or Organization of the Government or a company, society, or organization supported by the National Skill Development Corporation or State Skill Missions/State Skill Corporations, preferably leading to a Certificate/Diploma/Degree etc. Issued by a Government Organization or an Organization recognized/authorized by the Government to do so.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"Vocational Education and training courses of the duration of a minimum 6 months and up to 2 years run or supported by a Ministry/Department/Organization of the Government or a Company/Society/Organization supported by a National Skill Development Corporation or State Skills/Mission/State Skill Corporations.\",\n    \"source_sentence\": \"Course Eligibility Vocational Education and training courses of the duration of a minimum 6 months and up to 2 years run or supported by a Ministry/Department/Organization of the Government or a Company/Society/Organization supported by a National Skill Development Corporation or State Skills/Mission/State Skill Corporations.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \">=\",\n    \"value\": \"18\",\n    \"source_sentence\": \"The candidate should attain a minimum age of 18 years on completion of the course.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \"<=\",\n    \"value\": \"50\",\n    \"source_sentence\": \"The upper age limit is up to 50 years.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T16:01:52"
+}

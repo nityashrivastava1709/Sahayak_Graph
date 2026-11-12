@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Log in to RajSSO Portal using your SSOID or register first if not available",
+   "Update SSO Profile at first login and select the scheme name",
+   "Select your name, bank account, and fill in personal details",
+   "Upload the required document",
+   "Click the SUBMIT button"
+  ],
+  "department": ""
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Log in to RajSSO Portal using your SSOID or register first if not available\",\n  \"Update SSO Profile at first login and select the scheme name\",\n  \"Select your name, bank account, and fill in personal details\",\n  \"Upload the required document\",\n  \"Click the SUBMIT button\"\n ],\n \"department\": \"\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:55"
+}

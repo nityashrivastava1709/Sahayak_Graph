@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Puducherry",
+   "source_sentence": "The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "class_6_8|class_9_10",
+   "source_sentence": "The applicant should be studying from standard 6 to 10 and should have secured promotion to the next higher class."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "should have secured promotion to the next higher class",
+   "source_sentence": "The applicant should be studying from standard 6 to 10 and should have secured promotion to the next higher class."
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "=",
+   "value": "Backward_Class",
+   "source_sentence": "The applicant should belong to the Other Economically Backward Class (OEBC)."
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "75000",
+   "source_sentence": "The family income of the applicant should not exceed ₹75,000 per annum."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Puducherry\",\n    \"source_sentence\": \"The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"education_level\",\n    \"operator\": \"in\",\n    \"value\": \"class_6_8|class_9_10\",\n    \"source_sentence\": \"The applicant should be studying from standard 6 to 10 and should have secured promotion to the next higher class.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"should have secured promotion to the next higher class\",\n    \"source_sentence\": \"The applicant should be studying from standard 6 to 10 and should have secured promotion to the next higher class.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"social_category\",\n    \"operator\": \"=\",\n    \"value\": \"Backward_Class\",\n    \"source_sentence\": \"The applicant should belong to the Other Economically Backward Class (OEBC).\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"annual_income\",\n    \"operator\": \"<=\",\n    \"value\": \"75000\",\n    \"source_sentence\": \"The family income of the applicant should not exceed ₹75,000 per annum.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:49:33"
+}

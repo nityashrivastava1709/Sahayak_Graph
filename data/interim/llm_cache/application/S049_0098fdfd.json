@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit and apply online at I-Khedut Portal",
+   "Click on Schemes and then click on Agricultural Schemes on the home page",
+   "Select the scheme and click on the Apply button",
+   "Click on Apply New button and submit a new application",
+   "Confirm the application once done and take a print out"
+  ],
+  "department": "Agriculture, Farmers Welfare and Cooperation Department, Gujarat"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit and apply online at I-Khedut Portal\",\n  \"Click on Schemes and then click on Agricultural Schemes on the home page\",\n  \"Select the scheme and click on the Apply button\",\n  \"Click on Apply New button and submit a new application\",\n  \"Confirm the application once done and take a print out\"\n ],\n \"department\": \"Agriculture, Farmers Welfare and Cooperation Department, Gujarat\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:44:58"
+}

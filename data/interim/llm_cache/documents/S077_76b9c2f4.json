@@ -1,0 +1,27 @@
+{
+ "parsed": [
+  {
+   "name": "Demand/ Proposal",
+   "conditional": false
+  },
+  {
+   "name": "UC/AUC of Previous Financial Year",
+   "conditional": false
+  },
+  {
+   "name": "Details of students",
+   "conditional": false
+  },
+  {
+   "name": "College-wise & Head-wise Expenditure",
+   "conditional": false
+  },
+  {
+   "name": "Unspent balance refunded",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Demand/ Proposal\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"UC/AUC of Previous Financial Year\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Details of students\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"College-wise & Head-wise Expenditure\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Unspent balance refunded\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:48:00"
+}

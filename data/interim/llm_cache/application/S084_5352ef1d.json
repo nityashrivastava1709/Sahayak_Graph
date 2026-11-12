@@ -1,0 +1,16 @@
+{
+ "parsed": {
+  "mode": "online",
+  "steps": [
+   "Visit SUNEETHI- Online Service Application Portal and complete One time Registration",
+   "Log in to the portal using your mobile number and password",
+   "Update your personal information, contact details, identity cards, and bank details",
+   "Select the scheme and click on the Apply Now button",
+   "Fill in all the mandatory details in the application form and submit it"
+  ],
+  "department": "Department of Social Justice, Government of Kerala"
+ },
+ "raw": "{\n \"mode\": \"online\",\n \"steps\": [\n  \"Visit SUNEETHI- Online Service Application Portal and complete One time Registration\",\n  \"Log in to the portal using your mobile number and password\",\n  \"Update your personal information, contact details, identity cards, and bank details\",\n  \"Select the scheme and click on the Apply Now button\",\n  \"Fill in all the mandatory details in the application form and submit it\"\n ],\n \"department\": \"Department of Social Justice, Government of Kerala\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:46:53"
+}

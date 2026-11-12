@@ -1,0 +1,15 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Fill in the application form.",
+   "Get the application countersigned by an Agriculture officer, Panchayath President, CPF office bearers, or CPC Directors.",
+   "Attach the premium share and age proof.",
+   "Send the application to the Chairman, Coconut Development Board in Kochi."
+  ],
+  "department": "Ministry of Agriculture and Farmers Welfare"
+ },
+ "raw": "{\n \"mode\": \"offline\",\n \"steps\": [\n  \"Fill in the application form.\",\n  \"Get the application countersigned by an Agriculture officer, Panchayath President, CPF office bearers, or CPC Directors.\",\n  \"Attach the premium share and age proof.\",\n  \"Send the application to the Chairman, Coconut Development Board in Kochi.\"\n ],\n \"department\": \"Ministry of Agriculture and Farmers Welfare\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:44:25"
+}

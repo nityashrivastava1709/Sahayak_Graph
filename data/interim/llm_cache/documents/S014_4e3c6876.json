@@ -1,0 +1,47 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "White Ration Card / Income Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Caste Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Residence Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Birth Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Marks Sheet of SSC",
+   "conditional": false
+  },
+  {
+   "name": "Marks Sheet of Intermediate",
+   "conditional": false
+  },
+  {
+   "name": "Proof of CPT clearance OR Graduation Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Proof of registration and fees paid for the CA Intern (IPCC) Course",
+   "conditional": false
+  },
+  {
+   "name": "Bank Passbook",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"White Ration Card / Income Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Caste Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Residence Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Birth Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Marks Sheet of SSC\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Marks Sheet of Intermediate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of CPT clearance OR Graduation Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of registration and fees paid for the CA Intern (IPCC) Course\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bank Passbook\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:44:07"
+}

@@ -1,0 +1,49 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Rajasthan",
+   "source_sentence": "The applicant should be a native of Rajasthan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "farmer",
+   "source_sentence": "The farmer must have livestock, water, and fossils available."
+  },
+  {
+   "or_group": 0,
+   "attribute": "owns_land",
+   "operator": "=",
+   "value": "yes",
+   "source_sentence": "The Applicants must Cultivate horticultural crops on a minimum of 0.4 hectares of own land."
+  },
+  {
+   "or_group": 0,
+   "attribute": "land_holding_acres",
+   "operator": ">=",
+   "value": "0.988",
+   "source_sentence": "The Applicants must Cultivate horticultural crops on a minimum of 0.4 hectares of own land."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "cultivate horticultural crops",
+   "source_sentence": "The Applicants must Cultivate horticultural crops on a minimum of 0.4 hectares of own land."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "must have livestock, water, and fossils available",
+   "source_sentence": "The farmer must have livestock, water, and fossils available."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Rajasthan\",\n    \"source_sentence\": \"The applicant should be a native of Rajasthan.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"occupation\",\n    \"operator\": \"=\",\n    \"value\": \"farmer\",\n    \"source_sentence\": \"The farmer must have livestock, water, and fossils available.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"owns_land\",\n    \"operator\": \"=\",\n    \"value\": \"yes\",\n    \"source_sentence\": \"The Applicants must Cultivate horticultural crops on a minimum of 0.4 hectares of own land.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"land_holding_acres\",\n    \"operator\": \">=\",\n    \"value\": \"0.988\",\n    \"source_sentence\": \"The Applicants must Cultivate horticultural crops on a minimum of 0.4 hectares of own land.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"cultivate horticultural crops\",\n    \"source_sentence\": \"The Applicants must Cultivate horticultural crops on a minimum of 0.4 hectares of own land.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"must have livestock, water, and fossils available\",\n    \"source_sentence\": \"The farmer must have livestock, water, and fossils available.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:58:44"
+}

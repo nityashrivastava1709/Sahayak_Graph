@@ -1,0 +1,67 @@
+{
+ "parsed": [
+  {
+   "name": "Photograph of the Family",
+   "conditional": false
+  },
+  {
+   "name": "Residential Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Age",
+   "conditional": false
+  },
+  {
+   "name": "Declaration Regarding Old Age Pension Scheme",
+   "conditional": false
+  },
+  {
+   "name": "Membership Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Electoral Identity Card",
+   "conditional": false
+  },
+  {
+   "name": "Ration Card",
+   "conditional": false
+  },
+  {
+   "name": "Panchayathar’s Letter",
+   "conditional": false
+  },
+  {
+   "name": "Affidavit for Legal Heir",
+   "conditional": false
+  },
+  {
+   "name": "No Claim Certificate",
+   "conditional": false
+  },
+  {
+   "name": "FIR and Non-traceable Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Statement of Next Kin",
+   "conditional": false
+  },
+  {
+   "name": "Statement of Panchayathars",
+   "conditional": false
+  },
+  {
+   "name": "Statement of Persons Who Have Lastly Seen the Missing Person",
+   "conditional": false
+  },
+  {
+   "name": "Newspaper Report of the Missing Person",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Photograph of the Family\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Residential Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Age\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Declaration Regarding Old Age Pension Scheme\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Membership Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Electoral Identity Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Panchayathar’s Letter\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Affidavit for Legal Heir\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"No Claim Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"FIR and Non-traceable Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Statement of Next Kin\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Statement of Panchayathars\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Statement of Persons Who Have Lastly Seen the Missing Person\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Newspaper Report of the Missing Person\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:43:50"
+}

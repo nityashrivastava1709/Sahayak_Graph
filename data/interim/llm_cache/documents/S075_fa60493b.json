@@ -1,0 +1,23 @@
+{
+ "parsed": [
+  {
+   "name": "Aadhaar Card",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Marriage",
+   "conditional": false
+  },
+  {
+   "name": "Proof of Age",
+   "conditional": false
+  },
+  {
+   "name": "Ration Card",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Aadhaar Card\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Marriage\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Proof of Age\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ration Card\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:47:58"
+}

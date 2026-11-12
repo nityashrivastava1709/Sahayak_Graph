@@ -1,0 +1,42 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "student",
+   "source_sentence": "The applicant should be a student pursuing graduation/post-graduation/diploma in any of the following subjects - Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection."
+  },
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "in",
+   "value": "undergraduate|postgraduate|diploma_or_iti",
+   "source_sentence": "The applicant should be a student pursuing graduation/post-graduation/diploma in any of the following subjects - Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "pursuing degree in Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection",
+   "source_sentence": "The applicant should be a student pursuing graduation/post-graduation/diploma in any of the following subjects - Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection."
+  },
+  {
+   "or_group": 0,
+   "attribute": "occupation",
+   "operator": "=",
+   "value": "unemployed",
+   "source_sentence": "The applicant should not be in a regular job either in the Public/Private Sector."
+  },
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": "<=",
+   "value": "30",
+   "source_sentence": "The applicant should not be more than 30 years of age."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"student\", \"source_sentence\": \"The applicant should be a student pursuing graduation/post-graduation/diploma in any of the following subjects - Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection.\"},\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"in\", \"value\": \"undergraduate|postgraduate|diploma_or_iti\", \"source_sentence\": \"The applicant should be a student pursuing graduation/post-graduation/diploma in any of the following subjects - Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"pursuing degree in Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection\", \"source_sentence\": \"The applicant should be a student pursuing graduation/post-graduation/diploma in any of the following subjects - Zoology, Botany, Law, Any subject related to Wildlife Management/Conservation/Protection.\"},\n  {\"or_group\": 0, \"attribute\": \"occupation\", \"operator\": \"=\", \"value\": \"unemployed\", \"source_sentence\": \"The applicant should not be in a regular job either in the Public/Private Sector.\"},\n  {\"or_group\": 0, \"attribute\": \"age\", \"operator\": \"<=\", \"value\": \"30\", \"source_sentence\": \"The applicant should not be more than 30 years of age.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:46"
+}

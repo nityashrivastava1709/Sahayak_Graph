@@ -1,0 +1,39 @@
+{
+ "parsed": [
+  {
+   "name": "Complete Proposal",
+   "conditional": false
+  },
+  {
+   "name": "High School Certificate",
+   "conditional": false
+  },
+  {
+   "name": "Highest Degree Certificate",
+   "conditional": false
+  },
+  {
+   "name": "SC/ ST/ PH Certificate",
+   "conditional": true
+  },
+  {
+   "name": "Certificate from the Head of the Institution",
+   "conditional": false
+  },
+  {
+   "name": "Ph.D. Registration Letter",
+   "conditional": true
+  },
+  {
+   "name": "Consent letter from Scientist Mentor cum Ph.D. Supervisor",
+   "conditional": false
+  },
+  {
+   "name": "Bio-Data of Scientist-Mentor",
+   "conditional": false
+  }
+ ],
+ "raw": "[\n  {\n    \"name\": \"Complete Proposal\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"High School Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Highest Degree Certificate\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"SC/ ST/ PH Certificate\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Certificate from the Head of the Institution\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Ph.D. Registration Letter\",\n    \"conditional\": true\n  },\n  {\n    \"name\": \"Consent letter from Scientist Mentor cum Ph.D. Supervisor\",\n    \"conditional\": false\n  },\n  {\n    \"name\": \"Bio-Data of Scientist-Mentor\",\n    \"conditional\": false\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T18:49:18"
+}

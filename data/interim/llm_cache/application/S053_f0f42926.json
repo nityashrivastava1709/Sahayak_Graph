@@ -1,0 +1,13 @@
+{
+ "parsed": {
+  "mode": "offline",
+  "steps": [
+   "Request a hard copy of the application form from the Hostel Superintendent or write an application on plain paper.",
+   "Submit the duly filled and signed application along with the documents to the Hostel Superintendent."
+  ],
+  "department": "SC and ST Welfare Department, Government of Bihar"
+ },
+ "raw": "{\n  \"mode\": \"offline\",\n  \"steps\": [\n    \"Request a hard copy of the application form from the Hostel Superintendent or write an application on plain paper.\",\n    \"Submit the duly filled and signed application along with the documents to the Hostel Superintendent.\"\n  ],\n  \"department\": \"SC and ST Welfare Department, Government of Bihar\"\n}",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-10T10:45:07"
+}

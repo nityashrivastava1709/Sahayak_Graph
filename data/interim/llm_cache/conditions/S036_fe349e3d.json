@@ -1,0 +1,35 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "age",
+   "operator": ">=",
+   "value": "18",
+   "source_sentence": "The applicant's age should be 18 years or more."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Rajasthan",
+   "source_sentence": "The applicant should be a permanent resident of Rajasthan."
+  },
+  {
+   "or_group": 0,
+   "attribute": "gender",
+   "operator": "=",
+   "value": "female",
+   "source_sentence": "The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules",
+   "source_sentence": "The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules."
+  }
+ ],
+ "raw": "[\n  {\n    \"or_group\": 0,\n    \"attribute\": \"age\",\n    \"operator\": \">=\",\n    \"value\": \"18\",\n    \"source_sentence\": \"The applicant's age should be 18 years or more.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"state\",\n    \"operator\": \"=\",\n    \"value\": \"Rajasthan\",\n    \"source_sentence\": \"The applicant should be a permanent resident of Rajasthan.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"gender\",\n    \"operator\": \"=\",\n    \"value\": \"female\",\n    \"source_sentence\": \"The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules.\"\n  },\n  {\n    \"or_group\": 0,\n    \"attribute\": \"unmapped\",\n    \"operator\": \"text\",\n    \"value\": \"The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules\",\n    \"source_sentence\": \"The women's self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules.\"\n  }\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:54:29"
+}

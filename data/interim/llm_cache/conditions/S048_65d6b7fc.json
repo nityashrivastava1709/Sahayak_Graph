@@ -1,0 +1,63 @@
+{
+ "parsed": [
+  {
+   "or_group": 0,
+   "attribute": "education_level",
+   "operator": "=",
+   "value": "undergraduate",
+   "source_sentence": "The student should have been enrolled on an undergraduate programme in any of the Delhi State Public Universities or colleges/ institutes affiliated with Delhi State Public Universities."
+  },
+  {
+   "or_group": 0,
+   "attribute": "state",
+   "operator": "=",
+   "value": "Delhi",
+   "source_sentence": "The student should have been enrolled on an undergraduate programme in any of the Delhi State Public Universities or colleges/ institutes affiliated with Delhi State Public Universities."
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Qualifying Aggregate Percentage of 60% marks in all subjects",
+   "source_sentence": "Category 1: Beneficiary under National Food Security Scheme & possess the Card issued under the Scheme 60% 100%"
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "<=",
+   "value": "250000",
+   "source_sentence": "Category 2: Not covered under category 1 but whose family income is up to Rs.2.50 Lakh p.a. 60% 50%"
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Qualifying Aggregate Percentage of 60% marks in all subjects",
+   "source_sentence": "Category 2: Not covered under category 1 but whose family income is up to Rs.2.50 Lakh p.a. 60% 50%"
+  },
+  {
+   "or_group": 0,
+   "attribute": "annual_income",
+   "operator": "between",
+   "value": "250000-600000",
+   "source_sentence": "Category 3: Family income above Rs.2.50 Lakh p.a.but not exceeding Rs.6 Lakh p.a 60% 25%"
+  },
+  {
+   "or_group": 0,
+   "attribute": "unmapped",
+   "operator": "text",
+   "value": "Qualifying Aggregate Percentage of 60% marks in all subjects",
+   "source_sentence": "Category 3: Family income above Rs.2.50 Lakh p.a.but not exceeding Rs.6 Lakh p.a 60% 25%"
+  },
+  {
+   "or_group": 0,
+   "attribute": "social_category",
+   "operator": "in",
+   "value": "SC|ST",
+   "source_sentence": "A relaxation of 5% in the qualifying aggregate percentage of marks will be allowed to SC/ST Category students."
+  }
+ ],
+ "raw": "[\n  {\"or_group\": 0, \"attribute\": \"education_level\", \"operator\": \"=\", \"value\": \"undergraduate\", \"source_sentence\": \"The student should have been enrolled on an undergraduate programme in any of the Delhi State Public Universities or colleges/ institutes affiliated with Delhi State Public Universities.\"},\n  {\"or_group\": 0, \"attribute\": \"state\", \"operator\": \"=\", \"value\": \"Delhi\", \"source_sentence\": \"The student should have been enrolled on an undergraduate programme in any of the Delhi State Public Universities or colleges/ institutes affiliated with Delhi State Public Universities.\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Qualifying Aggregate Percentage of 60% marks in all subjects\", \"source_sentence\": \"Category 1: Beneficiary under National Food Security Scheme & possess the Card issued under the Scheme 60% 100%\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"<=\", \"value\": \"250000\", \"source_sentence\": \"Category 2: Not covered under category 1 but whose family income is up to Rs.2.50 Lakh p.a. 60% 50%\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Qualifying Aggregate Percentage of 60% marks in all subjects\", \"source_sentence\": \"Category 2: Not covered under category 1 but whose family income is up to Rs.2.50 Lakh p.a. 60% 50%\"},\n  {\"or_group\": 0, \"attribute\": \"annual_income\", \"operator\": \"between\", \"value\": \"250000-600000\", \"source_sentence\": \"Category 3: Family income above Rs.2.50 Lakh p.a.but not exceeding Rs.6 Lakh p.a 60% 25%\"},\n  {\"or_group\": 0, \"attribute\": \"unmapped\", \"operator\": \"text\", \"value\": \"Qualifying Aggregate Percentage of 60% marks in all subjects\", \"source_sentence\": \"Category 3: Family income above Rs.2.50 Lakh p.a.but not exceeding Rs.6 Lakh p.a 60% 25%\"},\n  {\"or_group\": 0, \"attribute\": \"social_category\", \"operator\": \"in\", \"value\": \"SC|ST\", \"source_sentence\": \"A relaxation of 5% in the qualifying aggregate percentage of marks will be allowed to SC/ST Category students.\"}\n]",
+ "model": "gemini-3.5-flash-lite",
+ "saved_at": "2026-11-09T15:55:02"
+}
