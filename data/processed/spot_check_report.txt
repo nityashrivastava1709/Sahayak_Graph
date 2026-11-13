@@ -5,6 +5,8 @@ Rules judged   : 120
   wrong_attribute : 0
   missing         : 29
   hallucinated    : 2
+Precision      : 97.8%   (extracted rules that are right)
+Recall         : 75.4%   (required rules that were found)
 Error rate     : 25.8%  (limit 15%)
 Verdict        : TOO HIGH - improve the Step C prompt and re-run Step C
 
