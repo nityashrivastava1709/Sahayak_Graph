@@ -1,0 +1,3 @@
+neo4j>=5.20            # official Neo4j driver
+pandas>=2.0
+python-dotenv>=1.0
