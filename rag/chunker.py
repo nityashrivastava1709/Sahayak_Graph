@@ -22,7 +22,7 @@ so searches can be filtered, and every answer can point back to its source.
 
 The text that is EMBEDDED is  header + chunk text , where the header repeats the scheme name,
 category and state ("Contextual chunk header"), so a chunk about "income limit" still knows which
-scheme it belongs to. The text that is STORED and quoted is the plain chunk text.
+scheme it belongs to. text that is STORED and quoted is the plain chunk text.
 """
 import re
 from dataclasses import dataclass, field
