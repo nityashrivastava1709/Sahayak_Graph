@@ -1,0 +1,6 @@
+chromadb>=1.0            # vector database (tested with 1.5.9)
+sentence-transformers>=3.0   # embedding model runner; also installs PyTorch (needed again in Layer 4)
+numpy>=1.26
+scikit-learn>=1.3        # only for the no-download fallback (EMBEDDING_BACKEND=hashing)
+pandas>=2.0
+python-dotenv>=1.0
