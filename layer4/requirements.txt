@@ -1,0 +1,9 @@
+# Layer 4 needs everything Layer 3 needs (chromadb, sentence-transformers) plus:
+torch>=2.2                 # PyTorch: the reranker's training loop and inference
+transformers>=4.40         # model and tokenizer loading
+google-genai>=1.0          # Gemini (vector-RAG baseline, training-question generator)
+jsonschema>=4.0            # validates every Gemini reply
+numpy>=1.26
+pandas>=2.0
+python-dotenv>=1.0
+# tested with: torch 2.14, transformers 5.23, chromadb 1.5.9, google-genai 3.4
